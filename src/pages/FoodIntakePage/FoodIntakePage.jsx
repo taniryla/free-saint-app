@@ -9,13 +9,14 @@ import CategoryList from '../../components/CategoryList/CategoryList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import UserLogOut from '../../components/UserLogOut/UserLogOut';
 
-export default function FoodIntakePage({ user, setUser }) {
+export default function FoodIntakePage({ user, setUser, edamanData, setLoading }) {
   const [foodItems, setFoodItems] = useState([]);
   const [activeCat, setActiveCat] = useState('');
   const [log, setLog] = useState(null);
   const categoriesRef = useRef([]);
   const navigate = useNavigate();
 
+  
   useEffect(function() {
     async function getItems() {
       const items = await itemsAPI.getAll();
@@ -36,6 +37,9 @@ export default function FoodIntakePage({ user, setUser }) {
   // Providing an empty 'dependency array'
   // results in the effect running after
   // the FIRST render only
+
+
+
 
   /*-- Event Handlers --*/
   async function handleAddToFoodLog(itemId) {
@@ -62,12 +66,14 @@ export default function FoodIntakePage({ user, setUser }) {
           log={setLog}
           setActiveCat={setActiveCat}
         />
-        <Link to="/foods" className="button btn-sm">PREVIOUS FOODS</Link>
+        <Link to="/foods" className="button btn-sm">FOOD LOG HISTORY</Link>
         <UserLogOut user={user} setUser={setUser} />
       </aside>
       <FoodList
         foodItems={foodItems.filter(item => item.category.name === activeCat)}
         handleAddToFoodLog={handleAddToFoodLog}
+        edamanData={edamanData}
+        setLoading={setLoading}
       />
       <FoodDetail
         food={log}

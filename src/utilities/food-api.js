@@ -1,6 +1,8 @@
 import sendRequest from './send-request';
+import { useEffect, useState } from 'react';
 
 const BASE_URL = '/api/foods';
+
 
 // Retrieve a food log
 export function getFoodLog() {

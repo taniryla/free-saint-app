@@ -16,7 +16,7 @@ export default function App() {
             {/* client-side route that renders the component instance if the path matches the url in the address bar */}
             <Route path="/foods/new" element={<FoodIntakePage user={user} setUser={setUser} />} />
             <Route path="/foods" element={<FoodHistoryPage user={user} setUser={setUser} />} />
-            {/* redirect to /orders/new if path in address bar hasn't matched a <Route> above */}
+            {/* redirect to /foods/new if path in address bar hasn't matched a <Route> above */}
             <Route path="/*" element={<Navigate to="/foods/new" />} />
           </Routes>
         </>
