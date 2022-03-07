@@ -5,10 +5,12 @@ import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
 import FoodIntakePage from '../FoodIntakePage/FoodIntakePage';
 import FoodHistoryPage from '../FoodHistoryPage/FoodHistoryPage';
+import { FoodProvider } from '../../context/FoodContext/FoodContext';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
   return (
+    <FoodContext>
     <main className="App">
       { user ?
         <>
@@ -24,5 +26,6 @@ export default function App() {
         <AuthPage setUser={setUser} />
       }
     </main>
+    </FoodContext>
   );
 }
