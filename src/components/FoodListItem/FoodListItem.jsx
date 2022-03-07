@@ -3,6 +3,14 @@ import Spinner from '../Layout/Spinner';
 
 export default function FoodListItem({ foodItem, handleAddToFoodLog, edamanData, loading, setLoading }) {
   
+  // const {
+  //   foodId,
+  //   label,
+  //   nutrients,
+  //   category,
+  //   categoryLabel,
+  //   image
+  // } = edamanData.parsed.food;
   
   if (!loading) {
     return (

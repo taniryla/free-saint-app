@@ -7,7 +7,7 @@ import UserLogOut from '../../components/UserLogOut/UserLogOut';
 import FoodList from '../../components/FoodList/FoodList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 
-export default function OrderHistoryPage({ user, setUser }) {
+export default function FoodHistoryPage({ user, setUser }) {
   /*--- State --- */
   const [foods, setFoods] = useState([]);
   const [activeFood, setActiveFood] = useState(null);
