@@ -9,7 +9,7 @@ import CategoryList from '../../components/CategoryList/CategoryList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import UserLogOut from '../../components/UserLogOut/UserLogOut';
 
-export default function FoodIntakePage({ user, setUser, edamanData, setLoading }) {
+export default function FoodIntakePage({ user, setUser, edamanData, loading, setLoading }) {
   const [foodItems, setFoodItems] = useState([]);
   const [activeCat, setActiveCat] = useState('');
   const [log, setLog] = useState(null);
@@ -74,6 +74,7 @@ export default function FoodIntakePage({ user, setUser, edamanData, setLoading }
         handleAddToFoodLog={handleAddToFoodLog}
         edamanData={edamanData}
         setLoading={setLoading}
+        loading={loading}
       />
       <FoodDetail
         food={log}

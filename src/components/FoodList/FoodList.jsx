@@ -1,7 +1,7 @@
 import './FoodList.css';
 import FoodListItem from '../FoodListItem/FoodListItem';
 
-export default function FoodList({ foodItems, handleAddToFoodLog, edamanData, setLoading }) {
+export default function FoodList({ foodItems, handleAddToFoodLog, edamanData, loading, setLoading }) {
   const items = foodItems.map(item =>
     <FoodListItem
       key={item._id}
@@ -9,6 +9,7 @@ export default function FoodList({ foodItems, handleAddToFoodLog, edamanData, se
       foodItem={item}
       edamanData={edamanData}
       setLoading={setLoading}
+      loading={loading}
     />
   );
   return (
