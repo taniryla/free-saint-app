@@ -7,7 +7,7 @@ const EDAMAN_APP_ID = process.env.REACT_APP_EDAMAN_APP_ID
 const EDAMAN_APP_KEY = process.env.REACT_APP_EDAMAN_APP_KEY
 
 
-export default const EdamanProvider = ({ children }) => {
+export const EdamanProvider = ({ children }) => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
 
@@ -23,11 +23,14 @@ export default const EdamanProvider = ({ children }) => {
       return (
         <EdamanContext.Provider
           value={{
-            users,
-            loading
+            edamanData,
+            loading,
+            setLoading
           }}
         >
           {children}
         </EdamanContext.Provider>
       );
 }
+
+export default EdamanContext;
