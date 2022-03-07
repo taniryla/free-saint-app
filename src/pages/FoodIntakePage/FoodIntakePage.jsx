@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useContext, useEffect, useRef } from 'react';
 import * as itemsAPI from '../../utilities/items-api';
 import * as foodAPI from '../../utilities/food-api';
 import './FoodIntakePage.css';
@@ -8,11 +8,11 @@ import FoodList from '../../components/FoodList/FoodList';
 import CategoryList from '../../components/CategoryList/CategoryList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import UserLogOut from '../../components/UserLogOut/UserLogOut';
+import FoodContext from '../../context/FoodContext/FoodContext';
 
-export default function FoodIntakePage({ user, setUser, edamanData, loading, setLoading }) {
-  const [foodItems, setFoodItems] = useState([]);
-  const [activeCat, setActiveCat] = useState('');
-  const [log, setLog] = useState(null);
+export default function FoodIntakePage() {
+  const { user, setUser, edamanData, loading, setLoading } = useContext(FoodContext);
+
   const categoriesRef = useRef([]);
   const navigate = useNavigate();
 

@@ -34,19 +34,19 @@ export const FoodProvider = ({ children }) => {
             edamanData,
             loading,
             setLoading,
-            foods,
-            food,
-            activeFood,
-            handleSelectFood,
-            categories,
-            log,
-            setActiveCat,
+            // foods,
+            // food,
+            // activeFood,
+            // handleSelectFood,
+            // categories,
+            // log,
+            // setActiveCat,
             user,
             setUser,
-            foodItems,
-            handleAddToFoodLog,
-            handleChangeQty,
-            handleFoodLog
+            // foodItems,
+            // handleAddToFoodLog,
+            // handleChangeQty,
+            // handleFoodLog
           }}
         >
           {children}

@@ -10,7 +10,7 @@ import { FoodProvider } from '../../context/FoodContext/FoodContext';
 export default function App() {
   const [user, setUser] = useState(getUser());
   return (
-    <FoodContext>
+    <FoodProvider>
     <main className="App">
       { user ?
         <>
@@ -26,6 +26,6 @@ export default function App() {
         <AuthPage setUser={setUser} />
       }
     </main>
-    </FoodContext>
+    </FoodProvider>
   );
 }
