@@ -35,7 +35,7 @@ export default function FoodHistoryPage({ user, setUser }) {
       <aside>
         <Logo />
         <Link to="/foods/new" className="button btn-sm">NEW FOOD</Link>
-        <UserLogOut user={user} setUser={setUser} />
+        {/* <UserLogOut user={user} setUser={setUser} /> */}
       </aside>
       <FoodList
         foods={foods}

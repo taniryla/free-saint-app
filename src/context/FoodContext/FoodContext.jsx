@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 
 const FoodContext = createContext();
 
@@ -11,6 +11,7 @@ export const FoodProvider = ({ children }) => {
     // Edaman
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
+    const [searchWord, setSearchWord] = useState('');
     // FoodIntake
     const [foodItems, setFoodItems] = useState([]);
     const [activeCat, setActiveCat] = useState('');
@@ -19,19 +20,25 @@ export const FoodProvider = ({ children }) => {
     const [foods, setFoods] = useState([]);
     const [activeFood, setActiveFood] = useState(null);
 
-    const fetchEdamanData = async() => {
-        const res = await fetch(`https://api.edamam.com/api/food-database/v2/parser?app_id=${EDAMAN_APP_ID}&app_key=${EDAMAN_APP_KEY}&ingr='banana'`)
+    
+    async function fetchEdamanData (searchWord) {
+        const res = await fetch(`https://api.edamam.com/api/food-database/v2/parser?app_id=${EDAMAN_APP_ID}&app_key=${EDAMAN_APP_KEY}&ingr=${searchWord}`)
         let edamanData = await res.json();
-        edamanData = JSON.parse(edamanData).data;
         console.log(edamanData);
         setData(edamanData);
         setLoading(false);
       }
+    
+      useEffect(() => {
+      fetchEdamanData();
+    }, [])
+
+
 
       return (
         <FoodContext.Provider
           value={{
-            edamanData,
+            data,
             loading,
             setLoading,
             // foods,
@@ -39,11 +46,14 @@ export const FoodProvider = ({ children }) => {
             // activeFood,
             // handleSelectFood,
             // categories,
-            // log,
-            // setActiveCat,
-            user,
-            setUser,
-            // foodItems,
+            fetchEdamanData,
+            log,
+            setLog,
+            setActiveCat,
+            foodItems,
+            setFoodItems,
+            searchWord,
+            setSearchWord,
             // handleAddToFoodLog,
             // handleChangeQty,
             // handleFoodLog

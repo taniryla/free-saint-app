@@ -8,10 +8,11 @@ import FoodList from '../../components/FoodList/FoodList';
 import CategoryList from '../../components/CategoryList/CategoryList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import UserLogOut from '../../components/UserLogOut/UserLogOut';
+import SearchBar from '../../components/SearchBar/SearchBar';
 import FoodContext from '../../context/FoodContext/FoodContext';
 
 export default function FoodIntakePage() {
-  const { user, setUser, edamanData, loading, setLoading } = useContext(FoodContext);
+  const { user, setUser, edamanData, loading, setLoading, setFoodItems, setActiveCat, setLog, foodItems, activeCat, log } = useContext(FoodContext);
 
   const categoriesRef = useRef([]);
   const navigate = useNavigate();
@@ -61,16 +62,17 @@ export default function FoodIntakePage() {
     <main className="FoodIntakePage">
       <aside>
         <Logo />
+        <SearchBar />
         <CategoryList
           categories={categoriesRef.current}
           log={setLog}
           setActiveCat={setActiveCat}
         />
         <Link to="/foods" className="button btn-sm">FOOD LOG HISTORY</Link>
-        <UserLogOut user={user} setUser={setUser} />
+        {/* <UserLogOut user={user} setUser={setUser} /> */}
       </aside>
       <FoodList
-        foodItems={foodItems.filter(item => item.category.name === activeCat)}
+        foodItems={foodItems && foodItems.filter(item => item.category.name === activeCat)}
         handleAddToFoodLog={handleAddToFoodLog}
         edamanData={edamanData}
         setLoading={setLoading}

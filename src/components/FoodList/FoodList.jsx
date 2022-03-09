@@ -2,7 +2,7 @@ import './FoodList.css';
 import FoodListItem from '../FoodListItem/FoodListItem';
 
 export default function FoodList({ foodItems, handleAddToFoodLog, edamanData, loading, setLoading }) {
-  const items = foodItems.map(item =>
+  const items = foodItems && foodItems.map(item =>
     <FoodListItem
       key={item._id}
       handleAddToFoodLog={handleAddToFoodLog}

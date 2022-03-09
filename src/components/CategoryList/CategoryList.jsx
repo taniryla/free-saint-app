@@ -12,6 +12,9 @@ export default function CategoryList({ categories, activeCat, setActiveCat }) {
       {cat}
     </li>
   );
+  
+  console.log(cats);
+  
   return (
     <ul className="CategoryList">
       {cats}

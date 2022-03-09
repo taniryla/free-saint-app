@@ -10,7 +10,7 @@ import { FoodProvider } from '../../context/FoodContext/FoodContext';
 export default function App() {
   const [user, setUser] = useState(getUser());
   return (
-    <FoodProvider>
+    <FoodProvider >
     <main className="App">
       { user ?
         <>
