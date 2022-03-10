@@ -26,6 +26,11 @@ const foodSchema = new Schema({
     ref: 'Category'     
   },
   image: { type: String, required: true },
+  caloricDensity: {
+    type: String,
+    required: true,
+    enum: ['green', 'yellow', 'red']
+  }
   measurementType: { type: String, required: true },
   isLogged: { type: Boolean, default: false }
 }, {
