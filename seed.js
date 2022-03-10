@@ -657,49 +657,194 @@ const Item = require('./models/item');
     foodType: 'vegetables'
   },
   { 
-    name: 'bell peppers', 
-    calories: '56', 
-    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
-    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
-    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
+    name: 'boiled or grilled lobster', 
+    calories: '286', 
+    edamanId: 'food_bljyewkaowvjseb7k6wctb5a1rrt', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://i.imgur.com/p1qj3K2.jpg',
     qty: '1.0',
-    measurementType: 'Cup',
+    measurementType: 'Lobster',
     caloricDensity: 'green',
-    foodType: 'vegetables'
+    foodType: 'meat protein'
   },
   { 
-    name: 'bell peppers', 
-    calories: '56', 
-    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
-    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
-    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
+    name: 'boiled or grilled mahi-mahi', 
+    calories: '85', 
+    edamanId: 'food_bljyewkaowvjseb7k6wctb5a1rrt', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/3ea/3ea9d821fddd8c398f1dd083f0688864.jpg',
     qty: '1.0',
-    measurementType: 'Cup',
+    measurementType: 'Fillet',
     caloricDensity: 'green',
-    foodType: 'vegetables'
+    foodType: 'meat protein'
   },
   { 
-    name: 'bell peppers', 
-    calories: '56', 
-    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
-    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
-    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
-    qty: '1.0',
-    measurementType: 'Cup',
+    name: 'cooked shrimp', 
+    calories: '105', 
+    edamanId: 'food_bguh25xb1ibqqha7jdl8ha8ur8mw', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/78e/78e022770d4d46e0fe9e7e3c5a13110c.jpg',
+    qty: '20.0',
+    measurementType: 'Shrimps',
     caloricDensity: 'green',
-    foodType: 'vegetables'
+    foodType: 'meat protein'
   },
   { 
-    name: 'bell peppers', 
-    calories: '56', 
-    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
-    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
-    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
+    name: 'crab', 
+    calories: '98', 
+    edamanId: 'food_aj7w3xab0epj7cbgkbkpwadysovd"', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/c23/c23e20823b442067307aa436969358f1.jpg',
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'green',
-    foodType: 'vegetables'
+    foodType: 'meat protein'
   },
+  { 
+    name: 'egg whites', 
+    calories: '17', 
+    edamanId: 'food_ac9n68caswlpggbp7727varlyjk5', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/da5/da5978d61b89a363147a6d13c36e3b54.jpg',
+    qty: '1.0',
+    measurementType: 'Egg',
+    caloricDensity: 'green',
+    foodType: 'meat protein'
+  },
+  { 
+    name: 'low sodium black beans', 
+    calories: '218', 
+    edamanId: 'food_bazzo85azdbkmsb56nu4ra5rphoe', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/850/8505bc3d47bbc820b69d532202f61ce1.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'meat protein'
+  },
+  { 
+    name: 'oysters', 
+    calories: '11', 
+    edamanId: 'food_amv306gav25yjnasnhs0dam6jqcb', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/b6a/b6a2846f097ac730b512b3c998abbe7f.jpg',
+    qty: '1.0',
+    measurementType: 'Serving (21g)',
+    caloricDensity: 'green',
+    foodType: 'meat protein'
+  },
+  { 
+    name: 'tofu', 
+    calories: '177', 
+    edamanId: 'food_a269ixea1yf51xbfwgnq2boiwc7x', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/b6a/b6ae13c3cfe37e16f820840f90231bff.jpg',
+    qty: '0.5',
+    measurementType: 'Block',
+    caloricDensity: 'green',
+    foodType: 'meat protein'
+  },
+  { 
+    name: 'white fish fillet', 
+    calories: '265', 
+    edamanId: 'food_aw4231saaagpflaino4iqaumuapc', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/42c/42c99ddd36f31279746f81527d4f982e.jpg',
+    qty: '1.0',
+    measurementType: 'Fillet',
+    caloricDensity: 'green',
+    foodType: 'meat protein'
+  },
+  { 
+    name: 'non-fat skim milk', 
+    calories: '90', 
+    edamanId: 'food_a8p4z9rbx6of06a8zyt4rb0bwyiz', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/525/525c95190fa7373279ac4c9cbfa436a4.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'non-fat cheese sticks and slices', 
+    calories: '90', 
+    edamanId: 'food_bo3fs72aqydlwzadxjbykaahvx3v', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/cc3/cc3c4827d251d79eed1ff87c1861aa34.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'non-fat cottage cheese', 
+    calories: '90', 
+    edamanId: 'food_bo3fs72aqydlwzadxjbykaahvx3v', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/cc3/cc3c4827d251d79eed1ff87c1861aa34.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'non-fat cream cheese spread', 
+    calories: '90', 
+    edamanId: 'food_afw1vv1ac3l17wbn9gcq2autcc91', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'non-fat greek yogurt', 
+    calories: '90', 
+    edamanId: 'food_bf6arknaq0ne39az8jdf5a24wuhl', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://i.imgur.com/PfUS8pX.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'non-fat half and half', 
+    calories: '90', 
+    edamanId: 'food_bllwok7blguj59ao7oqp4avjisjc', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/969/96946d091362bcd9a4f86e4cb7ba2ce4.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'non-fat sour cream', 
+    calories: '90', 
+    edamanId: 'food_afw1vv1ac3l17wbn9gcq2autcc91', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'non-fat yogurt', 
+    calories: '90', 
+    edamanId: 'food_bllwok7blguj59ao7oqp4avjisjc', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/969/96946d091362bcd9a4f86e4cb7ba2ce4.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'dairy'
+  },
+  
+  
  
   
   ]);
