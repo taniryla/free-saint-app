@@ -18,7 +18,7 @@ lineItemSchema.virtual('totalCalorie').get(function() {
 const foodSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'User' },
   lineItems: [lineItemSchema],
-  image: { type: Image, required: true },
+  image: { type: String, required: true },
   measurementType: { type: String, required: true },
   foodId: { type: String, required: true },
   isLogged: { type: Boolean, default: false }
