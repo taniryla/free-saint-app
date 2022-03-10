@@ -381,6 +381,72 @@ const Item = require('./models/item');
     caloricDensity: 'green',
     foodType: 'beverages'
   },
+  { 
+    name: 'coffee', 
+    calories: '2', 
+    edamanId: 'food_ax0a0yxbbe4hx0apiz1tla01s2w7', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/ee9/ee9566349cb84dfd9ddac1fdf8cbc907.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'kombucha', 
+    calories: '34', 
+    edamanId: 'food_be4bvp5bk9dn4mbfwpglkb66dexe', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/2e2/2e2fe81e1b63a61f6e4adec76220a11b.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'smoothie, fruit only', 
+    calories: '161', 
+    edamanId: 'food_bglm6vxahuauteb0n6ynfbg9eryu', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/e31/e310952d214e78a4cb8b73f30ceeaaf2.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'soy latte', 
+    calories: '148', 
+    edamanId: 'food_a9s841ya6wbvz9a338e34b9a64k7', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/2ef/2effbc5aa3e4169159ddc7204026a79e.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'tea', 
+    calories: '2', 
+    edamanId: 'food_b8aoe5qbgar9fbbcvdj8ea7ekske', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/793/79376cb6e124624e22780db7401601a4.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'vegetable juice', 
+    calories: '56', 
+    edamanId: 'food_anr6fyyaq3kaztb6an13va45c6sf', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://i.imgur.com/Xeh9FpH.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'beverages'
+  },
   
   ]);
 
