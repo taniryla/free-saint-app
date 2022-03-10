@@ -768,7 +768,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat cheese sticks and slices', 
-    calories: '90', 
+    calories: '298', 
     edamanId: 'food_bo3fs72aqydlwzadxjbykaahvx3v', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/cc3/cc3c4827d251d79eed1ff87c1861aa34.jpg',
@@ -779,7 +779,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat cottage cheese', 
-    calories: '90', 
+    calories: '160', 
     edamanId: 'food_bo3fs72aqydlwzadxjbykaahvx3v', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/cc3/cc3c4827d251d79eed1ff87c1861aa34.jpg',
@@ -790,7 +790,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat cream cheese spread', 
-    calories: '90', 
+    calories: '302', 
     edamanId: 'food_afw1vv1ac3l17wbn9gcq2autcc91', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
@@ -801,7 +801,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat greek yogurt', 
-    calories: '90', 
+    calories: '160', 
     edamanId: 'food_bf6arknaq0ne39az8jdf5a24wuhl', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/PfUS8pX.jpg',
@@ -812,29 +812,29 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat half and half', 
-    calories: '90', 
+    calories: '10', 
     edamanId: 'food_bllwok7blguj59ao7oqp4avjisjc', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/969/96946d091362bcd9a4f86e4cb7ba2ce4.jpg',
     qty: '1.0',
-    measurementType: 'Cup',
+    measurementType: 'tbsp',
     caloricDensity: 'green',
     foodType: 'dairy'
   },
   { 
     name: 'non-fat sour cream', 
-    calories: '90', 
+    calories: '12', 
     edamanId: 'food_afw1vv1ac3l17wbn9gcq2autcc91', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
     qty: '1.0',
-    measurementType: 'Cup',
+    measurementType: 'tbsp',
     caloricDensity: 'green',
     foodType: 'dairy'
   },
   { 
     name: 'non-fat yogurt', 
-    calories: '90', 
+    calories: '173', 
     edamanId: 'food_bllwok7blguj59ao7oqp4avjisjc', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/969/96946d091362bcd9a4f86e4cb7ba2ce4.jpg',
@@ -843,7 +843,138 @@ const Item = require('./models/item');
     caloricDensity: 'green',
     foodType: 'dairy'
   },
-  
+  { 
+    name: 'chicken bone broth', 
+    calories: '41', 
+    edamanId: 'food_bb2qjrjamst0vmam39stubtkmrs4', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/e61/e6184a8681b772e5198ef0ca1919e1b7.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'beef bone broth', 
+    calories: '35', 
+    edamanId: 'food_bb2qjrjamst0vmam39stubtkmrs4', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/e61/e6184a8681b772e5198ef0ca1919e1b7.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'vegetable bone broth', 
+    calories: '13', 
+    edamanId: 'food_bitqzx8b319psvbib2dufarphbxy', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/f3f/f3fa6996eba331be219778406f67a5a3.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'butternut squash soup', 
+    calories: '220', 
+    edamanId: 'food_baga212bywb6n2as0ylgkaf8fcok', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/0aa/0aa76af7d957416d766248b145aa5cbe.jpg',
+    qty: '1.0',
+    measurementType: 'Bowl',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'cabbage soup', 
+    calories: '50', 
+    edamanId: 'food_afb4o8kb767k0iapchxupaifxk1z', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/cb1/cb1411c925c19de26620e63cb90d0e14.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'homemade chicken noodle soup', 
+    calories: '100', 
+    edamanId: 'food_ai9u369b0sh4nna64fawma1hs2kf', 
+    category: ['keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/d7f/d7f1aed4cb83eae743ea3c781296418f.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'miso soup', 
+    calories: '59', 
+    edamanId: 'food_bu8imjua16o32cao2m4kravexpo7', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/352/3525e5a38bb13c74aa34ef6c0273bf33.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'spinach soup', 
+    calories: '73', 
+    edamanId: 'food_aoceuc6bshdej1bbsdammbnj6l6o', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/e6e/e6e4be375c4554ce01c8ea75232efaa6.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'tomato and lentil soup', 
+    calories: '86', 
+    edamanId: 'food_a6k79rrahp8fe2b26zussa3wtkqh', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/23e/23e727a14f1035bdc2733bb0477efbd2.jpg',
+    qty: '1.0',
+    measurementType: 'Bowl',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'vegetable barley soup', 
+    calories: '190', 
+    edamanId: 'food_bnr1pu6blqhm6lajm0ga6bhl0jvt', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/32b/32baf9bd687a56afd88f726a6dc69882.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'vegetable pho', 
+    calories: '352', 
+    edamanId: 'food_bitqzx8b319psvbib2dufarphbxy', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/f3f/f3fa6996eba331be219778406f67a5a3.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'soups'
+  },
+  { 
+    name: 'pickles', 
+    calories: '173', 
+    edamanId: 'food_bnr1pu6blqhm6lajm0ga6bhl0jvt', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/32b/32baf9bd687a56afd88f726a6dc69882.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'snacks'
+  },
   
  
   
