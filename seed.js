@@ -966,14 +966,124 @@ const Item = require('./models/item');
   },
   { 
     name: 'pickles', 
-    calories: '173', 
-    edamanId: 'food_bnr1pu6blqhm6lajm0ga6bhl0jvt', 
+    calories: '7', 
+    edamanId: 'food_agcb9ncbucn8q6bq32685ahulbnv', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
-    image: 'https://www.edamam.com/food-img/32b/32baf9bd687a56afd88f726a6dc69882.jpg',
+    image: 'https://www.edamam.com/food-img/80b/80b1e5307815f0d9471d86c2e7c36167.jpg',
+    qty: '1.0',
+    measurementType: 'Pickle',
+    caloricDensity: 'green',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'unsweetened applesauce', 
+    calories: '204', 
+    edamanId: 'food_a42ufi8ben9zhqbzqv66lab1lwvd', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/c59/c59e749347516e4aa0aaa3ea25925426.jpg',
+    qty: '1.0',
+    measurementType: 'Bowl',
+    caloricDensity: 'green',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'buffalo sauce', 
+    calories: '1', 
+    edamanId: 'food_asvapqhatz4wejanlapyzbmov2k1', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/52c/52cd53c02e0d777330aa795c56230581.jpg',
+    qty: '2.0',
+    measurementType: 'tsp',
+    caloricDensity: 'green',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'hot sauce', 
+    calories: '1', 
+    edamanId: 'food_a6201h1bu1m0tfbrvis6ma6nvhzv', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/946/946c38a4c278da4361d2615d653d685a.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'green',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'lemon juice', 
+    calories: '1', 
+    edamanId: 'food_bglm6vxahuauteb0n6ynfbg9eryu', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/e31/e310952d214e78a4cb8b73f30ceeaaf2.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'green',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'lime juice', 
+    calories: '16', 
+    edamanId: 'food_b0iywbmaujvd4eblrooo9bsvn7e6', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/8f0/8f0c10eb3dbf476a05e61018e76ea220.jpg',
+    qty: '0.25',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'salsa', 
+    calories: '75', 
+    edamanId: 'food_b0t3obfawlm5k2b6erxscacez35u', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/995/995d0f166754a0475c181b9c156fec43.jpg',
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'green',
-    foodType: 'snacks'
+    foodType: 'condiments'
+  },
+  { 
+    name: 'tomato pasta sauce', 
+    calories: '176', 
+    edamanId: 'food_a7hv5mybkkrs3ub78yhtxafs67bu', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/08b/08b3bb49c006689a458a8b9c4a4e0057.jpg',
+    qty: '1.0',
+    measurementType: 'Serving',
+    caloricDensity: 'green',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'red wine vinegar', 
+    calories: '5', 
+    edamanId: 'food_ad6iyy1anmzb49a817rgnabnz8c9', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/dc8/dc8e998b32b8d45ba15c1b1e6711e958.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'green',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'apple cider vinegar', 
+    calories: '6', 
+    edamanId: 'food_ar8m7esapmfvf8bnhfzdlabndh6v', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/c7d/c7dbd1846c5d08e9739930d70a404d50.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'green',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'rice vinegar', 
+    calories: '7', 
+    edamanId: 'food_axlcd4tack2d20bveizm4ayu0h2w', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/5f6/5f69b84c399d778c4728e9ab4f8065a2.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'green',
+    foodType: 'condiments'
   },
   
  
