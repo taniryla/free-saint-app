@@ -43,7 +43,7 @@ foodSchema.statics.getFoodLog = function(userId) {
   // 'this' is the Food model
   return this.findOneAndUpdate(
     // query
-    { user: userId, isPaid: false },
+    { user: userId, isLogged: false },
     // update
     { user: userId },
     // upsert option will create the doc if 
