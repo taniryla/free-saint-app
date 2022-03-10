@@ -18,7 +18,9 @@ lineItemSchema.virtual('extPrice').get(function() {
 const foodSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'User' },
   lineItems: [lineItemSchema],
-  isPaid: { type: Boolean, default: false }
+  image: { type: Image, required: true },
+  calories: { type: Number, required: true },
+  isLogged: { type: Boolean, default: false }
 }, {
   timestamps: true,
   toJSON: { virtuals: true }

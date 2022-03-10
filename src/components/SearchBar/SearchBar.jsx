@@ -8,7 +8,6 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 export default function SearchBar() {
     const { user, setUser, edamanData, loading, setLoading, searchWord, setSearchWord, fetchEdamanData } = useContext(FoodContext);
 
-    const { foodId, label, nutrients: { ENERC_KCAL }, image} = edamanData.parsed.food;
 
   function handleChange(evt) {
     setSearchWord(evt.target.value)
