@@ -10,9 +10,9 @@ const lineItemSchema = new Schema({
   toJSON: { virtuals: true }
 });
 
-lineItemSchema.virtual('extPrice').get(function() {
+lineItemSchema.virtual('totalCalorie').get(function() {
   // 'this' is bound to the lineItem subdoc
-  return this.qty * this.item.price;
+  return this.qty * this.item.calories;
 });
 
 const foodSchema = new Schema({
@@ -21,7 +21,6 @@ const foodSchema = new Schema({
   image: { type: Image, required: true },
   measurementType: { type: String, required: true },
   foodId: { type: String, required: true },
-  calories: { type: Number, required: true },
   isLogged: { type: Boolean, default: false }
 }, {
   timestamps: true,
