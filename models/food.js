@@ -18,12 +18,12 @@ lineItemSchema.virtual('totalCalorie').get(function() {
 const foodSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'User' },
   lineItems: [lineItemSchema],
-  name: { type: String, required: true },
   edmanId: { type: String, required: true },
   category: {
     type: String,
     enum: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],
-  }
+    ref: 'Category'     
+  },
   image: { type: String, required: true },
   measurementType: { type: String, required: true },
   isLogged: { type: Boolean, default: false }

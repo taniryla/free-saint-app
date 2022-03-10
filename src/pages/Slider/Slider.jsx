@@ -22,7 +22,7 @@ export default function Slider({ onChange, min, max }) {
         count: 0,
         step: state.step
       };
-    } else if (action.type === "updateStep) {
+    } else if (action.type === "updateStep") {
       return {
         count: state.count,
         step: action.step

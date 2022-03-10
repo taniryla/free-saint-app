@@ -2,7 +2,6 @@ import { createContext, useEffect, useState } from 'react';
 
 const FoodContext = createContext();
 
-const EDAMAN_URL = process.env.REACT_APP_GITHUB_URL
 const EDAMAN_APP_ID = process.env.REACT_APP_EDAMAN_APP_ID
 const EDAMAN_APP_KEY = process.env.REACT_APP_EDAMAN_APP_KEY
 
@@ -41,14 +40,17 @@ export const FoodProvider = ({ children }) => {
             data,
             loading,
             setLoading,
-            // foods,
+            foods,
+            setFoods,
             // food,
-            // activeFood,
+            activeFood,
+            setActiveFood,
             // handleSelectFood,
             // categories,
             fetchEdamanData,
             log,
             setLog,
+            activeCat,
             setActiveCat,
             foodItems,
             setFoodItems,

@@ -1,18 +1,12 @@
 import './FoodHistoryPage.css';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import * as foodAPI from '../../utilities/food-api';
 import Logo from '../../components/Logo/Logo';
-import UserLogOut from '../../components/UserLogOut/UserLogOut';
 import FoodList from '../../components/FoodList/FoodList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 
-export default function FoodHistoryPage({ user, setUser }) {
-  /*--- State --- */
-  const [foods, setFoods] = useState([]);
-  const [activeFood, setActiveFood] = useState(null);
-
-  /*--- Side Effects --- */
+export default function FoodHistoryPage({ user, setUser, setFoods, setActiveFood, activeFood }) {
   useEffect(function () {
     // Load previous foods
     async function fetchFoodLogHistory() {
@@ -38,8 +32,6 @@ export default function FoodHistoryPage({ user, setUser }) {
         {/* <UserLogOut user={user} setUser={setUser} /> */}
       </aside>
       <FoodList
-        foods={foods}
-        activeFood={activeFood}
         handleSelectFood={handleSelectFood}
       />
       <FoodDetail
