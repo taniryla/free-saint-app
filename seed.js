@@ -60,7 +60,7 @@ const Item = require('./models/item');
     qty: '12.0',
     measurementType: 'Large Asparagus',
     caloricDensity: 'green',
-    foodType: 'fruit'
+    foodType: 'vegetables'
   },
   { 
     name: 'broccoli', 
@@ -71,7 +71,7 @@ const Item = require('./models/item');
     qty: '30.0',
     measurementType: 'Florets',
     caloricDensity: 'green',
-    foodType: 'fruit'
+    foodType: 'vegetables'
   },
   { 
     name: 'grapefruit', 
@@ -447,6 +447,260 @@ const Item = require('./models/item');
     caloricDensity: 'green',
     foodType: 'beverages'
   },
+  { 
+    name: 'bell peppers', 
+    calories: '32', 
+    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
+    qty: '1.0',
+    measurementType: 'Pepper',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'brussel sprouts', 
+    calories: '28', 
+    edamanId: 'food_bkr6xbxbvl7pgua0vy4ibblf93qq', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/28a/28a88a795cd97a3b3b28b65eb8bff5aa.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'cabbage', 
+    calories: '22', 
+    edamanId: 'food_afb4o8kb767k0iapchxupaifxk1z', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/cb1/cb1411c925c19de26620e63cb90d0e14.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'carrots', 
+    calories: '100', 
+    edamanId: 'food_buqfaxubzh6hi5asev8a5aj9sr71', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg',
+    qty: '4.0',
+    measurementType: 'Serving (2 oz per Serving)',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'cauliflower', 
+    calories: '3', 
+    edamanId: 'food_buqfaxubzh6hi5asev8a5aj9sr71', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/ca2/ca217d31067dffd35ce1215e7f336bd8.jpg',
+    qty: '1.0',
+    measurementType: 'Floweret',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'celery', 
+    calories: '6', 
+    edamanId: 'food_bffeoksbyyur8ja4da73ub2xs57g', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/d91/d91d2aed1c36d8fad54c4d7dc58f5a18.jpg',
+    qty: '1.0',
+    measurementType: 'Stalk',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'green beans', 
+    calories: '44', 
+    edamanId: 'food_aceucvpau4a8v6atkx5eabxyoqdn', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/891/89135f10639878a2360e6a33c9af3d91.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'green salad', 
+    calories: '34', 
+    edamanId: 'food_bqalyxzbzu04hcb8xj930bzar7xg', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/b6d/b6d9f3052d27a3c71220cfa55c6f0a42.jpg',
+    qty: '3.0',
+    measurementType: 'Bowl(s)',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'kale', 
+    calories: '18', 
+    edamanId: 'food_avmg2xfbv1p91yavoxjg7bddvfaz', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/8e9/8e9c5417fa012e5ca068fddc5f8d3d6c.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'lettuce', 
+    calories: '8', 
+    edamanId: 'food_bf5fxtkbc9alwoajuvsi7amonr5w', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/719/71996625d0cb47e197093ecd52c97dc2.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'mixed greens', 
+    calories: '8', 
+    edamanId: 'food_bqalyxzbzu04hcb8xj930bzar7xg', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/b6d/b6d9f3052d27a3c71220cfa55c6f0a42.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'mushrooms', 
+    calories: '15', 
+    edamanId: 'food_bvlose6arfl26ra396sjrb7hetqh', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/d63/d639cf4a2afc7407c1d1ce286028136b.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'onion', 
+    calories: '28', 
+    edamanId: 'food_bmrvi4ob4binw9a5m7l07amlfcoy', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg',
+    qty: '1.0',
+    measurementType: 'Small Onion',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'peas', 
+    calories: '134', 
+    edamanId: 'food_bbi35jtbjt7un9bsa2m7eazlsk91', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/5ed/5ed641d646c028598a90bdb9ece34fc8.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'potatoes', 
+    calories: '158', 
+    edamanId: 'food_b2srd0cbo1zyudatmv3y5ad3umes', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://i.imgur.com/mdRwfHb.jpg',
+    qty: '1.0',
+    measurementType: 'Medium',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'spaghetti squash', 
+    calories: '126', 
+    edamanId: 'food_bj1y3fnbefpaaoagd8c1dad4mdhr', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/bc0/bc073855712255d9478fb9baec6f2afc.jpg',
+    qty: '1.0',
+    measurementType: 'Bowl',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'spinach', 
+    calories: '82', 
+    edamanId: 'food_aoceuc6bshdej1bbsdammbnj6l6o', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/e6e/e6e4be375c4554ce01c8ea75232efaa6.jpg',
+    qty: '1.0',
+    measurementType: 'Bowl',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'sweet potatoes', 
+    calories: '110', 
+    edamanId: 'food_bg68yf2b3dlfusawgs590bjloxfd', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/b66/b660e3d37b4ea9d58cb98e8ea73933b6.jpg',
+    qty: '1.0',
+    measurementType: 'Sweet Potato',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'zucchini', 
+    calories: '21', 
+    edamanId: 'food_avpihljbuwpd8ibbmahcabaros5s', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/f63/f637280594e4a731eccc1199194a8847.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'bell peppers', 
+    calories: '56', 
+    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'bell peppers', 
+    calories: '56', 
+    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'bell peppers', 
+    calories: '56', 
+    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'bell peppers', 
+    calories: '56', 
+    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
+    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/4dc/4dc48b1a506d334b4ab6671b9d56a18f.jpeg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'green',
+    foodType: 'vegetables'
+  },
+ 
   
   ]);
 
