@@ -19,6 +19,8 @@ const foodSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'User' },
   lineItems: [lineItemSchema],
   image: { type: Image, required: true },
+  measurementType: { type: String, required: true },
+  foodId: { type: String, required: true },
   calories: { type: Number, required: true },
   isLogged: { type: Boolean, default: false }
 }, {
