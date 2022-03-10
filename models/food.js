@@ -20,7 +20,7 @@ const foodSchema = new Schema({
   lineItems: [lineItemSchema],
   image: { type: String, required: true },
   measurementType: { type: String, required: true },
-  foodId: { type: String, required: true },
+  edmanId: { type: String, required: true },
   isLogged: { type: Boolean, default: false }
 }, {
   timestamps: true,
