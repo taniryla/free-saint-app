@@ -2120,15 +2120,70 @@ const Item = require('./models/item');
     foodType: 'beverages'
   },
   { 
-    name: 'tea with milk, splenda, stevia', 
-    calories: '13', 
-    edamanId: 'food_b8xzxmtb5f98f1bqswelta92yfk6', 
-    category: ['vegan', 'vegetarian', 'paleo', 'gluten-free', 'keto-friendly'],    
-    image: 'https://i.imgur.com/GXMIOeR.jpg',
+    name: 'dried cranberries', 
+    calories: '410', 
+    edamanId: 'food_atvsjvja2h9xyfblcy3pzaienr8a', 
+    category: ['vegan', 'vegetarian', 'paleo', 'pescatarian', 'gluten-free', 'keto-friendly'],    
+    image: 'https://www.edamam.com/food-img/8aa/8aa3935a527394e1568079a489759221.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'fruits'
+  },
+  { 
+    name: 'raisins', 
+    calories: '956', 
+    edamanId: 'food_a3qcdxyb09op1hbwstv5cbmoqc3d', 
+    category: ['vegan', 'vegetarian', 'paleo', 'pescatarian', 'gluten-free', 'keto-friendly'],    
+    image: 'https://www.edamam.com/food-img/159/159e247350db62e1f87b0636a53687f5.jpg',
+    qty: '1.0',
+    measurementType: 'Bowl',
+    caloricDensity: 'red',
+    foodType: 'fruits'
+  },
+  { 
+    name: 'french fries', 
+    calories: '173', 
+    edamanId: 'food_aqa4qtwapci86kar0l275bjqmkal', 
+    category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
+    image: 'https://www.edamam.com/food-img/559/559b143365bf3dde8d5889ec627e1da7.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'french onions', 
+    calories: '584', 
+    edamanId: 'food_bmrvi4ob4binw9a5m7l07amlfcoy', 
+    category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
+    image: 'https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'french pickles', 
+    calories: '50', 
+    edamanId: 'food_agcb9ncbucn8q6bq32685ahulbnv', 
+    category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
+    image: 'https://www.edamam.com/food-img/80b/80b1e5307815f0d9471d86c2e7c36167.jpg',
     qty: '1.0',
     measurementType: 'tbsp',
-    caloricDensity: 'yellow',
-    foodType: 'beverages'
+    caloricDensity: 'red',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'sweet potato fries', 
+    calories: '298', 
+    edamanId: 'food_bg68yf2b3dlfusawgs590bjloxfd', 
+    category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
+    image: 'https://www.edamam.com/food-img/b66/b660e3d37b4ea9d58cb98e8ea73933b6.jpg',
+    qty: '20.0',
+    measurementType: 'Fries',
+    caloricDensity: 'red',
+    foodType: 'vegetables'
   },
 
   
