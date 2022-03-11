@@ -22,7 +22,7 @@ const foodSchema = new Schema({
   edmanId: { type: String, required: true },
   category: {
     type: String,
-    enum: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],
+    enum: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo', 'other'],
     ref: 'Category'     
   },
   image: { type: String, required: true },
