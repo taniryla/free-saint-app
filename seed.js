@@ -1514,6 +1514,83 @@ const Item = require('./models/item');
     caloricDensity: 'yellow',
     foodType: 'vegetables'
   },
+  { 
+    name: 'black-eyed peas', 
+    calories: '120', 
+    edamanId: 'food_bg7d14ha9q9wh5a0nwmn4as6jwb2', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/7d0/7d0c43eab42a9e30db3bf3b53aa0203d.jpg',
+    qty: '1.0',
+    measurementType: 'Serving',
+    caloricDensity: 'yellow',
+    foodType: 'legume and seeds'
+  },
+  { 
+    name: 'black beans', 
+    calories: '227', 
+    edamanId: 'food_ba7qnuqak7imykabthyouaa7cjjd', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/9d8/9d803ebe9881e45fad3f70d877780ad5.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'legume and seeds'
+  },
+  { 
+    name: 'chickpeas', 
+    calories: '269', 
+    edamanId: 'food_blvf434an6ms21akuaezeagzs3k8', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/59c/59c1e8fa37680d54775d3a8013eb7db6.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'legume and seeds'
+  },
+  { 
+    name: 'edamame', 
+    calories: '188', 
+    edamanId: 'food_ax3xe7sabd02azaxpqx0ybpgk308', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/087/0871875e6db6422656a70b250640157a.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'legume and seeds'
+  },
+  { 
+    name: 'hummus', 
+    calories: '333', 
+    edamanId: 'food_bvver0jaktvay3amv02gval1xqnm', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/dd4/dd46febae7d039955a22d2e278293f41.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'legume and seeds'
+  },
+  { 
+    name: 'lentils', 
+    calories: '230', 
+    edamanId: 'food_bg13k5uafva4jta78xnjcaqkli85', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/d5a/d5aa5bc5a3142f3179f31310054a56e6.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'legume and seeds'
+  },
+  { 
+    name: 'broccoli cheddar soup', 
+    calories: '230', 
+    edamanId: 'food_bg13k5uafva4jta78xnjcaqkli85', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/d5a/d5aa5bc5a3142f3179f31310054a56e6.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'soups'
+  },
 
   
  
