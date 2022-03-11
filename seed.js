@@ -1217,6 +1217,215 @@ const Item = require('./models/item');
     caloricDensity: 'yellow',
     foodType: 'grains'
   },
+  { 
+    name: 'ham', 
+    calories: '186', 
+    edamanId: 'food_acrindvakgdnadbm0hiqbazk46qp', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/004/004c6f6f873dbdcf75b49fc5435bb61b.png',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'salmon fillet', 
+    calories: '468', 
+    edamanId: 'food_aw4231saaagpflaino4iqaumuapc', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/42c/42c99ddd36f31279746f81527d4f982e.jpg',
+    qty: '1.0',
+    measurementType: 'Fillet',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'smoked salmon', 
+    calories: '23', 
+    edamanId: 'food_a9dpcnjb883g67b3lq82ca0421ql', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/474/474d63763b9d8b9da98c5f43a114648c.jpg',
+    qty: '1.0',
+    measurementType: 'Piece',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'tuna salad', 
+    calories: '383', 
+    edamanId: 'food_aaluhexb6hatm8a0x8eoaaf5v647', 
+    category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
+    image: 'https://i.imgur.com/toXjwcP.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'roast beef', 
+    calories: '474', 
+    edamanId: 'food_ax7kea5b64jkulbmusq5rbg8hr7o', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/91a/91a096319265361432d1e6b40c16c42c.jpg',
+    qty: '1.0',
+    measurementType: 'Slice (7 oz per Slice)',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'beef steak', 
+    calories: '471', 
+    edamanId: 'food_akt4a0rbmqy1f8ae8t02xaydsbob', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/7a1/7a1dd7cab2cb1d3342bccfdc7c858b94.jpg',
+    qty: '1.0',
+    measurementType: 'Serving (6 oz per Serving)',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'rotisserie chicken', 
+    calories: '260', 
+    edamanId: 'food_b5zsm7lb1vq961b5d7azga71z5gx', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/f75/f758d06ecbf92550af64e25af5689d96.jpg',
+    qty: '1.0',
+    measurementType: 'Chicken',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'chicken', 
+    calories: '335', 
+    edamanId: 'food_bjvk9deb1xaifybk52mrna7gb7v4', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/zDjCl1H.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'turkey breast', 
+    calories: '166', 
+    edamanId: 'food_at1qxqra2bs2wxa2lb60zb355f99', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/2ee/2eeaf7c0f554159cde70dde625d9dceb.jpg',
+    qty: '1.0',
+    measurementType: 'Serving (4 oz per Serving)',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'ground turkey', 
+    calories: '169', 
+    edamanId: 'food_ayn3tcxa8ddppqbjsr95pbwsewm0', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/Q4byjUW.png',
+    qty: '1.0',
+    measurementType: 'Patty',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'turkey sausage', 
+    calories: '147', 
+    edamanId: 'food_brauuuyazjfx14bvzr989bvxd63y', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/182/18209b4b31a37a3aaa2b8d5a2fa5fae0.jpg',
+    qty: '1.0',
+    measurementType: 'Link',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'egg salad', 
+    calories: '471', 
+    edamanId: 'food_ac9n68caswlpggbp7727varlyjk5', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/da5/da5978d61b89a363147a6d13c36e3b54.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'hard boiled egg', 
+    calories: '78', 
+    edamanId: 'food_bljyewkaowvjseb7k6wctb5a1rrt', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/3ea/3ea9d821fddd8c398f1dd083f0688864.jpg',
+    qty: '1.0',
+    measurementType: 'Egg',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'lean pork loin', 
+    calories: '188', 
+    edamanId: 'food_ax7kea5b64jkulbmusq5rbg8hr7o', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/91a/91a096319265361432d1e6b40c16c42c.jpg',
+    qty: '1.0',
+    measurementType: 'Serving (4 oz per Serving)',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'lean pork chop', 
+    calories: '259', 
+    edamanId: 'food_bnmkkwqa9h2p87bz171eoby0bsey', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/d4e/d4e8110d51db4311bc894167a8f77816.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'pulled pork', 
+    calories: '418', 
+    edamanId: 'food_ax7kea5b64jkulbmusq5rbg8hr7o"', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/91a/91a096319265361432d1e6b40c16c42c.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'meat proteins'
+  },
+  { 
+    name: 'low fat cottage cheese', 
+    calories: '180', 
+    edamanId: 'food_a9tqku4bsbj3gsad6mjdobrjsamu', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/0df/0df8aad6c445fe1069fb243fa182b7b6.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'low fat yogurt', 
+    calories: '216', 
+    edamanId: 'food_a9tqku4bsbj3gsad6mjdobrjsamu', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/0df/0df8aad6c445fe1069fb243fa182b7b6.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'dairy'
+  },
+  { 
+    name: 'low fat milk', 
+    calories: '102', 
+    edamanId: 'food_bfbjttnbf8cdwjabmp83ibuutl92', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/f85/f859cce57955d778ccb5d0224e08cf93.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'dairy'
+  },
 
   
  
