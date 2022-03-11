@@ -1657,6 +1657,116 @@ const Item = require('./models/item');
     caloricDensity: 'yellow',
     foodType: 'soups'
   },
+  { 
+    name: 'balsamic vinegar', 
+    calories: '14', 
+    edamanId: 'food_b1ic8tzapja8jubas1f8lbhpbn6x', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/90a/90a1f211768e166ecfff19e8b4747498.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'guacamole', 
+    calories: '293', 
+    edamanId: 'food_bflwu59aqjdfhzbgqr68qai8mgk8', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/fc8/fc804ddb3fdf4b07f414b6ca930fb1b2.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'ketchup', 
+    calories: '17', 
+    edamanId: 'food_au7jthtab0n3era9uue8pauakroe', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/257/257207c446011b849001ae596390341c.jpeg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'low sodium soy sauce', 
+    calories: '10', 
+    edamanId: 'food_af8xwhdbq4vg0tbqfqjysafu339b"', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/4bc/4bccc4c294a8dddb62020c62935e6fd8.jpg',
+    qty: '1.0',
+    measurementType: 'Serving',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'mustard', 
+    calories: '3', 
+    edamanId: 'food_a34cdj5b0kyuhfbov30xcb50u4dv', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/e23/e238f2e4cfa6aa1a30f46dc73e7344eb.jpg',
+    qty: '1.0',
+    measurementType: 'tsp',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'sriracha', 
+    calories: '18', 
+    edamanId: 'food_a6201h1bu1m0tfbrvis6ma6nvhzv', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/946/946c38a4c278da4361d2615d653d685a.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'soy sauce, tamari', 
+    calories: '15', 
+    edamanId: 'food_a5g9yevb1iactoaiimbvjbkrxueh', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'splenda, stevia', 
+    calories: '1', 
+    edamanId: 'food_b8xzxmtb5f98f1bqswelta92yfk6', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/McDVbBt.jpg',
+    qty: '1.0',
+    measurementType: 'Packet',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'sweet pickle relish', 
+    calories: '15', 
+    edamanId: 'food_bdpk447bepyyfma1ali5qbk50zqp', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/210/210a09427be497df1915356d63d91d8b.jpeg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'worcestershire sauce', 
+    calories: '13', 
+    edamanId: 'food_asvapqhatz4wejanlapyzbmov2k1', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/52c/52cd53c02e0d777330aa795c56230581.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'yellow',
+    foodType: 'condiments'
+  },
 
   
  
