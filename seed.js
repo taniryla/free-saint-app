@@ -21,7 +21,6 @@ const Item = require('./models/item');
   { 
     name: 'banana', 
     calories: '105', 
-    edamanId: 'food_bjsfxtcaidvmhaa3afrbna43q3hu', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/9f6/9f6181163a25c96022ee3fc66d9ebb11.jpg',
     qty: '1.0',
@@ -32,7 +31,6 @@ const Item = require('./models/item');
   { 
     name: 'apple', 
     calories: '95', 
-    edamanId: 'food_a1gb9ubb72c7snbuxr3weagwv0dd', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/9FA0UAw.jpg',
     qty: '1.0',
@@ -43,7 +41,6 @@ const Item = require('./models/item');
   { 
     name: 'asparagus', 
     calories: '48', 
-    edamanId: 'food_bpkl8kmahyao17b1pvce5bua1iao', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/uTmBbn7.jpg',
     qty: '12.0',
@@ -54,7 +51,6 @@ const Item = require('./models/item');
   { 
     name: 'broccoli', 
     calories: '105', 
-    edamanId: 'food_aahw0jha9f8337ajbopx9aec6z7i', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/p2s7tAp.jpg',
     qty: '30.0',
@@ -65,7 +61,6 @@ const Item = require('./models/item');
   { 
     name: 'grapefruit', 
     calories: '104', 
-    edamanId: 'food_a5jyw74bd45tgfazfags0akmsjlv', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/ac6/ac6139365343036d75bd5999cca5145f.jpg',
     qty: '1.0',
@@ -76,7 +71,6 @@ const Item = require('./models/item');
   { 
     name: 'blueberries', 
     calories: '80', 
-    edamanId: 'food_b0yuze4b1g3afpanijno5abtiu28', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/zCgb9xN.jpg',
     qty: '1.0',
@@ -87,7 +81,6 @@ const Item = require('./models/item');
   { 
     name: 'cherries', 
     calories: '134', 
-    edamanId: 'food_bv3hog1bd5qa4oafi7lb3bjz8i92', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/aL9bKNf.jpg',
     qty: '20.0',
@@ -98,7 +91,6 @@ const Item = require('./models/item');
   { 
     name: 'cherry tomatoes', 
     calories: '27', 
-    edamanId: 'food_a30b0hpbvavginafe0tocbf6ymje', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/AzXfwbU.jpg',
     qty: '1.0',
@@ -109,7 +101,6 @@ const Item = require('./models/item');
   { 
     name: 'cucumber', 
     calories: '18', 
-    edamanId: 'food_bv7aggjag9rxsaatklqzobca5fzn', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/lzc34x9.jpg',
     qty: '1.0',
@@ -120,7 +111,6 @@ const Item = require('./models/item');
   { 
     name: 'grapes', 
     calories: '54', 
-    edamanId: 'food_bncple4a2uagu1b4hov92budz2vs', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/hxWYSTQ.jpg',
     qty: '16.0',
@@ -131,7 +121,6 @@ const Item = require('./models/item');
   { 
     name: 'mango', 
     calories: '201', 
-    edamanId: 'food_an1dqoib8xj3tyb3pr7c0abi4rbw', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/6e0/6e04857756d0876f14bfc035ff238e0b.png',
     qty: '1.0',
@@ -142,7 +131,6 @@ const Item = require('./models/item');
   { 
     name: 'mixed berries', 
     calories: '65', 
-    edamanId: 'food_b0yuze4b1g3afpanijno5abtiu28', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/KG1Ip0C.jpg',
     qty: '1.0',
@@ -153,7 +141,6 @@ const Item = require('./models/item');
   { 
     name: 'pear', 
     calories: '84', 
-    edamanId: 'food_bq6stkiaxkwhxia9q4v7wanjnew0"', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/65a/65aec51d264db28bbe27117c9fdaaca7.jpg',
     qty: '1.0',
@@ -164,7 +151,6 @@ const Item = require('./models/item');
   { 
     name: 'pineapple', 
     calories: '82', 
-    edamanId: 'food_b5maw38amr54vpat8d5vhbgmqfxn', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/mdOVxbl.jpg',
     qty: '1.0',
@@ -175,7 +161,6 @@ const Item = require('./models/item');
   { 
     name: 'pomegranate', 
     calories: '144', 
-    edamanId: 'food_b43po6ubmv934gb4dfd1kaic8fxa', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/342/342903acce5f863b7683cff3644931a8.jpg',
     qty: '1.0',
@@ -186,7 +171,6 @@ const Item = require('./models/item');
   { 
     name: 'raspberries', 
     calories: '56', 
-    edamanId: 'food_al3e7s2a1lm4i6bga7o0abp399zg', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/Ihxmy0d.jpg',
     qty: '4.0',
@@ -197,7 +181,6 @@ const Item = require('./models/item');
   { 
     name: 'strawberries', 
     calories: '58', 
-    edamanId: 'food_b4s2ibkbrrucmbabbaxhfau8ay42', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/bnfo6Eu.jpg',
     qty: '10.0',
@@ -208,7 +191,6 @@ const Item = require('./models/item');
   { 
     name: 'tomatoes', 
     calories: '22', 
-    edamanId: 'food_a6k79rrahp8fe2b26zussa3wtkqh', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/23e/23e727a14f1035bdc2733bb0477efbd2.jpg',
     qty: '1.0',
@@ -219,7 +201,6 @@ const Item = require('./models/item');
   { 
     name: 'watermelon', 
     calories: '46', 
-    edamanId: 'food_aom4czfarp4wsxaeshkohaig1ou5', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/e83/e83c09ce97ecd44e00b8c561ab682202.jpg',
     qty: '1.0',
@@ -230,7 +211,6 @@ const Item = require('./models/item');
   { 
     name: 'barley', 
     calories: '193', 
-    edamanId: 'food_aqhng66a3do8dqbef41d6bgw6cin', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/9b1/9b1add099acc71e8e7a31be0729b6936.jpg',
     qty: '1.0',
@@ -241,7 +221,6 @@ const Item = require('./models/item');
   { 
     name: 'bread wheat sprouted', 
     calories: '110', 
-    edamanId: 'food_a3049hmbqj5wstaeeb3udaz6uaqv"', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/886/886960f6ce6ccec5b9163bacf2996853.jpg',
     qty: '1.0',
@@ -252,7 +231,6 @@ const Item = require('./models/item');
   { 
     name: 'brown cooked rice', 
     calories: '327', 
-    edamanId: 'food_brqcp7fardef20b44y8riax4k0yz', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://i.imgur.com/C4iUEme.jpg',
     qty: '1.0',
@@ -263,7 +241,6 @@ const Item = require('./models/item');
   { 
     name: 'cooked oatmeal', 
     calories: '166', 
-    edamanId: 'food_bd8e66ca0ktqncbnahohzas7tgzg', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://i.imgur.com/xMpbqrj.jpg',
     qty: '1.0',
@@ -274,7 +251,6 @@ const Item = require('./models/item');
   { 
     name: 'corn tortillas', 
     calories: '208', 
-    edamanId: 'food_bhw0b95agm97s0abfignnb8fsvb3', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/b8a/b8ad23dcc06f2324f944e47eb579d644.jpg',
     qty: '4.0',
@@ -285,7 +261,6 @@ const Item = require('./models/item');
   { 
     name: 'grits', 
     calories: '151', 
-    edamanId: 'food_axnhyzqblo14jxabouwarbc2bs7l', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://i.imgur.com/4CaUgiS.jpg',
     qty: '1.0',
@@ -296,7 +271,6 @@ const Item = require('./models/item');
   { 
     name: 'quinoa', 
     calories: '222', 
-    edamanId: 'food_acc1dplaepqqd3a5wrj6la1s34zw', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/e02/e02246c3856098598f4b7e04fd2d4e4e.jpg',
     qty: '1.0',
@@ -307,7 +281,6 @@ const Item = require('./models/item');
   { 
     name: 'soba noodles', 
     calories: '113', 
-    edamanId: 'food_bjqs981ba4brmoarvdtxaah1pgsl', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://i.imgur.com/itE7fla.jpg',
     qty: '1.0',
@@ -318,7 +291,6 @@ const Item = require('./models/item');
   { 
     name: 'whole grain english muffin', 
     calories: '134', 
-    edamanId: 'food_bq9xyjcbffze0tao2b3z8a646cp3', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://i.imgur.com/5A92HjW.jpg',
     qty: '1.0',
@@ -329,7 +301,6 @@ const Item = require('./models/item');
   { 
     name: 'whole grain pasta', 
     calories: '238', 
-    edamanId: 'food_aup73tlbxslvhwa3ja27ca2gr51o', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/738/73846a8750bb3134aada6b711dc2919d.jpg',
     qty: '1.0',
@@ -340,7 +311,6 @@ const Item = require('./models/item');
   { 
     name: 'whole grain wheat bread', 
     calories: '100', 
-    edamanId: 'food_a3049hmbqj5wstaeeb3udaz6uaqv', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/886/886960f6ce6ccec5b9163bacf2996853.jpg',
     qty: '1.0',
@@ -351,7 +321,6 @@ const Item = require('./models/item');
   { 
     name: 'almond milk', 
     calories: '56', 
-    edamanId: 'food_a3049hmbqj5wstaeeb3udaz6uaqv', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/b26/b267bf598feaabd7349fddda7a481f00.jpg',
     qty: '1.0',
@@ -362,7 +331,6 @@ const Item = require('./models/item');
   { 
     name: 'coffee', 
     calories: '2', 
-    edamanId: 'food_ax0a0yxbbe4hx0apiz1tla01s2w7', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/3HBIilN.jpg',
     qty: '1.0',
@@ -373,7 +341,6 @@ const Item = require('./models/item');
   { 
     name: 'kombucha', 
     calories: '34', 
-    edamanId: 'food_be4bvp5bk9dn4mbfwpglkb66dexe', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/2e2/2e2fe81e1b63a61f6e4adec76220a11b.jpg',
     qty: '1.0',
@@ -384,7 +351,6 @@ const Item = require('./models/item');
   { 
     name: 'smoothie, fruit only', 
     calories: '161', 
-    edamanId: 'food_bglm6vxahuauteb0n6ynfbg9eryu', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/uKEja8w.jpg',
     qty: '1.0',
@@ -395,7 +361,6 @@ const Item = require('./models/item');
   { 
     name: 'soy latte', 
     calories: '148', 
-    edamanId: 'food_a9s841ya6wbvz9a338e34b9a64k7', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/QhCgS93.jpg',
     qty: '1.0',
@@ -406,7 +371,6 @@ const Item = require('./models/item');
   { 
     name: 'tea', 
     calories: '2', 
-    edamanId: 'food_b8aoe5qbgar9fbbcvdj8ea7ekske', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/793/79376cb6e124624e22780db7401601a4.jpg',
     qty: '1.0',
@@ -417,7 +381,6 @@ const Item = require('./models/item');
   { 
     name: 'vegetable juice', 
     calories: '56', 
-    edamanId: 'food_anr6fyyaq3kaztb6an13va45c6sf', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/Xeh9FpH.jpg',
     qty: '1.0',
@@ -428,7 +391,6 @@ const Item = require('./models/item');
   { 
     name: 'bell peppers', 
     calories: '32', 
-    edamanId: 'food_a8g63g7ak6bnmvbu7agxibp4a0dy', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/X7ClNqb.jpg',
     qty: '1.0',
@@ -439,7 +401,6 @@ const Item = require('./models/item');
   { 
     name: 'brussel sprouts', 
     calories: '28', 
-    edamanId: 'food_bkr6xbxbvl7pgua0vy4ibblf93qq', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/G54xFSh.jpg',
     qty: '1.0',
@@ -450,7 +411,6 @@ const Item = require('./models/item');
   { 
     name: 'cabbage', 
     calories: '22', 
-    edamanId: 'food_afb4o8kb767k0iapchxupaifxk1z', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/ZJufHs3.jpg',
     qty: '1.0',
@@ -461,7 +421,6 @@ const Item = require('./models/item');
   { 
     name: 'carrots', 
     calories: '100', 
-    edamanId: 'food_buqfaxubzh6hi5asev8a5aj9sr71', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/0XqAZ7e.jpg',
     qty: '4.0',
@@ -472,7 +431,6 @@ const Item = require('./models/item');
   { 
     name: 'cauliflower', 
     calories: '3', 
-    edamanId: 'food_buqfaxubzh6hi5asev8a5aj9sr71', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/vdmO2Nb.jpg',
     qty: '1.0',
@@ -483,7 +441,6 @@ const Item = require('./models/item');
   { 
     name: 'celery', 
     calories: '6', 
-    edamanId: 'food_bffeoksbyyur8ja4da73ub2xs57g', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/d91/d91d2aed1c36d8fad54c4d7dc58f5a18.jpg',
     qty: '1.0',
@@ -494,7 +451,6 @@ const Item = require('./models/item');
   { 
     name: 'green beans', 
     calories: '44', 
-    edamanId: 'food_aceucvpau4a8v6atkx5eabxyoqdn', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/891/89135f10639878a2360e6a33c9af3d91.jpg',
     qty: '1.0',
@@ -505,7 +461,6 @@ const Item = require('./models/item');
   { 
     name: 'green salad', 
     calories: '34', 
-    edamanId: 'food_bqalyxzbzu04hcb8xj930bzar7xg', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/b6d/b6d9f3052d27a3c71220cfa55c6f0a42.jpg',
     qty: '3.0',
@@ -516,7 +471,6 @@ const Item = require('./models/item');
   { 
     name: 'kale', 
     calories: '18', 
-    edamanId: 'food_avmg2xfbv1p91yavoxjg7bddvfaz', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/qevUb9q.jpg',
     qty: '1.0',
@@ -527,7 +481,6 @@ const Item = require('./models/item');
   { 
     name: 'lettuce', 
     calories: '8', 
-    edamanId: 'food_bf5fxtkbc9alwoajuvsi7amonr5w', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/719/71996625d0cb47e197093ecd52c97dc2.jpg',
     qty: '1.0',
@@ -538,7 +491,6 @@ const Item = require('./models/item');
   { 
     name: 'mixed greens', 
     calories: '8', 
-    edamanId: 'food_bqalyxzbzu04hcb8xj930bzar7xg', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/b6d/b6d9f3052d27a3c71220cfa55c6f0a42.jpg',
     qty: '1.0',
@@ -549,7 +501,6 @@ const Item = require('./models/item');
   { 
     name: 'mushrooms', 
     calories: '15', 
-    edamanId: 'food_bvlose6arfl26ra396sjrb7hetqh', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/d63/d639cf4a2afc7407c1d1ce286028136b.jpg',
     qty: '1.0',
@@ -560,7 +511,6 @@ const Item = require('./models/item');
   { 
     name: 'onion', 
     calories: '28', 
-    edamanId: 'food_bmrvi4ob4binw9a5m7l07amlfcoy', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg',
     qty: '1.0',
@@ -571,7 +521,6 @@ const Item = require('./models/item');
   { 
     name: 'peas', 
     calories: '134', 
-    edamanId: 'food_bbi35jtbjt7un9bsa2m7eazlsk91', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/5ed/5ed641d646c028598a90bdb9ece34fc8.jpg',
     qty: '1.0',
@@ -582,7 +531,6 @@ const Item = require('./models/item');
   { 
     name: 'potatoes', 
     calories: '158', 
-    edamanId: 'food_b2srd0cbo1zyudatmv3y5ad3umes', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/mdRwfHb.jpg',
     qty: '1.0',
@@ -593,7 +541,6 @@ const Item = require('./models/item');
   { 
     name: 'spaghetti squash', 
     calories: '126', 
-    edamanId: 'food_bj1y3fnbefpaaoagd8c1dad4mdhr', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/bc0/bc073855712255d9478fb9baec6f2afc.jpg',
     qty: '1.0',
@@ -604,7 +551,6 @@ const Item = require('./models/item');
   { 
     name: 'spinach', 
     calories: '82', 
-    edamanId: 'food_aoceuc6bshdej1bbsdammbnj6l6o', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/e6e/e6e4be375c4554ce01c8ea75232efaa6.jpg',
     qty: '1.0',
@@ -615,7 +561,6 @@ const Item = require('./models/item');
   { 
     name: 'sweet potatoes', 
     calories: '110', 
-    edamanId: 'food_bg68yf2b3dlfusawgs590bjloxfd', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/b66/b660e3d37b4ea9d58cb98e8ea73933b6.jpg',
     qty: '1.0',
@@ -626,7 +571,6 @@ const Item = require('./models/item');
   { 
     name: 'zucchini', 
     calories: '21', 
-    edamanId: 'food_avpihljbuwpd8ibbmahcabaros5s', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/f63/f637280594e4a731eccc1199194a8847.jpg',
     qty: '1.0',
@@ -637,7 +581,6 @@ const Item = require('./models/item');
   { 
     name: 'boiled or grilled lobster', 
     calories: '286', 
-    edamanId: 'food_bljyewkaowvjseb7k6wctb5a1rrt', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/p1qj3K2.jpg',
     qty: '1.0',
@@ -648,7 +591,6 @@ const Item = require('./models/item');
   { 
     name: 'boiled or grilled mahi-mahi', 
     calories: '85', 
-    edamanId: 'food_bljyewkaowvjseb7k6wctb5a1rrt', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/ftoRavM.png',
     qty: '1.0',
@@ -659,7 +601,6 @@ const Item = require('./models/item');
   { 
     name: 'cooked shrimp', 
     calories: '105', 
-    edamanId: 'food_bguh25xb1ibqqha7jdl8ha8ur8mw', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/hVSa3TU.jpg',
     qty: '20.0',
@@ -670,7 +611,6 @@ const Item = require('./models/item');
   { 
     name: 'crab', 
     calories: '98', 
-    edamanId: 'food_aj7w3xab0epj7cbgkbkpwadysovd"', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/468i5D5.jpg',
     qty: '1.0',
@@ -681,7 +621,6 @@ const Item = require('./models/item');
   { 
     name: 'egg whites', 
     calories: '17', 
-    edamanId: 'food_ac9n68caswlpggbp7727varlyjk5', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/8vIBdK6.jpg',
     qty: '1.0',
@@ -692,7 +631,6 @@ const Item = require('./models/item');
   { 
     name: 'low sodium black beans', 
     calories: '218', 
-    edamanId: 'food_bazzo85azdbkmsb56nu4ra5rphoe', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/850/8505bc3d47bbc820b69d532202f61ce1.jpg',
     qty: '1.0',
@@ -703,7 +641,6 @@ const Item = require('./models/item');
   { 
     name: 'oysters', 
     calories: '11', 
-    edamanId: 'food_amv306gav25yjnasnhs0dam6jqcb', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/LC0kzKv.jpg',
     qty: '1.0',
@@ -714,7 +651,6 @@ const Item = require('./models/item');
   { 
     name: 'tofu', 
     calories: '177', 
-    edamanId: 'food_a269ixea1yf51xbfwgnq2boiwc7x', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/b6a/b6ae13c3cfe37e16f820840f90231bff.jpg',
     qty: '0.5',
@@ -725,7 +661,6 @@ const Item = require('./models/item');
   { 
     name: 'white fish fillet', 
     calories: '265', 
-    edamanId: 'food_aw4231saaagpflaino4iqaumuapc', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/xzWCqkN.jpg',
     qty: '1.0',
@@ -736,7 +671,6 @@ const Item = require('./models/item');
   { 
     name: 'non-fat skim milk', 
     calories: '90', 
-    edamanId: 'food_a8p4z9rbx6of06a8zyt4rb0bwyiz', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/525/525c95190fa7373279ac4c9cbfa436a4.jpg',
     qty: '1.0',
@@ -747,7 +681,6 @@ const Item = require('./models/item');
   { 
     name: 'non-fat cheese sticks and slices', 
     calories: '298', 
-    edamanId: 'food_bo3fs72aqydlwzadxjbykaahvx3v', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/cc3/cc3c4827d251d79eed1ff87c1861aa34.jpg',
     qty: '1.0',
@@ -758,7 +691,6 @@ const Item = require('./models/item');
   { 
     name: 'non-fat cottage cheese', 
     calories: '160', 
-    edamanId: 'food_bo3fs72aqydlwzadxjbykaahvx3v', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/WN4KFKg.jpg',
     qty: '1.0',
@@ -769,7 +701,6 @@ const Item = require('./models/item');
   { 
     name: 'non-fat cream cheese spread', 
     calories: '302', 
-    edamanId: 'food_afw1vv1ac3l17wbn9gcq2autcc91', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
     qty: '1.0',
@@ -780,7 +711,6 @@ const Item = require('./models/item');
   { 
     name: 'non-fat greek yogurt', 
     calories: '160', 
-    edamanId: 'food_bf6arknaq0ne39az8jdf5a24wuhl', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/PfUS8pX.jpg',
     qty: '1.0',
@@ -791,7 +721,6 @@ const Item = require('./models/item');
   { 
     name: 'non-fat half and half', 
     calories: '10', 
-    edamanId: 'food_bllwok7blguj59ao7oqp4avjisjc', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/Q8oEeSR.jpg',
     qty: '1.0',
@@ -802,7 +731,6 @@ const Item = require('./models/item');
   { 
     name: 'non-fat sour cream', 
     calories: '12', 
-    edamanId: 'food_afw1vv1ac3l17wbn9gcq2autcc91', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
     qty: '1.0',
@@ -813,7 +741,6 @@ const Item = require('./models/item');
   { 
     name: 'non-fat yogurt', 
     calories: '173', 
-    edamanId: 'food_bllwok7blguj59ao7oqp4avjisjc', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/WN4KFKg.jpg',
     qty: '1.0',
@@ -824,7 +751,6 @@ const Item = require('./models/item');
   { 
     name: 'chicken bone broth', 
     calories: '41', 
-    edamanId: 'food_bb2qjrjamst0vmam39stubtkmrs4', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/e61/e6184a8681b772e5198ef0ca1919e1b7.jpg',
     qty: '1.0',
@@ -835,7 +761,6 @@ const Item = require('./models/item');
   { 
     name: 'beef bone broth', 
     calories: '35', 
-    edamanId: 'food_bb2qjrjamst0vmam39stubtkmrs4', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/e61/e6184a8681b772e5198ef0ca1919e1b7.jpg',
     qty: '1.0',
@@ -846,7 +771,6 @@ const Item = require('./models/item');
   { 
     name: 'vegetable bone broth', 
     calories: '13', 
-    edamanId: 'food_bitqzx8b319psvbib2dufarphbxy', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/E5Ft0QE.jpg',
     qty: '1.0',
@@ -857,7 +781,6 @@ const Item = require('./models/item');
   { 
     name: 'butternut squash soup', 
     calories: '220', 
-    edamanId: 'food_baga212bywb6n2as0ylgkaf8fcok', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/cHMMXMW.jpg',
     qty: '1.0',
@@ -868,7 +791,6 @@ const Item = require('./models/item');
   { 
     name: 'cabbage soup', 
     calories: '50', 
-    edamanId: 'food_afb4o8kb767k0iapchxupaifxk1z', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/5B1qf3J.jpg',
     qty: '1.0',
@@ -879,7 +801,6 @@ const Item = require('./models/item');
   { 
     name: 'homemade chicken noodle soup', 
     calories: '100', 
-    edamanId: 'food_ai9u369b0sh4nna64fawma1hs2kf', 
     category: ['keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/9q8UAPz.jpg',
     qty: '1.0',
@@ -890,7 +811,6 @@ const Item = require('./models/item');
   { 
     name: 'miso soup', 
     calories: '59', 
-    edamanId: 'food_bu8imjua16o32cao2m4kravexpo7', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/352/3525e5a38bb13c74aa34ef6c0273bf33.jpg',
     qty: '1.0',
@@ -901,7 +821,6 @@ const Item = require('./models/item');
   { 
     name: 'spinach soup', 
     calories: '73', 
-    edamanId: 'food_aoceuc6bshdej1bbsdammbnj6l6o', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/n9AGSGk.jpg',
     qty: '1.0',
@@ -912,7 +831,6 @@ const Item = require('./models/item');
   { 
     name: 'tomato and lentil soup', 
     calories: '86', 
-    edamanId: 'food_a6k79rrahp8fe2b26zussa3wtkqh', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/3k4Jx8B.jpg',
     qty: '1.0',
@@ -923,7 +841,6 @@ const Item = require('./models/item');
   { 
     name: 'vegetable barley soup', 
     calories: '190', 
-    edamanId: 'food_bnr1pu6blqhm6lajm0ga6bhl0jvt', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/32b/32baf9bd687a56afd88f726a6dc69882.jpg',
     qty: '1.0',
@@ -934,7 +851,6 @@ const Item = require('./models/item');
   { 
     name: 'vegetable pho', 
     calories: '352', 
-    edamanId: 'food_bitqzx8b319psvbib2dufarphbxy', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/3dka0Gm.jpg',
     qty: '1.0',
@@ -945,7 +861,6 @@ const Item = require('./models/item');
   { 
     name: 'pickles', 
     calories: '7', 
-    edamanId: 'food_agcb9ncbucn8q6bq32685ahulbnv', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/80b/80b1e5307815f0d9471d86c2e7c36167.jpg',
     qty: '1.0',
@@ -956,7 +871,6 @@ const Item = require('./models/item');
   { 
     name: 'unsweetened applesauce', 
     calories: '204', 
-    edamanId: 'food_a42ufi8ben9zhqbzqv66lab1lwvd', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/c59/c59e749347516e4aa0aaa3ea25925426.jpg',
     qty: '1.0',
@@ -967,7 +881,6 @@ const Item = require('./models/item');
   { 
     name: 'buffalo sauce', 
     calories: '1', 
-    edamanId: 'food_asvapqhatz4wejanlapyzbmov2k1', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/cKMr1z7.jpg',
     qty: '2.0',
@@ -978,7 +891,6 @@ const Item = require('./models/item');
   { 
     name: 'hot sauce', 
     calories: '1', 
-    edamanId: 'food_a6201h1bu1m0tfbrvis6ma6nvhzv', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/946/946c38a4c278da4361d2615d653d685a.jpg',
     qty: '1.0',
@@ -989,7 +901,6 @@ const Item = require('./models/item');
   { 
     name: 'lemon juice', 
     calories: '1', 
-    edamanId: 'food_bglm6vxahuauteb0n6ynfbg9eryu', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/e31/e310952d214e78a4cb8b73f30ceeaaf2.jpg',
     qty: '1.0',
@@ -1000,7 +911,6 @@ const Item = require('./models/item');
   { 
     name: 'lime juice', 
     calories: '16', 
-    edamanId: 'food_b0iywbmaujvd4eblrooo9bsvn7e6', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/8f0/8f0c10eb3dbf476a05e61018e76ea220.jpg',
     qty: '0.25',
@@ -1011,7 +921,6 @@ const Item = require('./models/item');
   { 
     name: 'salsa', 
     calories: '75', 
-    edamanId: 'food_b0t3obfawlm5k2b6erxscacez35u', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/995/995d0f166754a0475c181b9c156fec43.jpg',
     qty: '1.0',
@@ -1022,7 +931,6 @@ const Item = require('./models/item');
   { 
     name: 'tomato pasta sauce', 
     calories: '176', 
-    edamanId: 'food_a7hv5mybkkrs3ub78yhtxafs67bu', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/08b/08b3bb49c006689a458a8b9c4a4e0057.jpg',
     qty: '1.0',
@@ -1033,7 +941,6 @@ const Item = require('./models/item');
   { 
     name: 'red wine vinegar', 
     calories: '5', 
-    edamanId: 'food_ad6iyy1anmzb49a817rgnabnz8c9', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/dc8/dc8e998b32b8d45ba15c1b1e6711e958.jpg',
     qty: '1.0',
@@ -1044,7 +951,6 @@ const Item = require('./models/item');
   { 
     name: 'apple cider vinegar', 
     calories: '6', 
-    edamanId: 'food_ar8m7esapmfvf8bnhfzdlabndh6v', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/c7d/c7dbd1846c5d08e9739930d70a404d50.jpg',
     qty: '1.0',
@@ -1055,7 +961,6 @@ const Item = require('./models/item');
   { 
     name: 'rice vinegar', 
     calories: '7', 
-    edamanId: 'food_axlcd4tack2d20bveizm4ayu0h2w', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/5f6/5f69b84c399d778c4728e9ab4f8065a2.jpg',
     qty: '1.0',
@@ -1066,7 +971,6 @@ const Item = require('./models/item');
   { 
     name: 'dried apricots', 
     calories: '314', 
-    edamanId: 'food_birl02fapy1ae8aywe9qmbsew3d1', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/7GnDzBY.jpg',
     qty: '1.0',
@@ -1077,7 +981,6 @@ const Item = require('./models/item');
   { 
     name: 'avocado', 
     calories: '322', 
-    edamanId: 'food_b0yuze4b1g3afpanijno5abtiu28', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/984/984a707ea8e9c6bf5f6498970a9e6d9d.jpg',
     qty: '1.0',
@@ -1088,7 +991,6 @@ const Item = require('./models/item');
   { 
     name: 'basmati rice', 
     calories: '205', 
-    edamanId: 'food_brqcp7fardef20b44y8riax4k0yz', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/43e/43e669c6de11504972da1ae1898ac19e.jpg',
     qty: '1.0',
@@ -1099,7 +1001,6 @@ const Item = require('./models/item');
   { 
     name: 'fried rice', 
     calories: '238', 
-    edamanId: 'food_a1q3wkgagst725b4dnamia9v86po', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/ebGtCI3.jpg',
     qty: '1.0',
@@ -1110,7 +1011,6 @@ const Item = require('./models/item');
   { 
     name: 'couscous', 
     calories: '176', 
-    edamanId: 'food_bhgmmawa1dtqp8anm795pb2n199z', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/0ba/0ba047475ceba632ce566f8997c6f0a5.jpg',
     qty: '1.0',
@@ -1121,7 +1021,6 @@ const Item = require('./models/item');
   { 
     name: 'keto bread', 
     calories: '30', 
-    edamanId: 'food_a3049hmbqj5wstaeeb3udaz6uaqv', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/886/886960f6ce6ccec5b9163bacf2996853.jpg',
     qty: '1.0',
@@ -1132,7 +1031,6 @@ const Item = require('./models/item');
   { 
     name: 'low carb tortilla', 
     calories: '70', 
-    edamanId: 'food_btkmx91adwv7e0aulg4k0b8xifo7', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/SpIKpit.jpg',
     qty: '1.0',
@@ -1143,7 +1041,6 @@ const Item = require('./models/item');
   { 
     name: 'lasagna', 
     calories: '401', 
-    edamanId: 'food_a35gb18bvghcugb05ylulbjvmj3a', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/e6b/e6be67be9ab596ac7eeb1f9feb54999c.jpg',
     qty: '1.0',
@@ -1154,7 +1051,6 @@ const Item = require('./models/item');
   { 
     name: 'white pasta', 
     calories: '505', 
-    edamanId: 'food_bcwokz3b2oo23xbi9zcjiav8mo2n', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/222/22205c8592e82a675d90e3673d710bb5.jpg',
     qty: '1.0',
@@ -1165,7 +1061,6 @@ const Item = require('./models/item');
   { 
     name: 'noodles', 
     calories: '196', 
-    edamanId: 'food_ayweivebq83j17badscbyax7f88x', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/c52/c523bc0bbc9fb862315198af8749be5d.jpg',
     qty: '1.0',
@@ -1176,7 +1071,6 @@ const Item = require('./models/item');
   { 
     name: 'whole grain pita bread', 
     calories: '149', 
-    edamanId: 'food_bwqktveb77b6uxbrpvxgcb63ucm7', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/b8c/b8c2794a59279b7e0553c27e0769fbaf.jpg',
     qty: '1.0',
@@ -1187,7 +1081,6 @@ const Item = require('./models/item');
   { 
     name: 'rye bread', 
     calories: '83', 
-    edamanId: 'food_ahf32zjb0b6swvahzmtadbi0wht5', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/2d1/2d1b8db0fe95a564cb25432a83ca8a66.jpg',
     qty: '1.0',
@@ -1198,7 +1091,6 @@ const Item = require('./models/item');
   { 
     name: 'stuffing', 
     calories: '642', 
-    edamanId: 'food_bsq0mlmaci65jya0s886xbzqtjxj', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/617/617068594786702e2ccbe7aee824fa5a.jpg',
     qty: '1.0',
@@ -1209,7 +1101,6 @@ const Item = require('./models/item');
   { 
     name: 'ham', 
     calories: '186', 
-    edamanId: 'food_acrindvakgdnadbm0hiqbazk46qp', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/004/004c6f6f873dbdcf75b49fc5435bb61b.png',
     qty: '1.0',
@@ -1220,7 +1111,6 @@ const Item = require('./models/item');
   { 
     name: 'salmon fillet', 
     calories: '468', 
-    edamanId: 'food_aw4231saaagpflaino4iqaumuapc', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/sRdKlXx.jpg',
     qty: '1.0',
@@ -1231,7 +1121,6 @@ const Item = require('./models/item');
   { 
     name: 'smoked salmon', 
     calories: '23', 
-    edamanId: 'food_a9dpcnjb883g67b3lq82ca0421ql', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/sRdKlXx.jpg',
     qty: '1.0',
@@ -1242,7 +1131,6 @@ const Item = require('./models/item');
   { 
     name: 'tuna salad', 
     calories: '383', 
-    edamanId: 'food_aaluhexb6hatm8a0x8eoaaf5v647', 
     category: ['gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://i.imgur.com/toXjwcP.jpg',
     qty: '1.0',
@@ -1253,7 +1141,6 @@ const Item = require('./models/item');
   { 
     name: 'roast beef', 
     calories: '474', 
-    edamanId: 'food_ax7kea5b64jkulbmusq5rbg8hr7o', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/mLmv1Ax.jpg',
     qty: '1.0',
@@ -1264,7 +1151,6 @@ const Item = require('./models/item');
   { 
     name: 'beef steak', 
     calories: '471', 
-    edamanId: 'food_akt4a0rbmqy1f8ae8t02xaydsbob', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/W6579r3.jpg',
     qty: '1.0',
@@ -1275,7 +1161,6 @@ const Item = require('./models/item');
   { 
     name: 'rotisserie chicken', 
     calories: '260', 
-    edamanId: 'food_b5zsm7lb1vq961b5d7azga71z5gx', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/A1bvMhP.jpg',
     qty: '1.0',
@@ -1286,7 +1171,6 @@ const Item = require('./models/item');
   { 
     name: 'chicken', 
     calories: '335', 
-    edamanId: 'food_bjvk9deb1xaifybk52mrna7gb7v4', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/zDjCl1H.jpg',
     qty: '1.0',
@@ -1297,7 +1181,6 @@ const Item = require('./models/item');
   { 
     name: 'turkey breast', 
     calories: '166', 
-    edamanId: 'food_at1qxqra2bs2wxa2lb60zb355f99', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/Wzc4uem.jpg',
     qty: '1.0',
@@ -1308,7 +1191,6 @@ const Item = require('./models/item');
   { 
     name: 'ground turkey', 
     calories: '169', 
-    edamanId: 'food_ayn3tcxa8ddppqbjsr95pbwsewm0', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/Q4byjUW.png',
     qty: '1.0',
@@ -1319,7 +1201,6 @@ const Item = require('./models/item');
   { 
     name: 'turkey sausage', 
     calories: '147', 
-    edamanId: 'food_brauuuyazjfx14bvzr989bvxd63y', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/182/18209b4b31a37a3aaa2b8d5a2fa5fae0.jpg',
     qty: '1.0',
@@ -1330,7 +1211,6 @@ const Item = require('./models/item');
   { 
     name: 'egg salad', 
     calories: '471', 
-    edamanId: 'food_ac9n68caswlpggbp7727varlyjk5', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/6KKcn9K.jpg',
     qty: '1.0',
@@ -1341,7 +1221,6 @@ const Item = require('./models/item');
   { 
     name: 'hard boiled egg', 
     calories: '78', 
-    edamanId: 'food_bljyewkaowvjseb7k6wctb5a1rrt', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/6VS4wUa.jpg',
     qty: '1.0',
@@ -1352,7 +1231,6 @@ const Item = require('./models/item');
   { 
     name: 'lean pork loin', 
     calories: '188', 
-    edamanId: 'food_ax7kea5b64jkulbmusq5rbg8hr7o', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/3vCF1XN.jpg',
     qty: '1.0',
@@ -1363,7 +1241,6 @@ const Item = require('./models/item');
   { 
     name: 'lean pork chop', 
     calories: '259', 
-    edamanId: 'food_bnmkkwqa9h2p87bz171eoby0bsey', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/t1IgcZA.jpg',
     qty: '1.0',
@@ -1374,7 +1251,6 @@ const Item = require('./models/item');
   { 
     name: 'pulled pork', 
     calories: '418', 
-    edamanId: 'food_ax7kea5b64jkulbmusq5rbg8hr7o"', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/O3dHPTk.jpg',
     qty: '1.0',
@@ -1385,7 +1261,6 @@ const Item = require('./models/item');
   { 
     name: 'low fat cottage cheese', 
     calories: '180', 
-    edamanId: 'food_a9tqku4bsbj3gsad6mjdobrjsamu', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/g1GPdj0.jpg',
     qty: '1.0',
@@ -1396,7 +1271,6 @@ const Item = require('./models/item');
   { 
     name: 'low fat yogurt', 
     calories: '216', 
-    edamanId: 'food_a9tqku4bsbj3gsad6mjdobrjsamu', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/dftjLYQ.jpg',
     qty: '1.0',
@@ -1407,7 +1281,6 @@ const Item = require('./models/item');
   { 
     name: 'low fat milk', 
     calories: '102', 
-    edamanId: 'food_bfbjttnbf8cdwjabmp83ibuutl92', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/f85/f859cce57955d778ccb5d0224e08cf93.jpg',
     qty: '1.0',
@@ -1418,7 +1291,6 @@ const Item = require('./models/item');
   { 
     name: 'canned corn', 
     calories: '177', 
-    edamanId: 'food_b26mh3ubkdgxt3bcvqqu3a0mm6fr', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/59c/59c4373175b468d87ac76a43d4349b57.jpg',
     qty: '1.0',
@@ -1429,7 +1301,6 @@ const Item = require('./models/item');
   { 
     name: 'fried mushrooms', 
     calories: '150', 
-    edamanId: 'food_b4dfihfa1ejmrpbq8ls53b0n1dmg', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/7dd/7ddc18efbecc5bb44fb638b2af17e148.jpg',
     qty: '1.0',
@@ -1440,7 +1311,6 @@ const Item = require('./models/item');
   { 
     name: 'grilled onions', 
     calories: '211', 
-    edamanId: 'food_b5pq504arby3emb1a2mjjaar54l8', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/5f1/5f18e93c02bcf4eab14620febb53b5a2.png',
     qty: '1.0',
@@ -1451,7 +1321,6 @@ const Item = require('./models/item');
   { 
     name: 'roasted potatoes', 
     calories: '180', 
-    edamanId: 'food_bbu83kha8tvy32br7mr28b4hdkp5', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/956/9561f54f6ba83ad619e9830487107b29.jpg',
     qty: '1.0',
@@ -1462,7 +1331,6 @@ const Item = require('./models/item');
   { 
     name: 'mashed potatoes', 
     calories: '237', 
-    edamanId: 'food_bqgfv5na1p5qwgaddkx9xbe5bf4l', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/3ba/3bad90497524770195b335d288d4a7e1.jpg',
     qty: '1.0',
@@ -1473,7 +1341,6 @@ const Item = require('./models/item');
   { 
     name: 'plantains', 
     calories: '205', 
-    edamanId: 'food_b5390qwao5mc3yanbn3a1afp6vs8', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/a89/a895e325e16d684d8df7786aa7898f73.jpg',
     qty: '1.0',
@@ -1484,7 +1351,6 @@ const Item = require('./models/item');
   { 
     name: 'yams', 
     calories: '177', 
-    edamanId: 'food_bvm8fxwb5tu279am6lgw3bqvzqsb', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/530/5301e2fd59307812cbd5276de724d6aa.jpg',
     qty: '1.0',
@@ -1495,7 +1361,6 @@ const Item = require('./models/item');
   { 
     name: 'pickled beets', 
     calories: '148', 
-    edamanId: 'food_a09hufoahq3o7latketmta9xeqo7', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/2c5/2c513e67af460b7f5ebe53028ceb8a37.jpg',
     qty: '1.0',
@@ -1506,7 +1371,6 @@ const Item = require('./models/item');
   { 
     name: 'black-eyed peas', 
     calories: '120', 
-    edamanId: 'food_bg7d14ha9q9wh5a0nwmn4as6jwb2', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/7d0/7d0c43eab42a9e30db3bf3b53aa0203d.jpg',
     qty: '1.0',
@@ -1517,7 +1381,6 @@ const Item = require('./models/item');
   { 
     name: 'black beans', 
     calories: '227', 
-    edamanId: 'food_ba7qnuqak7imykabthyouaa7cjjd', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/9d8/9d803ebe9881e45fad3f70d877780ad5.jpg',
     qty: '1.0',
@@ -1528,7 +1391,6 @@ const Item = require('./models/item');
   { 
     name: 'chickpeas', 
     calories: '269', 
-    edamanId: 'food_blvf434an6ms21akuaezeagzs3k8', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/59c/59c1e8fa37680d54775d3a8013eb7db6.jpg',
     qty: '1.0',
@@ -1539,7 +1401,6 @@ const Item = require('./models/item');
   { 
     name: 'edamame', 
     calories: '188', 
-    edamanId: 'food_ax3xe7sabd02azaxpqx0ybpgk308', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'pescatarian', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/087/0871875e6db6422656a70b250640157a.jpg',
     qty: '1.0',
@@ -1550,7 +1411,6 @@ const Item = require('./models/item');
   { 
     name: 'hummus', 
     calories: '333', 
-    edamanId: 'food_bvver0jaktvay3amv02gval1xqnm', 
     category: ['vegan', 'vegetarian', 'pescatarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/dd4/dd46febae7d039955a22d2e278293f41.jpg',
     qty: '1.0',
@@ -1561,7 +1421,6 @@ const Item = require('./models/item');
   { 
     name: 'lentils', 
     calories: '230', 
-    edamanId: 'food_bg13k5uafva4jta78xnjcaqkli85', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/d5a/d5aa5bc5a3142f3179f31310054a56e6.jpg',
     qty: '1.0',
@@ -1572,7 +1431,6 @@ const Item = require('./models/item');
   { 
     name: 'broccoli cheddar soup', 
     calories: '433', 
-    edamanId: 'food_aahw0jha9f8337ajbopx9aec6z7i', 
     category: ['vegetarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/5iyCwn0.jpg,
     qty: '1.0',
@@ -1583,7 +1441,6 @@ const Item = require('./models/item');
   { 
     name: 'chicken tortilla soup', 
     calories: '260', 
-    edamanId: 'food_bhw0b95agm97s0abfignnb8fsvb3', 
     category: ['gluten-free', 'paleo'],    
     image: 'https://i.imgur.com/qjYFERB.jpg',
     qty: '1.0',
@@ -1594,7 +1451,6 @@ const Item = require('./models/item');
   { 
     name: 'cream of mushroom soup', 
     calories: '410', 
-    edamanId: 'food_b628l7bbpw7rnqa1ri8egb0xetpn', 
     category: ['other'],    
     image: 'https://i.imgur.com/D5CevIe.jpg',
     qty: '1.0',
@@ -1605,7 +1461,6 @@ const Item = require('./models/item');
   { 
     name: 'new england clam chowder', 
     calories: '402', 
-    edamanId: 'food_bcdszusak02sfta0479lyajvyoo1', 
     category: ['gluten-free', 'paleo'],    
     image: 'https://i.imgur.com/DcNmiot.jpg',
     qty: '1.0',
@@ -1616,7 +1471,6 @@ const Item = require('./models/item');
   { 
     name: 'split pea soup', 
     calories: '191', 
-    edamanId: 'food_bn08gvkay09vqoalwgv3naakbv8e', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'pescatarian', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/4pxZMWp.jpg',
     qty: '1.0',
@@ -1627,7 +1481,6 @@ const Item = require('./models/item');
   { 
     name: 'tomato bisque soup', 
     calories: '285', 
-    edamanId: 'food_a0wg2dnb8zg5ypb6idfhnatpxyy0', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/056/0562051b49da4937cb41afeba32edb81.jpg',
     qty: '1.0',
@@ -1638,7 +1491,6 @@ const Item = require('./models/item');
   { 
     name: 'chicken noodle soup', 
     calories: '257', 
-    edamanId: 'food_bm7evxjbg212p2aw8cujdbcskuy6', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/rnWrgli.jpg',
     qty: '1.0',
@@ -1649,7 +1501,6 @@ const Item = require('./models/item');
   { 
     name: 'balsamic vinegar', 
     calories: '14', 
-    edamanId: 'food_b1ic8tzapja8jubas1f8lbhpbn6x', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/90a/90a1f211768e166ecfff19e8b4747498.jpg',
     qty: '1.0',
@@ -1660,7 +1511,6 @@ const Item = require('./models/item');
   { 
     name: 'guacamole', 
     calories: '293', 
-    edamanId: 'food_bflwu59aqjdfhzbgqr68qai8mgk8', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'pescatarian', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/fc8/fc804ddb3fdf4b07f414b6ca930fb1b2.jpg',
     qty: '1.0',
@@ -1671,7 +1521,6 @@ const Item = require('./models/item');
   { 
     name: 'ketchup', 
     calories: '17', 
-    edamanId: 'food_au7jthtab0n3era9uue8pauakroe', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/257/257207c446011b849001ae596390341c.jpeg',
     qty: '1.0',
@@ -1682,7 +1531,6 @@ const Item = require('./models/item');
   { 
     name: 'low sodium soy sauce', 
     calories: '10', 
-    edamanId: 'food_af8xwhdbq4vg0tbqfqjysafu339b"', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/4bc/4bccc4c294a8dddb62020c62935e6fd8.jpg',
     qty: '1.0',
@@ -1693,7 +1541,6 @@ const Item = require('./models/item');
   { 
     name: 'mustard', 
     calories: '3', 
-    edamanId: 'food_a34cdj5b0kyuhfbov30xcb50u4dv', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/e23/e238f2e4cfa6aa1a30f46dc73e7344eb.jpg',
     qty: '1.0',
@@ -1704,7 +1551,6 @@ const Item = require('./models/item');
   { 
     name: 'sriracha', 
     calories: '18', 
-    edamanId: 'food_a6201h1bu1m0tfbrvis6ma6nvhzv', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/946/946c38a4c278da4361d2615d653d685a.jpg',
     qty: '1.0',
@@ -1715,7 +1561,6 @@ const Item = require('./models/item');
   { 
     name: 'soy sauce, tamari', 
     calories: '15', 
-    edamanId: 'food_a5g9yevb1iactoaiimbvjbkrxueh', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg',
     qty: '1.0',
@@ -1726,7 +1571,6 @@ const Item = require('./models/item');
   { 
     name: 'splenda, stevia', 
     calories: '1', 
-    edamanId: 'food_b8xzxmtb5f98f1bqswelta92yfk6', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/McDVbBt.jpg',
     qty: '1.0',
@@ -1737,7 +1581,6 @@ const Item = require('./models/item');
   { 
     name: 'sweet pickle relish', 
     calories: '15', 
-    edamanId: 'food_bdpk447bepyyfma1ali5qbk50zqp', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/210/210a09427be497df1915356d63d91d8b.jpeg',
     qty: '1.0',
@@ -1748,7 +1591,6 @@ const Item = require('./models/item');
   { 
     name: 'worcestershire sauce', 
     calories: '13', 
-    edamanId: 'food_ahb8mscbejo58ubexo0itam1i74g', 
     category: ['gluten-free', 'keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/072/072b61dd1ad5bb641f05b14f716ba6d0.jpg',
     qty: '1.0',
@@ -1759,7 +1601,6 @@ const Item = require('./models/item');
   { 
     name: 'avocado toast', 
     calories: '189', 
-    edamanId: 'food_b0yuze4b1g3afpanijno5abtiu28', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://i.imgur.com/Qy80gzm.jpg',
     qty: '1.0',
@@ -1770,7 +1611,6 @@ const Item = require('./models/item');
   { 
     name: 'bread and butter pickles', 
     calories: '14', 
-    edamanId: 'food_bd06g1pbfdev9ja50blv6a5524ye', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian', 'gluten-free', 'keto-friendly'],    
     image: 'https://www.edamam.com/food-img/012/0121cf9d4ee772af299f450bf577a8d3.jpeg',
     qty: '1.0',
@@ -1781,7 +1621,6 @@ const Item = require('./models/item');
   { 
     name: 'caesar salad', 
     calories: '192', 
-    edamanId: 'food_aaluhexb6hatm8a0x8eoaaf5v647', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
     image: 'https://i.imgur.com/HqTOile.jpg',
     qty: '1.0',
@@ -1792,7 +1631,6 @@ const Item = require('./models/item');
   { 
     name: 'coleslaw', 
     calories: '348', 
-    edamanId: 'food_bwbxnnqbuk1re9ateh4lwbwlg1zv', 
     category: ['other'],    
     image: 'https://i.imgur.com/qqksuTR.jpg',
     qty: '1.0',
@@ -1803,7 +1641,6 @@ const Item = require('./models/item');
   { 
     name: 'greek salad', 
     calories: '179', 
-    edamanId: 'food_aaluhexb6hatm8a0x8eoaaf5v647', 
     category: ['vegetarian', 'paleo', 'gluten-free', 'pescatarian', 'keto-friendly'],    
     image: 'https://i.imgur.com/FlHntvu.jpg',
     qty: '1.0',
@@ -1814,7 +1651,6 @@ const Item = require('./models/item');
   { 
     name: 'kale salad', 
     calories: '84', 
-    edamanId: 'food_avmg2xfbv1p91yavoxjg7bddvfaz', 
     category: ['vegan', 'vegetarian', 'gluten-free', 'pescatarian', 'keto-friendly'],    
     image: 'https://i.imgur.com/qevUb9q.jpg',
     qty: '1.0',
@@ -1825,7 +1661,6 @@ const Item = require('./models/item');
   { 
     name: 'pasta salad', 
     calories: '407', 
-    edamanId: 'food_a8hs60uayl5icia1qe8qoba1kwp8', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/296/296ff2b02ef3822928c3c923e22c7d19.jpg',
     qty: '1.0',
@@ -1836,7 +1671,6 @@ const Item = require('./models/item');
   { 
     name: 'popcorn', 
     calories: '44', 
-    edamanId: 'food_btstgycbd4sqzma2c239qaeuy5at', 
     category: ['vegan', 'vegetarian'],    
     image: 'https://www.edamam.com/food-img/dd5/dd51dd3656053985cf1c47ca5c75c4db.jpg',
     qty: '1.0',
@@ -1847,7 +1681,6 @@ const Item = require('./models/item');
   { 
     name: 'potato salad', 
     calories: '358', 
-    edamanId: 'food_bd3p756b1ppc3ubsyus13bqd4nlq', 
     category: ['other'],    
     image: 'https://i.imgur.com/onjfXrD.jpg',
     qty: '1.0',
@@ -1858,7 +1691,6 @@ const Item = require('./models/item');
   { 
     name: 'sugar-free chocolate pudding', 
     calories: '70', 
-    edamanId: 'food_bo37p69bopqshvaul0bn4bv0kqni', 
     category: ['other'],    
     image: 'https://i.imgur.com/Fs7p6AM.jpg',
     qty: '1.0',
@@ -1869,7 +1701,6 @@ const Item = require('./models/item');
   { 
     name: 'sushi', 
     calories: '349', 
-    edamanId: 'food_bot0mjyb2tvaugbdj6pd5b0571yj', 
     category: ['other'],    
     image: 'https://i.imgur.com/1mcNKzB.jpg',
     qty: '1.0',
@@ -1880,7 +1711,6 @@ const Item = require('./models/item');
   { 
     name: 'turkey sandwich', 
     calories: '310', 
-    edamanId: 'food_a9rj5w6aiih82zbzhr0ujauniccy', 
     category: ['paleo'],    
     image: 'https://i.imgur.com/rdTk0p5.jpg',
     qty: '1.0',
@@ -1891,7 +1721,6 @@ const Item = require('./models/item');
   { 
     name: 'veggie pizza', 
     calories: '170', 
-    edamanId: 'food_aobepaeayqrwd9ab9zr8haovx9u7', 
     category: ['vegan', 'vegetarian', 'paleo', 'gluten-free', 'keto-friendly'],    
     image: 'https://i.imgur.com/UbwzRyf.jpg',
     qty: '1.0',
@@ -1902,7 +1731,6 @@ const Item = require('./models/item');
   { 
     name: 'black coffee with splenda, stevia, equal', 
     calories: '4', 
-    edamanId: 'food_b8xzxmtb5f98f1bqswelta92yfk6', 
     category: ['other'],    
     image: 'https://i.imgur.com/zLlnF7Y.jpg',
     qty: '1.0',
@@ -1913,7 +1741,6 @@ const Item = require('./models/item');
   { 
     name: 'tea with milk, splenda, stevia', 
     calories: '20', 
-    edamanId: 'food_b8xzxmtb5f98f1bqswelta92yfk6', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian', 'gluten-free', 'keto-friendly'],    
     image: 'https://i.imgur.com/GXMIOeR.jpg',
     qty: '1.0',
@@ -1924,7 +1751,6 @@ const Item = require('./models/item');
   { 
     name: 'chai tea', 
     calories: '4', 
-    edamanId: 'food_btq38w0axmrjyearqs6c8ayrmiy8', 
     category: ['vegan', 'vegetarian', 'paleo', 'gluten-free', 'keto-friendly'],    
     image: 'https://i.imgur.com/icQ4VWd.jpg',
     qty: '1.0',
@@ -1935,7 +1761,6 @@ const Item = require('./models/item');
   { 
     name: 'club soda', 
     calories: '150', 
-    edamanId: 'food_ae33wnvaild66dawgxsqlbcrp02x', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/0c7/0c7ea246f0c3b05641539fd1861c1c20.jpg',
     qty: '1.0',
@@ -1946,7 +1771,6 @@ const Item = require('./models/item');
   { 
     name: 'soda', 
     calories: '1', 
-    edamanId: 'food_ae33wnvaild66dawgxsqlbcrp02x', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/0c7/0c7ea246f0c3b05641539fd1861c1c20.jpg',
     qty: '1.0',
@@ -1957,7 +1781,6 @@ const Item = require('./models/item');
   { 
     name: 'diet soda', 
     calories: '1', 
-    edamanId: 'food_apeevqhakhtdtxaaj5vwcbgj6idg', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/9b4/9b4a1ab566697c212af64b33b3f6c938.jpg',
     qty: '1.0',
@@ -1968,7 +1791,6 @@ const Item = require('./models/item');
   { 
     name: 'IPA beer', 
     calories: '197', 
-    edamanId: 'food_b3ieo81b7uf59ya5529oobsaaqbu', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/7f8/7f82e3944cd8fcba3ffad7b6ce741c62.jpg',
     qty: '1.0',
@@ -1979,7 +1801,6 @@ const Item = require('./models/item');
   { 
     name: 'lager beer', 
     calories: '99', 
-    edamanId: 'food_apdzzzhaiwpy13akj1lucbiatrwe', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/7f8/7f82e3944cd8fcba3ffad7b6ce741c62.jpg',
     qty: '1.0',
@@ -1990,7 +1811,6 @@ const Item = require('./models/item');
   { 
     name: 'lemonade', 
     calories: '99', 
-    edamanId: 'food_bgtb3yaase2fz2adiqy3fbppepnj', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/311/3118a3ddad625ac41009a59ff610e6da.jpg',
     qty: '1.0',
@@ -2001,7 +1821,6 @@ const Item = require('./models/item');
   { 
     name: 'oat milk latte', 
     calories: '95', 
-    edamanId: 'food_aunfnxjahcjg50aaywnbsaa5jf14', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/457/457087c973dd41ba1b08854c355ec183.jpg',
     qty: '1.0',
@@ -2012,7 +1831,6 @@ const Item = require('./models/item');
   { 
     name: 'orange juice', 
     calories: '112', 
-    edamanId: 'food_bn7zicravp7kdrb8h9knhadt6kei', 
     category: ['vegan', 'vegetarian', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/011/011c0c3b0f3865bde575f57c556439e4.jpg',
     qty: '1.0',
@@ -2023,7 +1841,6 @@ const Item = require('./models/item');
   { 
     name: 'rum and diet coke', 
     calories: '87', 
-    edamanId: 'food_bi9pqpkbrb86k8aowifmbbxwzgng', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/eb5/eb51e606b36b62c66ea1a245ab0d4a8b.jpg',
     qty: '1.0',
@@ -2034,7 +1851,6 @@ const Item = require('./models/item');
   { 
     name: 'soy milk', 
     calories: '100', 
-    edamanId: 'food_ajck21hbpf1sb6amwkjimb6xl24j', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/8be/8bef4cf5daa1f41d90aff68c92ca56bc.jpg',
     qty: '1.0',
@@ -2045,7 +1861,6 @@ const Item = require('./models/item');
   { 
     name: 'super green smoothie', 
     calories: '112', 
-    edamanId: 'food_bhypx5aahx13snbg2kn00br14i86', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian', 'gluten-free', 'keto-friendly'],    
     image: 'https://i.imgur.com/r6SIBCq.jpg',
     qty: '1.0',
@@ -2056,7 +1871,6 @@ const Item = require('./models/item');
   { 
     name: 'tonic water', 
     calories: '114', 
-    edamanId: 'food_au3ld0ybd8hhrtbfpcbhya63cjps', 
     category: ['vegan', 'vegetarian', 'paleo', 'gluten-free', 'pescatarian', 'keto-friendly'],    
     image: 'https://www.edamam.com/food-img/b59/b59c5aed899795bee3f7778433b511e3.jpg',
     qty: '1.0',
@@ -2067,7 +1881,6 @@ const Item = require('./models/item');
   { 
     name: 'unsweetened apple juice', 
     calories: '114', 
-    edamanId: 'food_ai7w4okaoeknd5b5j9o66bm6nu10', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian', 'gluten-free', 'keto-friendly'],    
     image: 'https://www.edamam.com/food-img/324/32497d8cd6291a6f03acc032e1da7676.jpg',
     qty: '1.0',
@@ -2078,7 +1891,6 @@ const Item = require('./models/item');
   { 
     name: 'vodka soda', 
     calories: '54', 
-    edamanId: 'food_aqnx4i8aieyph2athk58cb3cr69w', 
     category: ['vegan', 'vegetarian', 'paleo', 'gluten-free', 'keto-friendly'],    
     image: 'https://www.edamam.com/food-img/e1a/e1a4708099e89fdadeb81c2d95deaa34.jpg',
     qty: '1.0',
@@ -2089,7 +1901,6 @@ const Item = require('./models/item');
   { 
     name: 'wine', 
     calories: '122', 
-    edamanId: 'food_bw5p1agbubb4dubpm8r0yax8fjco', 
     category: ['vegan', 'vegetarian', 'paleo', 'keto-friendly'],    
     image: 'https://www.edamam.com/food-img/aeb/aebdd2e72bc13fa8ca762a408b6e58b6.jpg',
     qty: '1.0',
@@ -2100,7 +1911,6 @@ const Item = require('./models/item');
   { 
     name: 'ginger ale', 
     calories: '124', 
-    edamanId: 'food_ae09oqiazn7tlbb0x5yiebtmfslr', 
     category: ['vegan', 'vegetarian', 'paleo', 'gluten-free', 'keto-friendly'],    
     image: 'https://www.edamam.com/food-img/81d/81d3a248c4ca048ffabc9551cc96217d.jpg',
     qty: '1.0',
@@ -2111,7 +1921,6 @@ const Item = require('./models/item');
   { 
     name: 'dried cranberries', 
     calories: '410', 
-    edamanId: 'food_atvsjvja2h9xyfblcy3pzaienr8a', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian', 'gluten-free', 'keto-friendly'],    
     image: 'https://www.edamam.com/food-img/8aa/8aa3935a527394e1568079a489759221.jpg',
     qty: '1.0',
@@ -2122,7 +1931,6 @@ const Item = require('./models/item');
   { 
     name: 'raisins', 
     calories: '956', 
-    edamanId: 'food_a3qcdxyb09op1hbwstv5cbmoqc3d', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian', 'gluten-free', 'keto-friendly'],    
     image: 'https://www.edamam.com/food-img/159/159e247350db62e1f87b0636a53687f5.jpg',
     qty: '1.0',
@@ -2133,7 +1941,6 @@ const Item = require('./models/item');
   { 
     name: 'french fries', 
     calories: '173', 
-    edamanId: 'food_aqa4qtwapci86kar0l275bjqmkal', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/559/559b143365bf3dde8d5889ec627e1da7.jpg',
     qty: '1.0',
@@ -2144,7 +1951,6 @@ const Item = require('./models/item');
   { 
     name: 'french onions', 
     calories: '584', 
-    edamanId: 'food_bmrvi4ob4binw9a5m7l07amlfcoy', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg',
     qty: '1.0',
@@ -2155,7 +1961,6 @@ const Item = require('./models/item');
   { 
     name: 'french pickles', 
     calories: '50', 
-    edamanId: 'food_agcb9ncbucn8q6bq32685ahulbnv', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/80b/80b1e5307815f0d9471d86c2e7c36167.jpg',
     qty: '1.0',
@@ -2166,7 +1971,6 @@ const Item = require('./models/item');
   { 
     name: 'sweet potato fries', 
     calories: '298', 
-    edamanId: 'food_brmeu40brd8pbub49ysvdb82ouiu', 
     category: ['vegan', 'vegetarian', 'paleo', 'pescatarian'],    
     image: 'https://www.edamam.com/food-img/c44/c44503b726d4379d7813de4ebdc0e76b.jpg',
     qty: '20.0',
@@ -2177,7 +1981,6 @@ const Item = require('./models/item');
   { 
     name: 'butter', 
     calories: '100', 
-    edamanId: 'food_awz3iefajbk1fwahq9logahmgltj', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/713/71397239b670d88c04faa8d05035cab4.jpg',
     qty: '1.0',
@@ -2188,7 +1991,6 @@ const Item = require('./models/item');
   { 
     name: 'cottage cheese', 
     calories: '214', 
-    edamanId: 'food_adqkk4ta6dggveb3hy192aqzdfnv', 
     category: ['other'],    
     image: 'https://i.imgur.com/WN4KFKg.jpg',
     qty: '1.0',
@@ -2199,7 +2001,6 @@ const Item = require('./models/item');
   { 
     name: 'dairy cream', 
     calories: '30', 
-    edamanId: 'food_bvhbvd7bwy6a7wamfrmvmbmen1sz', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/484/4848d71f6a14dd5076083f5e17925420.jpg',
     qty: '1.0',
@@ -2210,7 +2011,6 @@ const Item = require('./models/item');
   { 
     name: 'cream cheese', 
     calories: '51', 
-    edamanId: 'food_afw1vv1ac3l17wbn9gcq2autcc91', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
     qty: '1.0',
@@ -2221,7 +2021,6 @@ const Item = require('./models/item');
   { 
     name: 'cheddar cheese', 
     calories: '110', 
-    edamanId: 'food_ak5zq1kbxhob25bsqpc1ta89eswy', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/af8/af88890facab925abf729a73714f6ea9.png',
     qty: '1.0',
@@ -2232,7 +2031,6 @@ const Item = require('./models/item');
   { 
     name: 'full fat yogurt', 
     calories: '61', 
-    edamanId: 'food_bwav9tzazb4bjhamv1vk1ajgsgrw', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/9bd/9bd861dbd83731bc03091a30f09f9728.jpg',
     qty: '1.0',
@@ -2243,7 +2041,6 @@ const Item = require('./models/item');
   { 
     name: 'half and half', 
     calories: '18', 
-    edamanId: 'food_b32v6b1al0f6wwaxoeqwvau3fb44', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/c22/c22242b5b81b78d4cb2996946ee9459c.jpg',
     qty: '1.0',
@@ -2254,7 +2051,6 @@ const Item = require('./models/item');
   { 
     name: 'margarine', 
     calories: '102', 
-    edamanId: 'food_bmgvd8ebe85l7ybbyb7gob2y2w1k', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/e1d/e1deed85a7d1c9132466ea4513ee3070.jpg',
     qty: '1.0',
@@ -2265,7 +2061,6 @@ const Item = require('./models/item');
   { 
     name: 'sour cream', 
     calories: '24', 
-    edamanId: 'food_b7r68adakprkpxa1rd3rtb33wvaj', 
     category: ['other'],    
     image: 'https://i.imgur.com/R6Q4D7w.png',
     qty: '1.0',
@@ -2276,7 +2071,6 @@ const Item = require('./models/item');
   { 
     name: 'whole milk', 
     calories: '149', 
-    edamanId: 'food_brp5d14al1mexqa3m52cabvn94j3', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/e4f/e4f167fbcac1ff50cd68d187de638b35.jpg',
     qty: '1.0',
@@ -2287,7 +2081,6 @@ const Item = require('./models/item');
   { 
     name: 'all-purpose flour', 
     calories: '455', 
-    edamanId: 'food_ar3x97tbq9o9p6b6gzwj0am0c81l', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/368/368077bbcab62f862a8c766a56ea5dd1.jpg',
     qty: '1.0',
@@ -2298,7 +2091,6 @@ const Item = require('./models/item');
   { 
     name: 'bagel', 
     calories: '277', 
-    edamanId: 'food_abgmon9a80fjy1b5vyx0kawkj6n1', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/755/7553666b2864e4003538607529dcccde.jpg',
     qty: '1.0',
@@ -2309,7 +2101,6 @@ const Item = require('./models/item');
   { 
     name: 'flour tortilla', 
     calories: '159', 
-    edamanId: 'food_a9ql6pdb639bs5b2nlvbob3w0mlj', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/357/357e415685787e6d6844e8d08c1b1586.jpg',
     qty: '1.0',
@@ -2320,7 +2111,6 @@ const Item = require('./models/item');
   { 
     name: 'garlic bread', 
     calories: '206', 
-    edamanId: 'food_bq9xyjcbffze0tao2b3z8a646cp3', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/cac/cac9a071d5da19d9c8b8af9ddaa9a186.jpg',
     qty: '1.0',
@@ -2331,7 +2121,6 @@ const Item = require('./models/item');
   { 
     name: 'granola', 
     calories: '596', 
-    edamanId: 'food_b34qe9ya35sl0oawlmwdmaalkwhh', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/c1d/c1ddb4084dd26bd5fa47e01bb49ed6a8.jpg',
     qty: '1.0',
@@ -2342,7 +2131,6 @@ const Item = require('./models/item');
   { 
     name: 'muffins', 
     calories: '117', 
-    edamanId: 'food_bq9xyjcbffze0tao2b3z8a646cp3', 
     category: ['other'],    
     image: 'https://i.imgur.com/Kh1pyHK.jpg',
     qty: '1.0',
@@ -2353,7 +2141,6 @@ const Item = require('./models/item');
   { 
     name: 'banana bread', 
     calories: '247', 
-    edamanId: 'food_bjkzbiraxq9ak4bofb7jvaoxi3co', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/869/869d807713fe1d7daf40ed31b843245a.jpg',
     qty: '1.0',
@@ -2364,7 +2151,6 @@ const Item = require('./models/item');
   { 
     name: 'rolls and buns', 
     calories: '76', 
-    edamanId: 'food_bqej00dajarrgpb1l32xhacc4kbn', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/78f/78ffbae0365a1a431061ff397c3b6d38.jpg',
     qty: '1.0',
@@ -2375,7 +2161,6 @@ const Item = require('./models/item');
   { 
     name: 'sourdough', 
     calories: '116', 
-    edamanId: 'food_ay7f6vxa98k5w2ahve8h1ardjn1w', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/470/47053c77e167539c64fef3f2a3249bb2.jpg',
     qty: '1.0',
@@ -2386,7 +2171,6 @@ const Item = require('./models/item');
   { 
     name: 'sweetened oatmeal', 
     calories: '136', 
-    edamanId: 'food_bd8e66ca0ktqncbnahohzas7tgzg', 
     category: ['other'],    
     image: 'https://i.imgur.com/xMpbqrj.jpg',
     qty: '1.0',
@@ -2397,7 +2181,6 @@ const Item = require('./models/item');
   { 
     name: 'waffle', 
     calories: '218', 
-    edamanId: 'food_a9tbnggaptgl18ahj21qtbb0frw4', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/f0b/f0bbafeabcca46f1fcd1cea65794c524.png',
     qty: '1.0',
@@ -2408,7 +2191,6 @@ const Item = require('./models/item');
   { 
     name: 'white breads', 
     calories: '65', 
-    edamanId: 'food_a3049hmbqj5wstaeeb3udaz6uaqv', 
     category: ['other'],    
     image: 'https://www.edamam.com/food-img/886/886960f6ce6ccec5b9163bacf2996853.jpg',
     qty: '1.0',
@@ -2419,7 +2201,6 @@ const Item = require('./models/item');
   { 
     name: 'bacon', 
     calories: '53', 
-    edamanId: 'food_av0awb0bgs18qub01sd9kbx44b61', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/d42/d426884a125fa39a70d5a5d7217864ec.jpg',
     qty: '1.0',
@@ -2430,7 +2211,6 @@ const Item = require('./models/item');
   { 
     name: 'chicken nuggets', 
     calories: '490', 
-    edamanId: 'food_bdxovpmabzq0y1b37dux7abl5muq', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/853/853b7c281a7108739b5b987fe290e60e.jpg',
     qty: '10.0',
@@ -2441,7 +2221,6 @@ const Item = require('./models/item');
   { 
     name: 'chicken wings', 
     calories: '610', 
-    edamanId: 'food_bq5d8o7blzrbvbbhzxkcqa8l73oo', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/Yyb4biG.jpg',
     qty: '8.0',
@@ -2452,7 +2231,6 @@ const Item = require('./models/item');
   { 
     name: 'salami', 
     calories: '41', 
-    edamanId: 'food_ay3o058beyl53xa5sywkmatgkkqb', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/b1e/b1e1be598ceb08d50d9c1f5d49b49f6a.jpg',
     qty: '1.0',
@@ -2463,7 +2241,6 @@ const Item = require('./models/item');
   { 
     name: 'fried chicken', 
     calories: '49', 
-    edamanId: 'food_b8jhvptaeq7kaoa9j1153bea3gam', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/m7X3Xzh.jpg',
     qty: '1.0',
@@ -2474,7 +2251,6 @@ const Item = require('./models/item');
   { 
     name: 'fried shrimp', 
     calories: '38', 
-    edamanId: 'food_bydmueqafvx353bq5rz7yaq77zow', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/E76gqcA.jpg',
     qty: '1.0',
@@ -2485,7 +2261,6 @@ const Item = require('./models/item');
   { 
     name: 'hot dog(s)', 
     calories: '151', 
-    edamanId: 'food_bydmueqafvx353bq5rz7yaq77zow', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/VSFUN8V.jpg',
     qty: '1.0',
@@ -2496,7 +2271,6 @@ const Item = require('./models/item');
   { 
     name: 'meatballs', 
     calories: '81', 
-    edamanId: 'food_b0owswgby1gbeba6s0acma891a29', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/EM3l56C.jpg',
     qty: '1.0',
@@ -2507,7 +2281,6 @@ const Item = require('./models/item');
   { 
     name: 'pork belly', 
     calories: '335', 
-    edamanId: 'food_ax7kea5b64jkulbmusq5rbg8hr7o', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://www.edamam.com/food-img/fb4/fb445aa0a648d1cf83eca55a05c7ce77.jpg',
     qty: '1.0',
@@ -2518,7 +2291,6 @@ const Item = require('./models/item');
   { 
     name: 'pork ribs', 
     calories: '235', 
-    edamanId: 'food_aue7j55a5pvxara45jh19a5lz3ba', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/XMgjTN5.jpg',
     qty: '1.0',
@@ -2529,7 +2301,6 @@ const Item = require('./models/item');
   { 
     name: 'ground beef', 
     calories: '558', 
-    edamanId: 'food_bydmueqafvx353bq5rz7yaq77zow', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/7uCr8EC.jpg',
     qty: '1.0',
@@ -2540,7 +2311,6 @@ const Item = require('./models/item');
   { 
     name: 'beef brisket', 
     calories: '327', 
-    edamanId: 'food_bydmueqafvx353bq5rz7yaq77zow', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/vcyEIOC.jpg',
     qty: '1.0',
@@ -2551,7 +2321,6 @@ const Item = require('./models/item');
   { 
     name: 'beef jerky', 
     calories: '465', 
-    edamanId: 'food_bydmueqafvx353bq5rz7yaq77zow', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/QEchPPK.jpg',
     qty: '1.0',
@@ -2572,7 +2341,6 @@ const Item = require('./models/item');
   { 
     name: 'turkey bacon', 
     calories: '30', 
-    edamanId: 'food_bydmueqafvx353bq5rz7yaq77zow', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/t8hG5FI.jpg',
     qty: '1.0',
@@ -2583,7 +2351,6 @@ const Item = require('./models/item');
   { 
     name: 'potato soup', 
     calories: '572', 
-    edamanId: 'food_bydmueqafvx353bq5rz7yaq77zow', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/8hpPi1E.jpg',
     qty: '1.0',
@@ -2594,13 +2361,172 @@ const Item = require('./models/item');
   { 
     name: 'ramen', 
     calories: '30', 
-    edamanId: 'food_bydmueqafvx353bq5rz7yaq77zow', 
     category: ['keto-friendly', 'paleo'],    
     image: 'https://i.imgur.com/CFOEuiz.jpg',
     qty: '1.0',
     measurementType: 'Slice(s)',
     caloricDensity: 'red',
     foodType: 'soups'
+  },
+  { 
+    name: 'chutney', 
+    calories: '320', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/oKxe19Y.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'coconut milk', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
+  },
+  { 
+    name: 'chutney', 
+    calories: '30', 
+    category: ['keto-friendly', 'paleo'],    
+    image: 'https://i.imgur.com/CFOEuiz.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'condiments'
   },
 
   
