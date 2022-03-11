@@ -1426,6 +1426,94 @@ const Item = require('./models/item');
     caloricDensity: 'yellow',
     foodType: 'dairy'
   },
+  { 
+    name: 'canned corn', 
+    calories: '177', 
+    edamanId: 'food_b26mh3ubkdgxt3bcvqqu3a0mm6fr', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/59c/59c4373175b468d87ac76a43d4349b57.jpg',
+    qty: '1.0',
+    measurementType: 'Can',
+    caloricDensity: 'yellow',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'fried mushrooms', 
+    calories: '150', 
+    edamanId: 'food_b4dfihfa1ejmrpbq8ls53b0n1dmg', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/7dd/7ddc18efbecc5bb44fb638b2af17e148.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'grilled onions', 
+    calories: '211', 
+    edamanId: 'food_b5pq504arby3emb1a2mjjaar54l8', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/5f1/5f18e93c02bcf4eab14620febb53b5a2.png',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'roasted potatoes', 
+    calories: '180', 
+    edamanId: 'food_bbu83kha8tvy32br7mr28b4hdkp5', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/956/9561f54f6ba83ad619e9830487107b29.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'mashed potatoes', 
+    calories: '237', 
+    edamanId: 'food_bqgfv5na1p5qwgaddkx9xbe5bf4l', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/3ba/3bad90497524770195b335d288d4a7e1.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'plantains', 
+    calories: '205', 
+    edamanId: 'food_b5390qwao5mc3yanbn3a1afp6vs8', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/a89/a895e325e16d684d8df7786aa7898f73.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'yams', 
+    calories: '177', 
+    edamanId: 'food_bvm8fxwb5tu279am6lgw3bqvzqsb', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/530/5301e2fd59307812cbd5276de724d6aa.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'yellow',
+    foodType: 'vegetables'
+  },
+  { 
+    name: 'pickled beets', 
+    calories: '148', 
+    edamanId: 'food_a09hufoahq3o7latketmta9xeqo7', 
+    category: ['gluten-free', 'keto-friendly', 'paleo'],    
+    image: 'https://www.edamam.com/food-img/2c5/2c513e67af460b7f5ebe53028ceb8a37.jpg',
+    qty: '1.0',
+    measurementType: 'Cup Slices',
+    caloricDensity: 'yellow',
+    foodType: 'vegetables'
+  },
 
   
  
