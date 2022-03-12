@@ -2708,6 +2708,146 @@ const Item = require('./models/item');
     caloricDensity: 'red',
     foodType: 'snacks'
   },
+  { 
+    name: 'bourbon', 
+    calories: '97', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/ao8viaw.jpg',
+    qty: '1.0',
+    measurementType: 'Shot',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'chocolate milk', 
+    calories: '211', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/YnmWNIk.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'cocktails', 
+    calories: '110', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/zHgyKlj.jpg',
+    qty: '1.0',
+    measurementType: 'Serving (2 fl oz per Serving)',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'coffee creamers', 
+    calories: '20', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/b1YN8iZ.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'energy drink', 
+    calories: '111', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/6XKpV9a.jpg',
+    qty: '1.0',
+    measurementType: 'Can',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'grape juice', 
+    calories: '150', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/cmqvAJL.png',
+    qty: '1.0',
+    measurementType: 'Can',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'hot chocolate', 
+    calories: '151', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/Yq2Q2aF.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'margarita', 
+    calories: '226', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/KhcVi4h.jpg',
+    qty: '1.0',
+    measurementType: 'Cocktail',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'oat milk', 
+    calories: '95', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/zAzneYt.jpg',
+    qty: '1.0',
+    measurementType: 'Cocktail',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'protein shakes', 
+    calories: '171', 
+    category: ['keto-friendly'],    
+    image: 'https://i.imgur.com/xFrPiYm.jpg',
+    qty: '1.0',
+    measurementType: 'Bottle',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'red wine', 
+    calories: '165', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/c2tnkZw.jpg',
+    qty: '1.0',
+    measurementType: 'Wine Glass',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'regular sodas', 
+    calories: '150', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/2pVz8Kg.jpg',
+    qty: '1.0',
+    measurementType: 'Container',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'specialty coffee drinks', 
+    calories: '135', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/2pVz8Kg.jpg',
+    qty: '1.0',
+    measurementType: 'Serving (16.3 fl oz per Serving)',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
+  { 
+    name: 'whiskey', 
+    calories: '97', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/2pVz8Kg.jpg',
+    qty: '1.0',
+    measurementType: 'Shot Glass',
+    caloricDensity: 'red',
+    foodType: 'beverages'
+  },
 
   
  
