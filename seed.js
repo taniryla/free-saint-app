@@ -975,7 +975,7 @@ const Food = require('./models/food');
     qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'yellow',
-    foodType: 'fruits'
+    foodType: 'fruit'
   },
   { 
     name: 'avocado', 
@@ -1925,7 +1925,7 @@ const Food = require('./models/food');
     qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
-    foodType: 'fruits'
+    foodType: 'fruit'
   },
   { 
     name: 'raisins', 
@@ -1935,7 +1935,7 @@ const Food = require('./models/food');
     qty: 1,
     measurementType: 'Bowl',
     caloricDensity: 'red',
-    foodType: 'fruits'
+    foodType: ''
   },
   { 
     name: 'french fries', 
@@ -2352,7 +2352,7 @@ const Food = require('./models/food');
     calories: 572, 
     category: categories[4],    
     image: 'https://i.imgur.com/8hpPi1E.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Bowl',
     caloricDensity: 'red',
     foodType: 'soups'
@@ -2362,7 +2362,7 @@ const Food = require('./models/food');
     calories: 30, 
     category: categories[4],    
     image: 'https://i.imgur.com/CFOEuiz.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Slice(s)',
     caloricDensity: 'red',
     foodType: 'soups'
@@ -2372,7 +2372,7 @@ const Food = require('./models/food');
     calories: 320, 
     category: categories[4],    
     image: 'https://i.imgur.com/oKxe19Y.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2382,7 +2382,7 @@ const Food = require('./models/food');
     calories: 445, 
     category: categories[3],    
     image: 'https://i.imgur.com/xyPxFy5.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2392,7 +2392,7 @@ const Food = require('./models/food');
     calories: 41, 
     category: categories[0],    
     image: 'https://i.imgur.com/Tbqg9sn.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2402,7 +2402,7 @@ const Food = require('./models/food');
     calories: 60, 
     category: categories[3],    
     image: 'https://i.imgur.com/fI0jzBX.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2412,7 +2412,7 @@ const Food = require('./models/food');
     calories: 55, 
     category: categories[4],    
     image: 'https://i.imgur.com/59gvs0s.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2422,7 +2422,7 @@ const Food = require('./models/food');
     calories: 52, 
     category: categories[4],    
     image: 'https://i.imgur.com/n2HmFs5.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2432,7 +2432,7 @@ const Food = require('./models/food');
     calories: 11, 
     category: categories[4],    
     image: 'https://i.imgur.com/tCiUVV5.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2442,7 +2442,7 @@ const Food = require('./models/food');
     calories: 100, 
     category: categories[4],    
     image: 'https://i.imgur.com/ZHwgWrJ.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2452,7 +2452,7 @@ const Food = require('./models/food');
     calories: 124, 
     category: categories[0],    
     image: 'https://i.imgur.com/6iCg7BA.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2462,7 +2462,7 @@ const Food = require('./models/food');
     calories: 104, 
     category: categories[0],    
     image: 'https://i.imgur.com/oV0T5dd.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2472,7 +2472,7 @@ const Food = require('./models/food');
     calories: 40, 
     category: categories[0],    
     image: 'https://i.imgur.com/YVjWKk5.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2482,7 +2482,7 @@ const Food = require('./models/food');
     calories: 124, 
     category: categories[0],    
     image: 'https://i.imgur.com/cUtRHbn.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2492,7 +2492,7 @@ const Food = require('./models/food');
     calories: 124, 
     category: categories[0],    
     image: 'https://i.imgur.com/4lOTTke.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2502,7 +2502,7 @@ const Food = require('./models/food');
     calories: 64, 
     category: categories[4],    
     image: 'https://i.imgur.com/MTiBUDv.png',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2512,7 +2512,7 @@ const Food = require('./models/food');
     calories: 30, 
     category: categories[4],    
     image: 'https://i.imgur.com/83x0I7W.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2522,7 +2522,7 @@ const Food = require('./models/food');
     calories: 14, 
     category: categories[3],    
     image: 'https://i.imgur.com/b4lBwjD.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2532,7 +2532,7 @@ const Food = require('./models/food');
     calories: 17, 
     category: categories[4],    
     image: 'https://i.imgur.com/8MiuoEQ.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'condiments'
@@ -2542,7 +2542,7 @@ const Food = require('./models/food');
     calories: 10, 
     category: categories[4],    
     image: 'https://i.imgur.com/S7qVTsV.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Chip',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2552,7 +2552,7 @@ const Food = require('./models/food');
     calories: 148, 
     category: categories[4],    
     image: 'https://i.imgur.com/YtFgVYS.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2562,7 +2562,7 @@ const Food = require('./models/food');
     calories: 95, 
     category: categories[3],    
     image: 'https://i.imgur.com/0beepb7.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2572,7 +2572,7 @@ const Food = require('./models/food');
     calories: 642, 
     category: categories[3],    
     image: 'https://i.imgur.com/8661pj4.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2582,7 +2582,7 @@ const Food = require('./models/food');
     calories: 51, 
     category: categories[3],    
     image: 'https://i.imgur.com/hL8PeFU.jpg',
-    qty: '16.0',
+    qty: 16,
     measurementType: 'Almonds',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2592,7 +2592,7 @@ const Food = require('./models/food');
     calories: 726, 
     category: categories[3],    
     image: 'https://i.imgur.com/8MiuoEQ.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2602,7 +2602,7 @@ const Food = require('./models/food');
     calories: 160, 
     category: categories[3],    
     image: 'https://i.imgur.com/VrveQF3.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Serving (1 oz per Serving)',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2612,7 +2612,7 @@ const Food = require('./models/food');
     calories: 689, 
     category: categories[3],    
     image: 'https://i.imgur.com/p5tvp0v.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2622,7 +2622,7 @@ const Food = require('./models/food');
     calories: 11, 
     category: categories[4],    
     image: 'https://i.imgur.com/LTg7Gzu.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Pretzel',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2632,7 +2632,7 @@ const Food = require('./models/food');
     calories: 211, 
     category: categories[0],    
     image: 'https://i.imgur.com/wREg1zM.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Bar',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2642,7 +2642,7 @@ const Food = require('./models/food');
     calories: 699, 
     category: categories[3],    
     image: 'https://i.imgur.com/SdwHpfV.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2652,7 +2652,7 @@ const Food = require('./models/food');
     calories: 58, 
     category: categories[3],    
     image: 'https://i.imgur.com/bVds2ey.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2662,7 +2662,7 @@ const Food = require('./models/food');
     calories: 285, 
     category: categories[3],    
     image: 'https://i.imgur.com/8MiuoEQ.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2672,7 +2672,7 @@ const Food = require('./models/food');
     calories: 55, 
     category: categories[3],    
     image: 'https://i.imgur.com/8MiuoEQ.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2682,7 +2682,7 @@ const Food = require('./models/food');
     calories: 706, 
     category: categories[3],    
     image: 'https://i.imgur.com/YGZuBjN.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'snacks'
@@ -2692,7 +2692,7 @@ const Food = require('./models/food');
     calories: 97, 
     category: categories[4],    
     image: 'https://i.imgur.com/ao8viaw.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Shot',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2702,7 +2702,7 @@ const Food = require('./models/food');
     calories: 211, 
     category: categories[4],    
     image: 'https://i.imgur.com/YnmWNIk.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2712,7 +2712,7 @@ const Food = require('./models/food');
     calories: 110, 
     category: categories[4],    
     image: 'https://i.imgur.com/zHgyKlj.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Serving (2 fl oz per Serving)',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2722,7 +2722,7 @@ const Food = require('./models/food');
     calories: 20, 
     category: categories[0],    
     image: 'https://i.imgur.com/b1YN8iZ.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'tbsp',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2732,7 +2732,7 @@ const Food = require('./models/food');
     calories: 111, 
     category: categories[4],    
     image: 'https://i.imgur.com/6XKpV9a.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Can',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2742,7 +2742,7 @@ const Food = require('./models/food');
     calories: 150, 
     category: categories[4],    
     image: 'https://i.imgur.com/cmqvAJL.png',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Can',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2752,7 +2752,7 @@ const Food = require('./models/food');
     calories: 151, 
     category: categories[4],    
     image: 'https://i.imgur.com/Yq2Q2aF.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cup',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2762,7 +2762,7 @@ const Food = require('./models/food');
     calories: 226, 
     category: categories[4],    
     image: 'https://i.imgur.com/KhcVi4h.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cocktail',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2772,7 +2772,7 @@ const Food = require('./models/food');
     calories: 95, 
     category: categories[4],    
     image: 'https://i.imgur.com/zAzneYt.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Cocktail',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2782,7 +2782,7 @@ const Food = require('./models/food');
     calories: 171, 
     category: categories[0],    
     image: 'https://i.imgur.com/xFrPiYm.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Bottle',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2792,7 +2792,7 @@ const Food = require('./models/food');
     calories: 165, 
     category: categories[4],    
     image: 'https://i.imgur.com/c2tnkZw.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Wine Glass',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2802,7 +2802,7 @@ const Food = require('./models/food');
     calories: 150, 
     category: categories[4],    
     image: 'https://i.imgur.com/2pVz8Kg.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Container',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2812,7 +2812,7 @@ const Food = require('./models/food');
     calories: 135, 
     category: categories[4],    
     image: 'https://i.imgur.com/2pVz8Kg.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Serving (16.3 fl oz per Serving)',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2822,7 +2822,7 @@ const Food = require('./models/food');
     calories: 97, 
     category: categories[4],    
     image: 'https://i.imgur.com/2pVz8Kg.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Shot Glass',
     caloricDensity: 'red',
     foodType: 'beverages'
@@ -2832,7 +2832,7 @@ const Food = require('./models/food');
     calories: 157, 
     category: categories[4],    
     image: 'https://i.imgur.com/wdZ3Wa3.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Slice(s)',
     caloricDensity: 'red',
     foodType: 'desserts'
@@ -2842,7 +2842,7 @@ const Food = require('./models/food');
     calories: 97, 
     category: categories[4],    
     image: 'https://i.imgur.com/ISMtWRY.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Brownie',
     caloricDensity: 'red',
     foodType: 'desserts'
@@ -2852,7 +2852,7 @@ const Food = require('./models/food');
     calories: 24, 
     category: categories[4],    
     image: 'https://i.imgur.com/sDkJZxW.jpg',
-    qty: '1.0',
+    qty: 1,
     measurementType: 'Candy',
     caloricDensity: 'red',
     foodType: 'desserts'

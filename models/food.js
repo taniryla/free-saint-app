@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 const itemSchema = require('./itemSchema');
 
 const lineItemSchema = new Schema({
-  item: itemSchema
+  item: itemSchema,
   qty: { type: Number, default: 1 },
 }, {
   timestamps: true,
@@ -28,7 +28,7 @@ const foodSchema = new Schema({
   foodType: {
     type: String,
     required: true,
-    enum: ['fruit', 'grains', 'beverages', 'vegetables', 'meat protein', 'dairy', 'soups', 'snacks', 'condiments', 'legumes and seeds']
+    enum: ['fruit', 'grains', 'beverages', 'vegetables', 'meat protein', 'dairy', 'soups', 'snacks', 'condiments', 'legume and seeds']
   },
   isLogged: { type: Boolean, default: false }
 }, {
