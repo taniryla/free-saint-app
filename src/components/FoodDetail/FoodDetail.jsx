@@ -1,15 +1,19 @@
 import './FoodDetail.css';
 import LineItem from '../LineItem/LineItem';
+import { useContext } from 'react';
+import FoodContext from '../../context/FoodContext/FoodContext';
 
 // Used to display the details of any food, including the logged food 
-export default function FoodDetail({ food, handleChangeQty, handleFoodLog }) {
+export default function FoodDetail({ food }) {
+  const { handleFoodLog } = useContext(FoodContext);
+
+
   if (!food) return null;
 
   const lineItems = food.lineItems.map(item =>
     <LineItem
       lineItem={item}
       isLogged={food.isLogged}
-      handleChangeQty={handleChangeQty}
       key={item._id}
     />
   );

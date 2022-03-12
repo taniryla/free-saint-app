@@ -8,8 +8,8 @@ export default function FoodListItem() {
 
   
     return (
-      {edamanData.map(data => {
       <>
+      {edamanData.map(data => {
         <div className='FoodListItem grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2'>
            <img src={data.image} alt="Food Image" />
             <div className="name">{data.name}</div>
@@ -20,8 +20,8 @@ export default function FoodListItem() {
                    </button>
               </div>
         </div> 
-      </>
       })} 
+      </>
       )
   
 }

@@ -5,7 +5,7 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 
 
 export default function FoodList() {
-  const { foodItems } = useContext(FoodContext);
+  const { foodItems, handleSelectFood } = useContext(FoodContext);
 
 
   const items = foodItems && foodItems.map(item =>

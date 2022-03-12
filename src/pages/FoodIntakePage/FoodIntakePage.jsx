@@ -1,8 +1,8 @@
-import { useContext, useEffect, useRef } from 'react';
+import { useContext, useEffect } from 'react';
 import * as itemsAPI from '../../utilities/items-api';
 import * as foodAPI from '../../utilities/food-api';
 import './FoodIntakePage.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from '../../components/Logo/Logo';
 import FoodList from '../../components/FoodList/FoodList';
 import CategoryList from '../../components/CategoryList/CategoryList';
@@ -11,10 +11,8 @@ import SearchBar from '../../components/SearchBar/SearchBar';
 import FoodContext from '../../context/FoodContext/FoodContext';
 
 export default function FoodIntakePage() {
-  const { edamanData, setFoodItems, setActiveCat, setLog, foodItems, activeCat, log } = useContext(FoodContext);
+  const { categoriesRef, setFoodItems, setActiveCat, setLog, foodItems, activeCat, log } = useContext(FoodContext);
 
-  const categoriesRef = useRef([]);
-  const navigate = useNavigate();
 
   
   useEffect(function() {
@@ -59,8 +57,6 @@ export default function FoodIntakePage() {
       />
       <FoodDetail
         food={log}
-        handleChangeQty={handleChangeQty}
-        handleFoodLog={handleFoodLog}
       />
     </main>
   );

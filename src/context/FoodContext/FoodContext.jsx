@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState , useRef} from 'react';
 import * as foodAPI from '../../utilities/food-api';
 import * as itemsAPI from '../../utilities/items-api';
-
+import { useNavigate } from 'react-router-dom';
 
 
 const FoodContext = createContext();
@@ -11,10 +11,7 @@ const EDAMAN_APP_KEY = process.env.REACT_APP_EDAMAN_APP_KEY
 
 
 export const FoodProvider = ({ children }) => {
-    // Edaman
-    const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
-    // const [searchWord, setSearchWord] = useState('');
     // FoodIntake
     const [foodItems, setFoodItems] = useState([]);
     const [activeCat, setActiveCat] = useState('');
@@ -23,6 +20,8 @@ export const FoodProvider = ({ children }) => {
     const [foods, setFoods] = useState([]);
     const [activeFood, setActiveFood] = useState(null);
     const categoriesRef = useRef([]);
+    const navigate = useNavigate();
+
 
     useEffect(function() {
       async function getItems() {
@@ -36,7 +35,7 @@ export const FoodProvider = ({ children }) => {
       }
       getItems();
       async function getFoodLog() {
-        const log = await ordersAPI.getFoodLog();
+        const log = await foodAPI.getFoodLog();
         setLog(log);
       }
       getFoodLog();
@@ -65,7 +64,6 @@ async function handleFoodLog() {
       return (
         <FoodContext.Provider
           value={{
-            data,
             loading,
             setLoading,
             foods,
@@ -75,18 +73,16 @@ async function handleFoodLog() {
             setActiveFood,
             // handleSelectFood,
             // categories,
-            fetchEdamanData,
             foodItems,
             log,
             setLog,
             activeCat,
             setActiveCat,
             setFoodItems,
-            searchWord,
-            setSearchWord,
             handleAddToFoodLog,
             handleChangeQty,
-            handleFoodLog
+            handleFoodLog,
+            categoriesRef
           }}
         >
           {children}

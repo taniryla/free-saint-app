@@ -1,6 +1,12 @@
 import './LineItem.css';
+import { useContext } from 'react';
+import FoodContext from '../../context/FoodContext/FoodContext';
 
-export default function LineItem({ lineItem, isLogged, handleChangeQty }) {
+
+export default function LineItem({ isLogged, lineItem }) {
+  const { handleChangeQty, handleFoodLog} = useContext(FoodContext);
+
+
   return (
     <div className="LineItem">
       <div className="flex-ctr-ctr">{lineItem.item.emoji}</div>

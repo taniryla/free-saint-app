@@ -5,8 +5,13 @@ import * as foodAPI from '../../utilities/food-api';
 import Logo from '../../components/Logo/Logo';
 import FoodList from '../../components/FoodList/FoodList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
+import { useContext } from 'react';
+import FoodContext from '../../context/FoodContext/FoodContext';
 
-export default function FoodHistoryPage({ user, setUser, setFoods, setActiveFood, activeFood }) {
+export default function FoodHistoryPage() {
+  const { setFoods, setActiveFood, activeFood } = useContext(FoodContext);
+
+
   useEffect(function () {
     // Load previous foods
     async function fetchFoodLogHistory() {
@@ -32,7 +37,6 @@ export default function FoodHistoryPage({ user, setUser, setFoods, setActiveFood
         {/* <UserLogOut user={user} setUser={setUser} /> */}
       </aside>
       <FoodList
-        handleSelectFood={handleSelectFood}
       />
       <FoodDetail
         food={activeFood}
