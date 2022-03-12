@@ -28,7 +28,7 @@ const foodSchema = new Schema({
   foodType: {
     type: String,
     required: true,
-    enum: ['fruit', 'grains', 'beverages', 'vegetables', 'meat proteins', 'dariy', 'soups', 'snacks', 'condiments', 'legumes and seeds']
+    enum: ['fruit', 'grains', 'beverages', 'vegetables', 'meat protein', 'dairy', 'soups', 'snacks', 'condiments', 'legumes and seeds']
   },
   isLogged: { type: Boolean, default: false }
 }, {

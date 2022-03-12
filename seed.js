@@ -1105,7 +1105,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'salmon fillet', 
@@ -1115,7 +1115,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Fillet',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'smoked salmon', 
@@ -1125,7 +1125,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Piece',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'tuna salad', 
@@ -1135,7 +1135,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'roast beef', 
@@ -1145,7 +1145,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Slice (7 oz per Slice)',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'beef steak', 
@@ -1155,7 +1155,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Serving (6 oz per Serving)',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'rotisserie chicken', 
@@ -1165,7 +1165,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Chicken',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'chicken', 
@@ -1175,7 +1175,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'turkey breast', 
@@ -1185,7 +1185,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Serving (4 oz per Serving)',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'ground turkey', 
@@ -1195,7 +1195,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Patty',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'turkey sausage', 
@@ -1205,7 +1205,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Link',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'egg salad', 
@@ -1215,7 +1215,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'hard boiled egg', 
@@ -1225,7 +1225,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Egg',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'lean pork loin', 
@@ -1235,7 +1235,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Serving (4 oz per Serving)',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'lean pork chop', 
@@ -1245,7 +1245,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'pulled pork', 
@@ -1255,7 +1255,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'yellow',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'low fat cottage cheese', 
@@ -2205,7 +2205,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Slice(s)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'chicken nuggets', 
@@ -2215,7 +2215,7 @@ const Item = require('./models/item');
     qty: '10.0',
     measurementType: 'Nuggets',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'chicken wings', 
@@ -2225,7 +2225,7 @@ const Item = require('./models/item');
     qty: '8.0',
     measurementType: 'Wing(s)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'salami', 
@@ -2235,7 +2235,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Slice(s)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'fried chicken', 
@@ -2245,7 +2245,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Piece(s)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'fried shrimp', 
@@ -2255,7 +2255,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Piece(s)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'hot dog(s)', 
@@ -2265,7 +2265,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Hot Dog(s)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'meatballs', 
@@ -2275,7 +2275,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Meatball(s)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'pork belly', 
@@ -2285,7 +2285,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Serving (4 oz per Serving)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'pork ribs', 
@@ -2295,7 +2295,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Rib(s)',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'ground beef', 
@@ -2305,7 +2305,7 @@ const Item = require('./models/item');
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'red',
-    foodType: 'meat proteins'
+    foodType: 'meat protein'
   },
   { 
     name: 'beef brisket', 
