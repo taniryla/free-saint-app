@@ -6,9 +6,6 @@ import { useNavigate } from 'react-router-dom';
 
 const FoodContext = createContext();
 
-const EDAMAN_APP_ID = process.env.REACT_APP_EDAMAN_APP_ID
-const EDAMAN_APP_KEY = process.env.REACT_APP_EDAMAN_APP_KEY
-
 
 export const FoodProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
@@ -42,8 +39,6 @@ export const FoodProvider = ({ children }) => {
     }, []);
 
       
-    
-   
 
  /*-- Event Handlers --*/
  async function handleAddToFoodLog(itemId) {
@@ -61,6 +56,10 @@ async function handleFoodLog() {
   navigate('/foods');
 }
 
+function handleSelectFood(food) {
+  setActiveFood(food);
+}
+
       return (
         <FoodContext.Provider
           value={{
@@ -68,10 +67,10 @@ async function handleFoodLog() {
             setLoading,
             foods,
             setFoods,
-            // food,
+            food,
             activeFood,
             setActiveFood,
-            // handleSelectFood,
+            handleSelectFood,
             // categories,
             foodItems,
             log,

@@ -4,7 +4,7 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 
 
 export default function LineItem({ isLogged, lineItem }) {
-  const { handleChangeQty, handleFoodLog} = useContext(FoodContext);
+  const { handleChangeQty } = useContext(FoodContext);
 
 
   return (

@@ -19,7 +19,7 @@ const Item = require('./models/item');
   const items = await Item.create([   
   { 
     name: 'banana', 
-    calories: '105', 
+    calories: 105, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/9f6/9f6181163a25c96022ee3fc66d9ebb11.jpg',
     qty: '1.0',
@@ -29,7 +29,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'apple', 
-    calories: '95', 
+    calories: 95, 
     category: categories[3],    
     image: 'https://i.imgur.com/9FA0UAw.jpg',
     qty: '1.0',
@@ -39,7 +39,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'asparagus', 
-    calories: '48', 
+    calories: 48, 
     category: categories[3],    
     image: 'https://i.imgur.com/uTmBbn7.jpg',
     qty: '12.0',
@@ -49,7 +49,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'broccoli', 
-    calories: '105', 
+    calories: 105, 
     category: categories[3],    
     image: 'https://i.imgur.com/p2s7tAp.jpg',
     qty: '30.0',
@@ -59,7 +59,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'grapefruit', 
-    calories: '104', 
+    calories: 104, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/ac6/ac6139365343036d75bd5999cca5145f.jpg',
     qty: '1.0',
@@ -69,7 +69,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'blueberries', 
-    calories: '80', 
+    calories: 80, 
     category: categories[3],    
     image: 'https://i.imgur.com/zCgb9xN.jpg',
     qty: '1.0',
@@ -79,7 +79,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cherries', 
-    calories: '134', 
+    calories: 134, 
     category: categories[3],    
     image: 'https://i.imgur.com/aL9bKNf.jpg',
     qty: '20.0',
@@ -89,7 +89,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cherry tomatoes', 
-    calories: '27', 
+    calories: 27, 
     category: categories[3],    
     image: 'https://i.imgur.com/AzXfwbU.jpg',
     qty: '1.0',
@@ -99,7 +99,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cucumber', 
-    calories: '18', 
+    calories: 18, 
     category: categories[3],    
     image: 'https://i.imgur.com/lzc34x9.jpg',
     qty: '1.0',
@@ -109,7 +109,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'grapes', 
-    calories: '54', 
+    calories: 54, 
     category: categories[3],    
     image: 'https://i.imgur.com/hxWYSTQ.jpg',
     qty: '16.0',
@@ -119,7 +119,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'mango', 
-    calories: '201', 
+    calories: 201, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/6e0/6e04857756d0876f14bfc035ff238e0b.png',
     qty: '1.0',
@@ -129,7 +129,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'mixed berries', 
-    calories: '65', 
+    calories: 65, 
     category: categories[3],    
     image: 'https://i.imgur.com/KG1Ip0C.jpg',
     qty: '1.0',
@@ -139,7 +139,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pear', 
-    calories: '84', 
+    calories: 84, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/65a/65aec51d264db28bbe27117c9fdaaca7.jpg',
     qty: '1.0',
@@ -149,7 +149,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pineapple', 
-    calories: '82', 
+    calories: 82, 
     category: categories[3],    
     image: 'https://i.imgur.com/mdOVxbl.jpg',
     qty: '1.0',
@@ -159,7 +159,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pomegranate', 
-    calories: '144', 
+    calories: 144, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/342/342903acce5f863b7683cff3644931a8.jpg',
     qty: '1.0',
@@ -169,7 +169,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'raspberries', 
-    calories: '56', 
+    calories: 56, 
     category: categories[3],    
     image: 'https://i.imgur.com/Ihxmy0d.jpg',
     qty: '4.0',
@@ -179,7 +179,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'strawberries', 
-    calories: '58', 
+    calories: 58, 
     category: categories[3],    
     image: 'https://i.imgur.com/bnfo6Eu.jpg',
     qty: '10.0',
@@ -189,7 +189,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tomatoes', 
-    calories: '22', 
+    calories: 22, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/23e/23e727a14f1035bdc2733bb0477efbd2.jpg',
     qty: '1.0',
@@ -199,7 +199,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'watermelon', 
-    calories: '46', 
+    calories: 46, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/e83/e83c09ce97ecd44e00b8c561ab682202.jpg',
     qty: '1.0',
@@ -209,7 +209,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'barley', 
-    calories: '193', 
+    calories: 193, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/9b1/9b1add099acc71e8e7a31be0729b6936.jpg',
     qty: '1.0',
@@ -219,7 +219,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'bread wheat sprouted', 
-    calories: '110', 
+    calories: 110, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/886/886960f6ce6ccec5b9163bacf2996853.jpg',
     qty: '1.0',
@@ -229,7 +229,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'brown cooked rice', 
-    calories: '327', 
+    calories: 327, 
     category: categories[4],    
     image: 'https://i.imgur.com/C4iUEme.jpg',
     qty: '1.0',
@@ -239,7 +239,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cooked oatmeal', 
-    calories: '166', 
+    calories: 166, 
     category: categories[4],    
     image: 'https://i.imgur.com/xMpbqrj.jpg',
     qty: '1.0',
@@ -249,7 +249,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'corn tortillas', 
-    calories: '208', 
+    calories: 208, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/b8a/b8ad23dcc06f2324f944e47eb579d644.jpg',
     qty: '4.0',
@@ -259,7 +259,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'grits', 
-    calories: '151', 
+    calories: 151, 
     category: categories[4],    
     image: 'https://i.imgur.com/4CaUgiS.jpg',
     qty: '1.0',
@@ -269,7 +269,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'quinoa', 
-    calories: '222', 
+    calories: 222, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/e02/e02246c3856098598f4b7e04fd2d4e4e.jpg',
     qty: '1.0',
@@ -279,7 +279,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'soba noodles', 
-    calories: '113', 
+    calories: 113, 
     category: categories[4],    
     image: 'https://i.imgur.com/itE7fla.jpg',
     qty: '1.0',
@@ -289,7 +289,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'whole grain english muffin', 
-    calories: '134', 
+    calories: 134, 
     category: categories[4],    
     image: 'https://i.imgur.com/5A92HjW.jpg',
     qty: '1.0',
@@ -299,7 +299,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'whole grain pasta', 
-    calories: '238', 
+    calories: 238, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/738/73846a8750bb3134aada6b711dc2919d.jpg',
     qty: '1.0',
@@ -309,7 +309,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'whole grain wheat bread', 
-    calories: '100', 
+    calories: 100, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/886/886960f6ce6ccec5b9163bacf2996853.jpg',
     qty: '1.0',
@@ -319,7 +319,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'almond milk', 
-    calories: '56', 
+    calories: 56, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/b26/b267bf598feaabd7349fddda7a481f00.jpg',
     qty: '1.0',
@@ -329,7 +329,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'coffee', 
-    calories: '2', 
+    calories: 2, 
     category: categories[4],    
     image: 'https://i.imgur.com/3HBIilN.jpg',
     qty: '1.0',
@@ -339,7 +339,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'kombucha', 
-    calories: '34', 
+    calories: 34, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/2e2/2e2fe81e1b63a61f6e4adec76220a11b.jpg',
     qty: '1.0',
@@ -349,7 +349,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'smoothie, fruit only', 
-    calories: '161', 
+    calories: 161, 
     category: categories[3],    
     image: 'https://i.imgur.com/uKEja8w.jpg',
     qty: '1.0',
@@ -359,7 +359,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'soy latte', 
-    calories: '148', 
+    calories: 148, 
     category: categories[4],    
     image: 'https://i.imgur.com/QhCgS93.jpg',
     qty: '1.0',
@@ -369,7 +369,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tea', 
-    calories: '2', 
+    calories: 2, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/793/79376cb6e124624e22780db7401601a4.jpg',
     qty: '1.0',
@@ -379,7 +379,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'vegetable juice', 
-    calories: '56', 
+    calories: 56, 
     category: categories[3],    
     image: 'https://i.imgur.com/Xeh9FpH.jpg',
     qty: '1.0',
@@ -389,7 +389,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'bell peppers', 
-    calories: '32', 
+    calories: 32, 
     category: categories[3],    
     image: 'https://i.imgur.com/X7ClNqb.jpg',
     qty: '1.0',
@@ -399,7 +399,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'brussel sprouts', 
-    calories: '28', 
+    calories: 28, 
     category: categories[3],    
     image: 'https://i.imgur.com/G54xFSh.jpg',
     qty: '1.0',
@@ -409,7 +409,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cabbage', 
-    calories: '22', 
+    calories: 22, 
     category: categories[3],    
     image: 'https://i.imgur.com/ZJufHs3.jpg',
     qty: '1.0',
@@ -419,7 +419,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'carrots', 
-    calories: '100', 
+    calories: 100, 
     category: categories[3],    
     image: 'https://i.imgur.com/0XqAZ7e.jpg',
     qty: '4.0',
@@ -429,7 +429,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cauliflower', 
-    calories: '3', 
+    calories: 3, 
     category: categories[3],    
     image: 'https://i.imgur.com/vdmO2Nb.jpg',
     qty: '1.0',
@@ -439,7 +439,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'celery', 
-    calories: '6', 
+    calories: 6, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/d91/d91d2aed1c36d8fad54c4d7dc58f5a18.jpg',
     qty: '1.0',
@@ -449,7 +449,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'green beans', 
-    calories: '44', 
+    calories: 44, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/891/89135f10639878a2360e6a33c9af3d91.jpg',
     qty: '1.0',
@@ -459,7 +459,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'green salad', 
-    calories: '34', 
+    calories: 34, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/b6d/b6d9f3052d27a3c71220cfa55c6f0a42.jpg',
     qty: '3.0',
@@ -469,7 +469,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'kale', 
-    calories: '18', 
+    calories: 18, 
     category: categories[3],    
     image: 'https://i.imgur.com/qevUb9q.jpg',
     qty: '1.0',
@@ -479,7 +479,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lettuce', 
-    calories: '8', 
+    calories: 8, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/719/71996625d0cb47e197093ecd52c97dc2.jpg',
     qty: '1.0',
@@ -489,7 +489,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'mixed greens', 
-    calories: '8', 
+    calories: 8, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/b6d/b6d9f3052d27a3c71220cfa55c6f0a42.jpg',
     qty: '1.0',
@@ -499,7 +499,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'mushrooms', 
-    calories: '15', 
+    calories: 15, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/d63/d639cf4a2afc7407c1d1ce286028136b.jpg',
     qty: '1.0',
@@ -509,7 +509,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'onion', 
-    calories: '28', 
+    calories: 28, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg',
     qty: '1.0',
@@ -519,7 +519,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'peas', 
-    calories: '134', 
+    calories: 134, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/5ed/5ed641d646c028598a90bdb9ece34fc8.jpg',
     qty: '1.0',
@@ -529,7 +529,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'potatoes', 
-    calories: '158', 
+    calories: 158, 
     category: categories[3],    
     image: 'https://i.imgur.com/mdRwfHb.jpg',
     qty: '1.0',
@@ -539,7 +539,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'spaghetti squash', 
-    calories: '126', 
+    calories: 126, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/bc0/bc073855712255d9478fb9baec6f2afc.jpg',
     qty: '1.0',
@@ -549,7 +549,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'spinach', 
-    calories: '82', 
+    calories: 82, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/e6e/e6e4be375c4554ce01c8ea75232efaa6.jpg',
     qty: '1.0',
@@ -559,7 +559,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sweet potatoes', 
-    calories: '110', 
+    calories: 110, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/b66/b660e3d37b4ea9d58cb98e8ea73933b6.jpg',
     qty: '1.0',
@@ -569,7 +569,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'zucchini', 
-    calories: '21', 
+    calories: 21, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/f63/f637280594e4a731eccc1199194a8847.jpg',
     qty: '1.0',
@@ -579,7 +579,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'boiled or grilled lobster', 
-    calories: '286', 
+    calories: 286, 
     category: categories[2],    
     image: 'https://i.imgur.com/p1qj3K2.jpg',
     qty: '1.0',
@@ -589,7 +589,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'boiled or grilled mahi-mahi', 
-    calories: '85', 
+    calories: 85, 
     category: categories[2],    
     image: 'https://i.imgur.com/ftoRavM.png',
     qty: '1.0',
@@ -599,7 +599,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cooked shrimp', 
-    calories: '105', 
+    calories: 105, 
     category: categories[2],    
     image: 'https://i.imgur.com/hVSa3TU.jpg',
     qty: '20.0',
@@ -609,7 +609,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'crab', 
-    calories: '98', 
+    calories: 98, 
     category: categories[2],    
     image: 'https://i.imgur.com/468i5D5.jpg',
     qty: '1.0',
@@ -619,7 +619,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'egg whites', 
-    calories: '17', 
+    calories: 17, 
     category: categories[1],    
     image: 'https://i.imgur.com/8vIBdK6.jpg',
     qty: '1.0',
@@ -629,7 +629,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'low sodium black beans', 
-    calories: '218', 
+    calories: 218, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/850/8505bc3d47bbc820b69d532202f61ce1.jpg',
     qty: '1.0',
@@ -639,7 +639,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'oysters', 
-    calories: '11', 
+    calories: 11, 
     category: categories[2],    
     image: 'https://i.imgur.com/LC0kzKv.jpg',
     qty: '1.0',
@@ -649,7 +649,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tofu', 
-    calories: '177', 
+    calories: 177, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/b6a/b6ae13c3cfe37e16f820840f90231bff.jpg',
     qty: '0.5',
@@ -659,7 +659,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'white fish fillet', 
-    calories: '265', 
+    calories: 265, 
     category: categories[2],    
     image: 'https://i.imgur.com/xzWCqkN.jpg',
     qty: '1.0',
@@ -669,7 +669,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat skim milk', 
-    calories: '90', 
+    calories: 90, 
     category: categories[1],    
     image: 'https://www.edamam.com/food-img/525/525c95190fa7373279ac4c9cbfa436a4.jpg',
     qty: '1.0',
@@ -679,7 +679,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat cheese sticks and slices', 
-    calories: '298', 
+    calories: 298, 
     category: categories[1],    
     image: 'https://www.edamam.com/food-img/cc3/cc3c4827d251d79eed1ff87c1861aa34.jpg',
     qty: '1.0',
@@ -689,7 +689,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat cottage cheese', 
-    calories: '160', 
+    calories: 160, 
     category: categories[1],    
     image: 'https://i.imgur.com/WN4KFKg.jpg',
     qty: '1.0',
@@ -699,7 +699,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat cream cheese spread', 
-    calories: '302', 
+    calories: 302, 
     category: categories[1],    
     image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
     qty: '1.0',
@@ -709,7 +709,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat greek yogurt', 
-    calories: '160', 
+    calories: 160, 
     category: categories[1],    
     image: 'https://i.imgur.com/PfUS8pX.jpg',
     qty: '1.0',
@@ -719,7 +719,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat half and half', 
-    calories: '10', 
+    calories: 10, 
     category: categories[1],    
     image: 'https://i.imgur.com/Q8oEeSR.jpg',
     qty: '1.0',
@@ -729,7 +729,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat sour cream', 
-    calories: '12', 
+    calories: 12, 
     category: categories[1],    
     image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
     qty: '1.0',
@@ -739,7 +739,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'non-fat yogurt', 
-    calories: '173', 
+    calories: 173, 
     category: categories[1],    
     image: 'https://i.imgur.com/WN4KFKg.jpg',
     qty: '1.0',
@@ -749,7 +749,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chicken bone broth', 
-    calories: '41', 
+    calories: 41, 
     category: categories[1],    
     image: 'https://www.edamam.com/food-img/e61/e6184a8681b772e5198ef0ca1919e1b7.jpg',
     qty: '1.0',
@@ -759,7 +759,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'beef bone broth', 
-    calories: '35', 
+    calories: 35, 
     category: categories[1],    
     image: 'https://www.edamam.com/food-img/e61/e6184a8681b772e5198ef0ca1919e1b7.jpg',
     qty: '1.0',
@@ -769,7 +769,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'vegetable bone broth', 
-    calories: '13', 
+    calories: 13, 
     category: categories[3],    
     image: 'https://i.imgur.com/E5Ft0QE.jpg',
     qty: '1.0',
@@ -779,7 +779,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'butternut squash soup', 
-    calories: '220', 
+    calories: 220, 
     category: categories[3],    
     image: 'https://i.imgur.com/cHMMXMW.jpg',
     qty: '1.0',
@@ -789,7 +789,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cabbage soup', 
-    calories: '50', 
+    calories: 50, 
     category: categories[3],    
     image: 'https://i.imgur.com/5B1qf3J.jpg',
     qty: '1.0',
@@ -799,7 +799,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'homemade chicken noodle soup', 
-    calories: '100', 
+    calories: 100, 
     category: categories[1],    
     image: 'https://i.imgur.com/9q8UAPz.jpg',
     qty: '1.0',
@@ -809,7 +809,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'miso soup', 
-    calories: '59', 
+    calories: 59, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/352/3525e5a38bb13c74aa34ef6c0273bf33.jpg',
     qty: '1.0',
@@ -819,7 +819,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'spinach soup', 
-    calories: '73', 
+    calories: 73, 
     category: categories[3],    
     image: 'https://i.imgur.com/n9AGSGk.jpg',
     qty: '1.0',
@@ -829,7 +829,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tomato and lentil soup', 
-    calories: '86', 
+    calories: 86, 
     category: categories[3],    
     image: 'https://i.imgur.com/3k4Jx8B.jpg',
     qty: '1.0',
@@ -839,7 +839,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'vegetable barley soup', 
-    calories: '190', 
+    calories: 190, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/32b/32baf9bd687a56afd88f726a6dc69882.jpg',
     qty: '1.0',
@@ -849,7 +849,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'vegetable pho', 
-    calories: '352', 
+    calories: 352, 
     category: categories[3],    
     image: 'https://i.imgur.com/3dka0Gm.jpg',
     qty: '1.0',
@@ -859,7 +859,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pickles', 
-    calories: '7', 
+    calories: 7, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/80b/80b1e5307815f0d9471d86c2e7c36167.jpg',
     qty: '1.0',
@@ -869,7 +869,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'unsweetened applesauce', 
-    calories: '204', 
+    calories: 204, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/c59/c59e749347516e4aa0aaa3ea25925426.jpg',
     qty: '1.0',
@@ -879,7 +879,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'buffalo sauce', 
-    calories: '1', 
+    calories: 1, 
     category: categories[4],    
     image: 'https://i.imgur.com/cKMr1z7.jpg',
     qty: '2.0',
@@ -889,7 +889,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'hot sauce', 
-    calories: '1', 
+    calories: 1, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/946/946c38a4c278da4361d2615d653d685a.jpg',
     qty: '1.0',
@@ -899,7 +899,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lemon juice', 
-    calories: '1', 
+    calories: 1, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/e31/e310952d214e78a4cb8b73f30ceeaaf2.jpg',
     qty: '1.0',
@@ -909,7 +909,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lime juice', 
-    calories: '16', 
+    calories: 16, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/8f0/8f0c10eb3dbf476a05e61018e76ea220.jpg',
     qty: '0.25',
@@ -919,7 +919,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'salsa', 
-    calories: '75', 
+    calories: 75, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/995/995d0f166754a0475c181b9c156fec43.jpg',
     qty: '1.0',
@@ -929,7 +929,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tomato pasta sauce', 
-    calories: '176', 
+    calories: 176, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/08b/08b3bb49c006689a458a8b9c4a4e0057.jpg',
     qty: '1.0',
@@ -939,7 +939,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'red wine vinegar', 
-    calories: '5', 
+    calories: 5, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/dc8/dc8e998b32b8d45ba15c1b1e6711e958.jpg',
     qty: '1.0',
@@ -949,7 +949,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'apple cider vinegar', 
-    calories: '6', 
+    calories: 6, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/c7d/c7dbd1846c5d08e9739930d70a404d50.jpg',
     qty: '1.0',
@@ -959,7 +959,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'rice vinegar', 
-    calories: '7', 
+    calories: 7, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/5f6/5f69b84c399d778c4728e9ab4f8065a2.jpg',
     qty: '1.0',
@@ -969,7 +969,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'dried apricots', 
-    calories: '314', 
+    calories: 314, 
     category: categories[3],    
     image: 'https://i.imgur.com/7GnDzBY.jpg',
     qty: '1.0',
@@ -989,7 +989,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'basmati rice', 
-    calories: '205', 
+    calories: 205, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/43e/43e669c6de11504972da1ae1898ac19e.jpg',
     qty: '1.0',
@@ -999,7 +999,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'fried rice', 
-    calories: '238', 
+    calories: 238, 
     category: categories[4],    
     image: 'https://i.imgur.com/ebGtCI3.jpg',
     qty: '1.0',
@@ -1009,7 +1009,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'couscous', 
-    calories: '176', 
+    calories: 176, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/0ba/0ba047475ceba632ce566f8997c6f0a5.jpg',
     qty: '1.0',
@@ -1019,7 +1019,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'keto bread', 
-    calories: '30', 
+    calories: 30, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/886/886960f6ce6ccec5b9163bacf2996853.jpg',
     qty: '1.0',
@@ -1029,7 +1029,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'low carb tortilla', 
-    calories: '70', 
+    calories: 70, 
     category: categories[4],    
     image: 'https://i.imgur.com/SpIKpit.jpg',
     qty: '1.0',
@@ -1039,7 +1039,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lasagna', 
-    calories: '401', 
+    calories: 401, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/e6b/e6be67be9ab596ac7eeb1f9feb54999c.jpg',
     qty: '1.0',
@@ -1049,7 +1049,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'white pasta', 
-    calories: '505', 
+    calories: 505, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/222/22205c8592e82a675d90e3673d710bb5.jpg',
     qty: '1.0',
@@ -1059,7 +1059,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'noodles', 
-    calories: '196', 
+    calories: 196, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/c52/c523bc0bbc9fb862315198af8749be5d.jpg',
     qty: '1.0',
@@ -1069,7 +1069,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'whole grain pita bread', 
-    calories: '149', 
+    calories: 149, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/b8c/b8c2794a59279b7e0553c27e0769fbaf.jpg',
     qty: '1.0',
@@ -1079,7 +1079,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'rye bread', 
-    calories: '83', 
+    calories: 83, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/2d1/2d1b8db0fe95a564cb25432a83ca8a66.jpg',
     qty: '1.0',
@@ -1089,7 +1089,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'stuffing', 
-    calories: '642', 
+    calories: 642, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/617/617068594786702e2ccbe7aee824fa5a.jpg',
     qty: '1.0',
@@ -1099,7 +1099,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ham', 
-    calories: '186', 
+    calories: 186, 
     category: categories[1],    
     image: 'https://www.edamam.com/food-img/004/004c6f6f873dbdcf75b49fc5435bb61b.png',
     qty: '1.0',
@@ -1109,7 +1109,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'salmon fillet', 
-    calories: '468', 
+    calories: 468, 
     category: categories[2],    
     image: 'https://i.imgur.com/sRdKlXx.jpg',
     qty: '1.0',
@@ -1119,7 +1119,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'smoked salmon', 
-    calories: '23', 
+    calories: 23, 
     category: categories[2],    
     image: 'https://i.imgur.com/sRdKlXx.jpg',
     qty: '1.0',
@@ -1129,7 +1129,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tuna salad', 
-    calories: '383', 
+    calories: 383, 
     category: categories[2],    
     image: 'https://i.imgur.com/toXjwcP.jpg',
     qty: '1.0',
@@ -1139,7 +1139,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'roast beef', 
-    calories: '474', 
+    calories: 474, 
     category: categories[0],    
     image: 'https://i.imgur.com/mLmv1Ax.jpg',
     qty: '1.0',
@@ -1149,7 +1149,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'beef steak', 
-    calories: '471', 
+    calories: 471, 
     category: categories[0],    
     image: 'https://i.imgur.com/W6579r3.jpg',
     qty: '1.0',
@@ -1159,7 +1159,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'rotisserie chicken', 
-    calories: '260', 
+    calories: 260, 
     category: categories[0],    
     image: 'https://i.imgur.com/A1bvMhP.jpg',
     qty: '1.0',
@@ -1169,7 +1169,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chicken', 
-    calories: '335', 
+    calories: 335, 
     category: categories[1],    
     image: 'https://i.imgur.com/zDjCl1H.jpg',
     qty: '1.0',
@@ -1179,7 +1179,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'turkey breast', 
-    calories: '166', 
+    calories: 166, 
     category: categories[1],    
     image: 'https://i.imgur.com/Wzc4uem.jpg',
     qty: '1.0',
@@ -1189,7 +1189,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ground turkey', 
-    calories: '169', 
+    calories: 169, 
     category: categories[1],    
     image: 'https://i.imgur.com/Q4byjUW.png',
     qty: '1.0',
@@ -1199,7 +1199,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'turkey sausage', 
-    calories: '147', 
+    calories: 147, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/182/18209b4b31a37a3aaa2b8d5a2fa5fae0.jpg',
     qty: '1.0',
@@ -1209,7 +1209,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'egg salad', 
-    calories: '471', 
+    calories: 471, 
     category: categories[0],    
     image: 'https://i.imgur.com/6KKcn9K.jpg',
     qty: '1.0',
@@ -1219,7 +1219,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'hard boiled egg', 
-    calories: '78', 
+    calories: 78, 
     category: categories[1],    
     image: 'https://i.imgur.com/6VS4wUa.jpg',
     qty: '1.0',
@@ -1229,7 +1229,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lean pork loin', 
-    calories: '188', 
+    calories: 188, 
     category: categories[1],    
     image: 'https://i.imgur.com/3vCF1XN.jpg',
     qty: '1.0',
@@ -1239,7 +1239,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lean pork chop', 
-    calories: '259', 
+    calories: 259, 
     category: categories[1],    
     image: 'https://i.imgur.com/t1IgcZA.jpg',
     qty: '1.0',
@@ -1249,7 +1249,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pulled pork', 
-    calories: '418', 
+    calories: 418, 
     category: categories[0],    
     image: 'https://i.imgur.com/O3dHPTk.jpg',
     qty: '1.0',
@@ -1259,7 +1259,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'low fat cottage cheese', 
-    calories: '180', 
+    calories: 180, 
     category: categories[0],    
     image: 'https://i.imgur.com/g1GPdj0.jpg',
     qty: '1.0',
@@ -1269,7 +1269,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'low fat yogurt', 
-    calories: '216', 
+    calories: 216, 
     category: categories[1],    
     image: 'https://i.imgur.com/dftjLYQ.jpg',
     qty: '1.0',
@@ -1279,7 +1279,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'low fat milk', 
-    calories: '102', 
+    calories: 102, 
     category: categories[1],    
     image: 'https://www.edamam.com/food-img/f85/f859cce57955d778ccb5d0224e08cf93.jpg',
     qty: '1.0',
@@ -1289,7 +1289,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'canned corn', 
-    calories: '177', 
+    calories: 177, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/59c/59c4373175b468d87ac76a43d4349b57.jpg',
     qty: '1.0',
@@ -1299,7 +1299,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'fried mushrooms', 
-    calories: '150', 
+    calories: 150, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/7dd/7ddc18efbecc5bb44fb638b2af17e148.jpg',
     qty: '1.0',
@@ -1309,7 +1309,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'grilled onions', 
-    calories: '211', 
+    calories: 211, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/5f1/5f18e93c02bcf4eab14620febb53b5a2.png',
     qty: '1.0',
@@ -1319,7 +1319,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'roasted potatoes', 
-    calories: '180', 
+    calories: 180, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/956/9561f54f6ba83ad619e9830487107b29.jpg',
     qty: '1.0',
@@ -1329,7 +1329,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'mashed potatoes', 
-    calories: '237', 
+    calories: 237, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/3ba/3bad90497524770195b335d288d4a7e1.jpg',
     qty: '1.0',
@@ -1339,7 +1339,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'plantains', 
-    calories: '205', 
+    calories: 205, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/a89/a895e325e16d684d8df7786aa7898f73.jpg',
     qty: '1.0',
@@ -1349,7 +1349,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'yams', 
-    calories: '177', 
+    calories: 177, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/530/5301e2fd59307812cbd5276de724d6aa.jpg',
     qty: '1.0',
@@ -1359,7 +1359,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pickled beets', 
-    calories: '148', 
+    calories: 148, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/2c5/2c513e67af460b7f5ebe53028ceb8a37.jpg',
     qty: '1.0',
@@ -1369,7 +1369,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'black-eyed peas', 
-    calories: '120', 
+    calories: 120, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/7d0/7d0c43eab42a9e30db3bf3b53aa0203d.jpg',
     qty: '1.0',
@@ -1379,7 +1379,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'black beans', 
-    calories: '227', 
+    calories: 227, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/9d8/9d803ebe9881e45fad3f70d877780ad5.jpg',
     qty: '1.0',
@@ -1389,7 +1389,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chickpeas', 
-    calories: '269', 
+    calories: 269, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/59c/59c1e8fa37680d54775d3a8013eb7db6.jpg',
     qty: '1.0',
@@ -1399,7 +1399,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'edamame', 
-    calories: '188', 
+    calories: 188, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/087/0871875e6db6422656a70b250640157a.jpg',
     qty: '1.0',
@@ -1409,7 +1409,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'hummus', 
-    calories: '333', 
+    calories: 333, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/dd4/dd46febae7d039955a22d2e278293f41.jpg',
     qty: '1.0',
@@ -1419,7 +1419,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lentils', 
-    calories: '230', 
+    calories: 230, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/d5a/d5aa5bc5a3142f3179f31310054a56e6.jpg',
     qty: '1.0',
@@ -1429,7 +1429,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'broccoli cheddar soup', 
-    calories: '433', 
+    calories: 433, 
     category: categories[4],    
     image: 'https://i.imgur.com/5iyCwn0.jpg',
     qty: '1.0',
@@ -1439,7 +1439,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chicken tortilla soup', 
-    calories: '260', 
+    calories: 260, 
     category: categories[4],    
     image: 'https://i.imgur.com/qjYFERB.jpg',
     qty: '1.0',
@@ -1449,7 +1449,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cream of mushroom soup', 
-    calories: '410', 
+    calories: 410, 
     category: categories[4],    
     image: 'https://i.imgur.com/D5CevIe.jpg',
     qty: '1.0',
@@ -1459,7 +1459,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'new england clam chowder', 
-    calories: '402', 
+    calories: 402, 
     category: categories[4],    
     image: 'https://i.imgur.com/DcNmiot.jpg',
     qty: '1.0',
@@ -1469,7 +1469,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'split pea soup', 
-    calories: '191', 
+    calories: 191, 
     category: categories[3],    
     image: 'https://i.imgur.com/4pxZMWp.jpg',
     qty: '1.0',
@@ -1479,7 +1479,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tomato bisque soup', 
-    calories: '285', 
+    calories: 285, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/056/0562051b49da4937cb41afeba32edb81.jpg',
     qty: '1.0',
@@ -1489,7 +1489,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chicken noodle soup', 
-    calories: '257', 
+    calories: 257, 
     category: categories[4],    
     image: 'https://i.imgur.com/rnWrgli.jpg',
     qty: '1.0',
@@ -1499,7 +1499,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'balsamic vinegar', 
-    calories: '14', 
+    calories: 14, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/90a/90a1f211768e166ecfff19e8b4747498.jpg',
     qty: '1.0',
@@ -1509,7 +1509,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'guacamole', 
-    calories: '293', 
+    calories: 293, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/fc8/fc804ddb3fdf4b07f414b6ca930fb1b2.jpg',
     qty: '1.0',
@@ -1519,7 +1519,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ketchup', 
-    calories: '17', 
+    calories: 17, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/257/257207c446011b849001ae596390341c.jpeg',
     qty: '1.0',
@@ -1529,7 +1529,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'low sodium soy sauce', 
-    calories: '10', 
+    calories: 10, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/4bc/4bccc4c294a8dddb62020c62935e6fd8.jpg',
     qty: '1.0',
@@ -1539,7 +1539,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'mustard', 
-    calories: '3', 
+    calories: 3, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/e23/e238f2e4cfa6aa1a30f46dc73e7344eb.jpg',
     qty: '1.0',
@@ -1549,7 +1549,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sriracha', 
-    calories: '18', 
+    calories: 18, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/946/946c38a4c278da4361d2615d653d685a.jpg',
     qty: '1.0',
@@ -1559,7 +1559,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'soy sauce, tamari', 
-    calories: '15', 
+    calories: 15, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/f56/f562e461eb0618f367f538b836c17b82.jpg',
     qty: '1.0',
@@ -1569,7 +1569,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'splenda, stevia', 
-    calories: '1', 
+    calories: 1, 
     category: categories[4],    
     image: 'https://i.imgur.com/McDVbBt.jpg',
     qty: '1.0',
@@ -1579,7 +1579,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sweet pickle relish', 
-    calories: '15', 
+    calories: 15, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/210/210a09427be497df1915356d63d91d8b.jpeg',
     qty: '1.0',
@@ -1589,7 +1589,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'worcestershire sauce', 
-    calories: '13', 
+    calories: 13, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/072/072b61dd1ad5bb641f05b14f716ba6d0.jpg',
     qty: '1.0',
@@ -1599,7 +1599,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'avocado toast', 
-    calories: '189', 
+    calories: 189, 
     category: categories[4],    
     image: 'https://i.imgur.com/Qy80gzm.jpg',
     qty: '1.0',
@@ -1609,7 +1609,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'bread and butter pickles', 
-    calories: '14', 
+    calories: 14, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/012/0121cf9d4ee772af299f450bf577a8d3.jpeg',
     qty: '1.0',
@@ -1619,7 +1619,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'caesar salad', 
-    calories: '192', 
+    calories: 192, 
     category: categories[4],    
     image: 'https://i.imgur.com/HqTOile.jpg',
     qty: '1.0',
@@ -1629,7 +1629,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'coleslaw', 
-    calories: '348', 
+    calories: 348, 
     category: categories[4],    
     image: 'https://i.imgur.com/qqksuTR.jpg',
     qty: '1.0',
@@ -1639,7 +1639,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'greek salad', 
-    calories: '179', 
+    calories: 179, 
     category: categories[0],    
     image: 'https://i.imgur.com/FlHntvu.jpg',
     qty: '1.0',
@@ -1649,7 +1649,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'kale salad', 
-    calories: '84', 
+    calories: 84, 
     category: categories[3],    
     image: 'https://i.imgur.com/qevUb9q.jpg',
     qty: '1.0',
@@ -1659,7 +1659,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pasta salad', 
-    calories: '407', 
+    calories: 407, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/296/296ff2b02ef3822928c3c923e22c7d19.jpg',
     qty: '1.0',
@@ -1669,7 +1669,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'popcorn', 
-    calories: '44', 
+    calories: 44, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/dd5/dd51dd3656053985cf1c47ca5c75c4db.jpg',
     qty: '1.0',
@@ -1679,7 +1679,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'potato salad', 
-    calories: '358', 
+    calories: 358, 
     category: categories[4],    
     image: 'https://i.imgur.com/onjfXrD.jpg',
     qty: '1.0',
@@ -1689,7 +1689,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sugar-free chocolate pudding', 
-    calories: '70', 
+    calories: 70, 
     category: categories[4],    
     image: 'https://i.imgur.com/Fs7p6AM.jpg',
     qty: '1.0',
@@ -1699,7 +1699,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sushi', 
-    calories: '349', 
+    calories: 349, 
     category: categories[4],    
     image: 'https://i.imgur.com/1mcNKzB.jpg',
     qty: '1.0',
@@ -1709,7 +1709,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'turkey sandwich', 
-    calories: '310', 
+    calories: 310, 
     category: categories[4],    
     image: 'https://i.imgur.com/rdTk0p5.jpg',
     qty: '1.0',
@@ -1719,7 +1719,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'veggie pizza', 
-    calories: '170', 
+    calories: 170, 
     category: categories[4],    
     image: 'https://i.imgur.com/UbwzRyf.jpg',
     qty: '1.0',
@@ -1729,7 +1729,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'black coffee with splenda, stevia, equal', 
-    calories: '4', 
+    calories: 4, 
     category: categories[4],    
     image: 'https://i.imgur.com/zLlnF7Y.jpg',
     qty: '1.0',
@@ -1739,7 +1739,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tea with milk, splenda, stevia', 
-    calories: '20', 
+    calories: 20, 
     category: categories[4],    
     image: 'https://i.imgur.com/GXMIOeR.jpg',
     qty: '1.0',
@@ -1749,7 +1749,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chai tea', 
-    calories: '4', 
+    calories: 4, 
     category: categories[4],    
     image: 'https://i.imgur.com/icQ4VWd.jpg',
     qty: '1.0',
@@ -1759,7 +1759,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'club soda', 
-    calories: '150', 
+    calories: 150, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/0c7/0c7ea246f0c3b05641539fd1861c1c20.jpg',
     qty: '1.0',
@@ -1769,7 +1769,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'soda', 
-    calories: '1', 
+    calories: 1, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/0c7/0c7ea246f0c3b05641539fd1861c1c20.jpg',
     qty: '1.0',
@@ -1779,7 +1779,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'diet soda', 
-    calories: '1', 
+    calories: 1, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/9b4/9b4a1ab566697c212af64b33b3f6c938.jpg',
     qty: '1.0',
@@ -1789,7 +1789,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'IPA beer', 
-    calories: '197', 
+    calories: 197, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/7f8/7f82e3944cd8fcba3ffad7b6ce741c62.jpg',
     qty: '1.0',
@@ -1799,7 +1799,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lager beer', 
-    calories: '99', 
+    calories: 99, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/7f8/7f82e3944cd8fcba3ffad7b6ce741c62.jpg',
     qty: '1.0',
@@ -1809,7 +1809,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'lemonade', 
-    calories: '99', 
+    calories: 99, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/311/3118a3ddad625ac41009a59ff610e6da.jpg',
     qty: '1.0',
@@ -1819,7 +1819,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'oat milk latte', 
-    calories: '95', 
+    calories: 95, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/457/457087c973dd41ba1b08854c355ec183.jpg',
     qty: '1.0',
@@ -1829,7 +1829,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'orange juice', 
-    calories: '112', 
+    calories: 112, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/011/011c0c3b0f3865bde575f57c556439e4.jpg',
     qty: '1.0',
@@ -1839,7 +1839,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'rum and diet coke', 
-    calories: '87', 
+    calories: 87, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/eb5/eb51e606b36b62c66ea1a245ab0d4a8b.jpg',
     qty: '1.0',
@@ -1849,7 +1849,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'soy milk', 
-    calories: '100', 
+    calories: 100, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/8be/8bef4cf5daa1f41d90aff68c92ca56bc.jpg',
     qty: '1.0',
@@ -1859,7 +1859,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'super green smoothie', 
-    calories: '112', 
+    calories: 112, 
     category: categories[3],    
     image: 'https://i.imgur.com/r6SIBCq.jpg',
     qty: '1.0',
@@ -1869,7 +1869,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tonic water', 
-    calories: '114', 
+    calories: 114, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/b59/b59c5aed899795bee3f7778433b511e3.jpg',
     qty: '1.0',
@@ -1879,7 +1879,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'unsweetened apple juice', 
-    calories: '114', 
+    calories: 114, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/324/32497d8cd6291a6f03acc032e1da7676.jpg',
     qty: '1.0',
@@ -1889,7 +1889,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'vodka soda', 
-    calories: '54', 
+    calories: 54, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/e1a/e1a4708099e89fdadeb81c2d95deaa34.jpg',
     qty: '1.0',
@@ -1899,7 +1899,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'wine', 
-    calories: '122', 
+    calories: 122, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/aeb/aebdd2e72bc13fa8ca762a408b6e58b6.jpg',
     qty: '1.0',
@@ -1909,7 +1909,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ginger ale', 
-    calories: '124', 
+    calories: 124, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/81d/81d3a248c4ca048ffabc9551cc96217d.jpg',
     qty: '1.0',
@@ -1919,7 +1919,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'dried cranberries', 
-    calories: '410', 
+    calories: 410, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/8aa/8aa3935a527394e1568079a489759221.jpg',
     qty: '1.0',
@@ -1929,7 +1929,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'raisins', 
-    calories: '956', 
+    calories: 956, 
     category: categories[3],    
     image: 'https://www.edamam.com/food-img/159/159e247350db62e1f87b0636a53687f5.jpg',
     qty: '1.0',
@@ -1939,7 +1939,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'french fries', 
-    calories: '173', 
+    calories: 173, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/559/559b143365bf3dde8d5889ec627e1da7.jpg',
     qty: '1.0',
@@ -1949,7 +1949,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'french onions', 
-    calories: '584', 
+    calories: 584, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/205/205e6bf2399b85d34741892ef91cc603.jpg',
     qty: '1.0',
@@ -1959,7 +1959,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'french pickles', 
-    calories: '50', 
+    calories: 50, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/80b/80b1e5307815f0d9471d86c2e7c36167.jpg',
     qty: '1.0',
@@ -1969,7 +1969,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sweet potato fries', 
-    calories: '298', 
+    calories: 298, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/c44/c44503b726d4379d7813de4ebdc0e76b.jpg',
     qty: '20.0',
@@ -1979,7 +1979,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'butter', 
-    calories: '100', 
+    calories: 100, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/713/71397239b670d88c04faa8d05035cab4.jpg',
     qty: '1.0',
@@ -1989,7 +1989,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cottage cheese', 
-    calories: '214', 
+    calories: 214, 
     category: categories[0],    
     image: 'https://i.imgur.com/WN4KFKg.jpg',
     qty: '1.0',
@@ -1999,7 +1999,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'dairy cream', 
-    calories: '30', 
+    calories: 30, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/484/4848d71f6a14dd5076083f5e17925420.jpg',
     qty: '1.0',
@@ -2009,7 +2009,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cream cheese', 
-    calories: '51', 
+    calories: 51, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/fc7/fc77c17a6b7310e939f328b32dc64e81.jpg',
     qty: '1.0',
@@ -2019,7 +2019,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cheddar cheese', 
-    calories: '110', 
+    calories: 110, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/af8/af88890facab925abf729a73714f6ea9.png',
     qty: '1.0',
@@ -2029,7 +2029,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'full fat yogurt', 
-    calories: '61', 
+    calories: 61, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/9bd/9bd861dbd83731bc03091a30f09f9728.jpg',
     qty: '1.0',
@@ -2039,7 +2039,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'half and half', 
-    calories: '18', 
+    calories: 18, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/c22/c22242b5b81b78d4cb2996946ee9459c.jpg',
     qty: '1.0',
@@ -2049,7 +2049,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'margarine', 
-    calories: '102', 
+    calories: 102, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/e1d/e1deed85a7d1c9132466ea4513ee3070.jpg',
     qty: '1.0',
@@ -2059,7 +2059,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sour cream', 
-    calories: '24', 
+    calories: 24, 
     category: categories[0],    
     image: 'https://i.imgur.com/R6Q4D7w.png',
     qty: '1.0',
@@ -2069,7 +2069,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'whole milk', 
-    calories: '149', 
+    calories: 149, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/e4f/e4f167fbcac1ff50cd68d187de638b35.jpg',
     qty: '1.0',
@@ -2079,7 +2079,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'all-purpose flour', 
-    calories: '455', 
+    calories: 455, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/368/368077bbcab62f862a8c766a56ea5dd1.jpg',
     qty: '1.0',
@@ -2089,7 +2089,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'bagel', 
-    calories: '277', 
+    calories: 277, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/755/7553666b2864e4003538607529dcccde.jpg',
     qty: '1.0',
@@ -2099,7 +2099,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'flour tortilla', 
-    calories: '159', 
+    calories: 159, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/357/357e415685787e6d6844e8d08c1b1586.jpg',
     qty: '1.0',
@@ -2109,7 +2109,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'garlic bread', 
-    calories: '206', 
+    calories: 206, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/cac/cac9a071d5da19d9c8b8af9ddaa9a186.jpg',
     qty: '1.0',
@@ -2119,7 +2119,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'granola', 
-    calories: '596', 
+    calories: 596, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/c1d/c1ddb4084dd26bd5fa47e01bb49ed6a8.jpg',
     qty: '1.0',
@@ -2129,7 +2129,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'muffins', 
-    calories: '117', 
+    calories: 117, 
     category: categories[4],    
     image: 'https://i.imgur.com/Kh1pyHK.jpg',
     qty: '1.0',
@@ -2139,7 +2139,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'banana bread', 
-    calories: '247', 
+    calories: 247, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/869/869d807713fe1d7daf40ed31b843245a.jpg',
     qty: '1.0',
@@ -2149,7 +2149,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'rolls and buns', 
-    calories: '76', 
+    calories: 76, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/78f/78ffbae0365a1a431061ff397c3b6d38.jpg',
     qty: '1.0',
@@ -2159,7 +2159,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sourdough', 
-    calories: '116', 
+    calories: 116, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/470/47053c77e167539c64fef3f2a3249bb2.jpg',
     qty: '1.0',
@@ -2169,7 +2169,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sweetened oatmeal', 
-    calories: '136', 
+    calories: 136, 
     category: categories[4],    
     image: 'https://i.imgur.com/xMpbqrj.jpg',
     qty: '1.0',
@@ -2179,7 +2179,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'waffle', 
-    calories: '218', 
+    calories: 218, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/f0b/f0bbafeabcca46f1fcd1cea65794c524.png',
     qty: '1.0',
@@ -2189,7 +2189,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'white breads', 
-    calories: '65', 
+    calories: 65, 
     category: categories[4],    
     image: 'https://www.edamam.com/food-img/886/886960f6ce6ccec5b9163bacf2996853.jpg',
     qty: '1.0',
@@ -2199,7 +2199,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'bacon', 
-    calories: '53', 
+    calories: 53, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/d42/d426884a125fa39a70d5a5d7217864ec.jpg',
     qty: '1.0',
@@ -2209,7 +2209,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chicken nuggets', 
-    calories: '490', 
+    calories: 490, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/853/853b7c281a7108739b5b987fe290e60e.jpg',
     qty: '10.0',
@@ -2219,7 +2219,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chicken wings', 
-    calories: '610', 
+    calories: 610, 
     category: categories[0],    
     image: 'https://i.imgur.com/Yyb4biG.jpg',
     qty: '8.0',
@@ -2229,7 +2229,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'salami', 
-    calories: '41', 
+    calories: 41, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/b1e/b1e1be598ceb08d50d9c1f5d49b49f6a.jpg',
     qty: '1.0',
@@ -2239,7 +2239,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'fried chicken', 
-    calories: '49', 
+    calories: 49, 
     category: categories[0],    
     image: 'https://i.imgur.com/m7X3Xzh.jpg',
     qty: '1.0',
@@ -2249,7 +2249,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'fried shrimp', 
-    calories: '38', 
+    calories: 38, 
     category: categories[2],    
     image: 'https://i.imgur.com/E76gqcA.jpg',
     qty: '1.0',
@@ -2259,7 +2259,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'hot dog(s)', 
-    calories: '151', 
+    calories: 151, 
     category: categories[0],    
     image: 'https://i.imgur.com/VSFUN8V.jpg',
     qty: '1.0',
@@ -2269,7 +2269,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'meatballs', 
-    calories: '81', 
+    calories: 81, 
     category: categories[0],    
     image: 'https://i.imgur.com/EM3l56C.jpg',
     qty: '1.0',
@@ -2279,7 +2279,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pork belly', 
-    calories: '335', 
+    calories: 335, 
     category: categories[0],    
     image: 'https://www.edamam.com/food-img/fb4/fb445aa0a648d1cf83eca55a05c7ce77.jpg',
     qty: '1.0',
@@ -2289,7 +2289,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pork ribs', 
-    calories: '235', 
+    calories: 235, 
     category: categories[0],    
     image: 'https://i.imgur.com/XMgjTN5.jpg',
     qty: '1.0',
@@ -2299,7 +2299,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ground beef', 
-    calories: '558', 
+    calories: 558, 
     category: categories[0],    
     image: 'https://i.imgur.com/7uCr8EC.jpg',
     qty: '1.0',
@@ -2309,7 +2309,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'beef brisket', 
-    calories: '327', 
+    calories: 327, 
     category: categories[0],    
     image: 'https://i.imgur.com/vcyEIOC.jpg',
     qty: '1.0',
@@ -2319,7 +2319,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'beef jerky', 
-    calories: '465', 
+    calories: 465, 
     category: categories[0],    
     image: 'https://i.imgur.com/QEchPPK.jpg',
     qty: '1.0',
@@ -2329,7 +2329,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sausage', 
-    calories: '88', 
+    calories: 88, 
     category: categories[0],    
     image: 'https://i.imgur.com/fI3eRHS.jpg',
     qty: '1.0',
@@ -2339,7 +2339,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'turkey bacon', 
-    calories: '30', 
+    calories: 30, 
     category: categories[0],    
     image: 'https://i.imgur.com/t8hG5FI.jpg',
     qty: '1.0',
@@ -2349,7 +2349,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'potato soup', 
-    calories: '572', 
+    calories: 572, 
     category: categories[4],    
     image: 'https://i.imgur.com/8hpPi1E.jpg',
     qty: '1.0',
@@ -2359,7 +2359,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ramen', 
-    calories: '30', 
+    calories: 30, 
     category: categories[4],    
     image: 'https://i.imgur.com/CFOEuiz.jpg',
     qty: '1.0',
@@ -2369,7 +2369,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chutney', 
-    calories: '320', 
+    calories: 320, 
     category: categories[4],    
     image: 'https://i.imgur.com/oKxe19Y.jpg',
     qty: '1.0',
@@ -2379,7 +2379,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'coconut milk', 
-    calories: '445', 
+    calories: 445, 
     category: categories[3],    
     image: 'https://i.imgur.com/xyPxFy5.jpg',
     qty: '1.0',
@@ -2389,7 +2389,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ghee', 
-    calories: '41', 
+    calories: 41, 
     category: categories[0],    
     image: 'https://i.imgur.com/Tbqg9sn.jpg',
     qty: '1.0',
@@ -2399,7 +2399,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'honey', 
-    calories: '60', 
+    calories: 60, 
     category: categories[3],    
     image: 'https://i.imgur.com/fI0jzBX.jpg',
     qty: '1.0',
@@ -2409,7 +2409,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'jam and jellies', 
-    calories: '55', 
+    calories: 55, 
     category: categories[4],    
     image: 'https://i.imgur.com/59gvs0s.jpg',
     qty: '1.0',
@@ -2419,7 +2419,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'maple syrup', 
-    calories: '52', 
+    calories: 52, 
     category: categories[4],    
     image: 'https://i.imgur.com/n2HmFs5.jpg',
     qty: '1.0',
@@ -2429,7 +2429,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'marmite', 
-    calories: '11', 
+    calories: 11, 
     category: categories[4],    
     image: 'https://i.imgur.com/tCiUVV5.jpg',
     qty: '1.0',
@@ -2439,7 +2439,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'mayo', 
-    calories: '100', 
+    calories: 100, 
     category: categories[4],    
     image: 'https://i.imgur.com/ZHwgWrJ.jpg',
     qty: '1.0',
@@ -2449,7 +2449,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'olive oil', 
-    calories: '124', 
+    calories: 124, 
     category: categories[0],    
     image: 'https://i.imgur.com/6iCg7BA.jpg',
     qty: '1.0',
@@ -2459,7 +2459,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'coconut oil', 
-    calories: '104', 
+    calories: 104, 
     category: categories[0],    
     image: 'https://i.imgur.com/oV0T5dd.jpg',
     qty: '1.0',
@@ -2469,7 +2469,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'avocado oil', 
-    calories: '40', 
+    calories: 40, 
     category: categories[0],    
     image: 'https://i.imgur.com/YVjWKk5.jpg',
     qty: '1.0',
@@ -2479,7 +2479,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sesame oil', 
-    calories: '124', 
+    calories: 124, 
     category: categories[0],    
     image: 'https://i.imgur.com/cUtRHbn.jpg',
     qty: '1.0',
@@ -2489,7 +2489,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'canola oil', 
-    calories: '124', 
+    calories: 124, 
     category: categories[0],    
     image: 'https://i.imgur.com/4lOTTke.jpg',
     qty: '1.0',
@@ -2499,7 +2499,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ranch dressing', 
-    calories: '64', 
+    calories: 64, 
     category: categories[4],    
     image: 'https://i.imgur.com/MTiBUDv.png',
     qty: '1.0',
@@ -2509,7 +2509,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'caesar dressing', 
-    calories: '30', 
+    calories: 30, 
     category: categories[4],    
     image: 'https://i.imgur.com/83x0I7W.jpg',
     qty: '1.0',
@@ -2519,7 +2519,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'balsamic vinegar', 
-    calories: '14', 
+    calories: 14, 
     category: categories[3],    
     image: 'https://i.imgur.com/b4lBwjD.jpg',
     qty: '1.0',
@@ -2529,7 +2529,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'seasoned croutons', 
-    calories: '17', 
+    calories: 17, 
     category: categories[4],    
     image: 'https://i.imgur.com/8MiuoEQ.jpg',
     qty: '1.0',
@@ -2539,7 +2539,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'potato chips', 
-    calories: '10', 
+    calories: 10, 
     category: categories[4],    
     image: 'https://i.imgur.com/S7qVTsV.jpg',
     qty: '1.0',
@@ -2549,7 +2549,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'tortilla chips', 
-    calories: '148', 
+    calories: 148, 
     category: categories[4],    
     image: 'https://i.imgur.com/YtFgVYS.jpg',
     qty: '1.0',
@@ -2559,7 +2559,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'nut butter', 
-    calories: '95', 
+    calories: 95, 
     category: categories[3],    
     image: 'https://i.imgur.com/0beepb7.jpg',
     qty: '1.0',
@@ -2569,7 +2569,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'walnuts', 
-    calories: '642', 
+    calories: 642, 
     category: categories[3],    
     image: 'https://i.imgur.com/8661pj4.jpg',
     qty: '1.0',
@@ -2579,7 +2579,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'almonds', 
-    calories: '51', 
+    calories: 51, 
     category: categories[3],    
     image: 'https://i.imgur.com/hL8PeFU.jpg',
     qty: '16.0',
@@ -2589,7 +2589,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pecans', 
-    calories: '726', 
+    calories: 726, 
     category: categories[3],    
     image: 'https://i.imgur.com/8MiuoEQ.jpg',
     qty: '1.0',
@@ -2599,7 +2599,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cashews', 
-    calories: '160', 
+    calories: 160, 
     category: categories[3],    
     image: 'https://i.imgur.com/VrveQF3.jpg',
     qty: '1.0',
@@ -2609,7 +2609,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pistachios', 
-    calories: '689', 
+    calories: 689, 
     category: categories[3],    
     image: 'https://i.imgur.com/p5tvp0v.jpg',
     qty: '1.0',
@@ -2619,7 +2619,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pretzels', 
-    calories: '11', 
+    calories: 11, 
     category: categories[4],    
     image: 'https://i.imgur.com/LTg7Gzu.jpg',
     qty: '1.0',
@@ -2629,7 +2629,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'protein bars', 
-    calories: '211', 
+    calories: 211, 
     category: categories[0],    
     image: 'https://i.imgur.com/wREg1zM.jpg',
     qty: '1.0',
@@ -2639,7 +2639,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sunflower seeds', 
-    calories: '699', 
+    calories: 699, 
     category: categories[3],    
     image: 'https://i.imgur.com/SdwHpfV.jpg',
     qty: '1.0',
@@ -2649,7 +2649,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chia seeds', 
-    calories: '58', 
+    calories: 58, 
     category: categories[3],    
     image: 'https://i.imgur.com/bVds2ey.jpg',
     qty: '1.0',
@@ -2659,7 +2659,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pumpkin seeds', 
-    calories: '285', 
+    calories: 285, 
     category: categories[3],    
     image: 'https://i.imgur.com/8MiuoEQ.jpg',
     qty: '1.0',
@@ -2669,7 +2669,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'flax seeds', 
-    calories: '55', 
+    calories: 55, 
     category: categories[3],    
     image: 'https://i.imgur.com/8MiuoEQ.jpg',
     qty: '1.0',
@@ -2679,7 +2679,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'trail mix', 
-    calories: '706', 
+    calories: 706, 
     category: categories[3],    
     image: 'https://i.imgur.com/YGZuBjN.jpg',
     qty: '1.0',
@@ -2689,7 +2689,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'bourbon', 
-    calories: '97', 
+    calories: 97, 
     category: categories[4],    
     image: 'https://i.imgur.com/ao8viaw.jpg',
     qty: '1.0',
@@ -2699,7 +2699,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chocolate milk', 
-    calories: '211', 
+    calories: 211, 
     category: categories[4],    
     image: 'https://i.imgur.com/YnmWNIk.jpg',
     qty: '1.0',
@@ -2709,7 +2709,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cocktails', 
-    calories: '110', 
+    calories: 110, 
     category: categories[4],    
     image: 'https://i.imgur.com/zHgyKlj.jpg',
     qty: '1.0',
@@ -2719,7 +2719,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'coffee creamers', 
-    calories: '20', 
+    calories: 20, 
     category: categories[0],    
     image: 'https://i.imgur.com/b1YN8iZ.jpg',
     qty: '1.0',
@@ -2729,7 +2729,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'energy drink', 
-    calories: '111', 
+    calories: 111, 
     category: categories[4],    
     image: 'https://i.imgur.com/6XKpV9a.jpg',
     qty: '1.0',
@@ -2739,7 +2739,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'grape juice', 
-    calories: '150', 
+    calories: 150, 
     category: categories[4],    
     image: 'https://i.imgur.com/cmqvAJL.png',
     qty: '1.0',
@@ -2749,7 +2749,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'hot chocolate', 
-    calories: '151', 
+    calories: 151, 
     category: categories[4],    
     image: 'https://i.imgur.com/Yq2Q2aF.jpg',
     qty: '1.0',
@@ -2759,7 +2759,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'margarita', 
-    calories: '226', 
+    calories: 226, 
     category: categories[4],    
     image: 'https://i.imgur.com/KhcVi4h.jpg',
     qty: '1.0',
@@ -2769,7 +2769,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'oat milk', 
-    calories: '95', 
+    calories: 95, 
     category: categories[4],    
     image: 'https://i.imgur.com/zAzneYt.jpg',
     qty: '1.0',
@@ -2779,7 +2779,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'protein shakes', 
-    calories: '171', 
+    calories: 171, 
     category: categories[0],    
     image: 'https://i.imgur.com/xFrPiYm.jpg',
     qty: '1.0',
@@ -2789,7 +2789,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'red wine', 
-    calories: '165', 
+    calories: 165, 
     category: categories[4],    
     image: 'https://i.imgur.com/c2tnkZw.jpg',
     qty: '1.0',
@@ -2799,7 +2799,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'regular sodas', 
-    calories: '150', 
+    calories: 150, 
     category: categories[4],    
     image: 'https://i.imgur.com/2pVz8Kg.jpg',
     qty: '1.0',
@@ -2809,7 +2809,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'specialty coffee drinks', 
-    calories: '135', 
+    calories: 135, 
     category: categories[4],    
     image: 'https://i.imgur.com/2pVz8Kg.jpg',
     qty: '1.0',
@@ -2819,7 +2819,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'whiskey', 
-    calories: '97', 
+    calories: 97, 
     category: categories[4],    
     image: 'https://i.imgur.com/2pVz8Kg.jpg',
     qty: '1.0',
@@ -2829,7 +2829,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cakes', 
-    calories: '157', 
+    calories: 157, 
     category: categories[4],    
     image: 'https://i.imgur.com/wdZ3Wa3.jpg',
     qty: '1.0',
@@ -2839,7 +2839,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'brownies', 
-    calories: '97', 
+    calories: 97, 
     category: categories[4],    
     image: 'https://i.imgur.com/ISMtWRY.jpg',
     qty: '1.0',
@@ -2849,7 +2849,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'candy', 
-    calories: '24', 
+    calories: 24, 
     category: categories[4],    
     image: 'https://i.imgur.com/sDkJZxW.jpg',
     qty: '1.0',
@@ -2859,7 +2859,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'chocolate', 
-    calories: '37', 
+    calories: 37, 
     category: categories[4],    
     image: 'https://i.imgur.com/zSrMPKi.jpg',
     qty: '1.0',
@@ -2869,7 +2869,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'cookies', 
-    calories: '117', 
+    calories: 117, 
     category: categories[4],    
     image: 'https://i.imgur.com/kXM9Jtl.jpg',
     qty: '1.0',
@@ -2879,7 +2879,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'doughnuts', 
-    calories: '303', 
+    calories: 303, 
     category: categories[4],    
     image: 'https://i.imgur.com/qOqyeZu.jpg',
     qty: '1.0',
@@ -2889,7 +2889,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'ice cream', 
-    calories: '340', 
+    calories: 340, 
     category: categories[4],    
     image: 'https://i.imgur.com/TSrPB1F.jpg',
     qty: '1.0',
@@ -2899,7 +2899,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'pies', 
-    calories: '296', 
+    calories: 296, 
     category: categories[4],    
     image: 'https://i.imgur.com/oxsUb8N.jpg',
     qty: '1.0',
@@ -2909,7 +2909,7 @@ const Item = require('./models/item');
   },
   { 
     name: 'sugar', 
-    calories: '16', 
+    calories: 16, 
     category: categories[4],    
     image: 'https://i.imgur.com/wBjoD5Y.jpg',
     qty: '1.0',
@@ -2919,7 +2919,7 @@ const Item = require('./models/item');
   },
   {
     name: 'whipped cream', 
-    calories: '7', 
+    calories: 7, 
     category: categories[4],    
     image: 'https://i.imgur.com/WRLoSF3.jpg',
     qty: '1.0',

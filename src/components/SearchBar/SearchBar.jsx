@@ -1,12 +1,12 @@
 
    
-import { useState, useContext } from 'react'
+import { useContext } from 'react'
 import FoodContext from '../../context/FoodContext/FoodContext';
 
 
 
 export default function SearchBar() {
-    const { user, setUser, edamanData, loading, setLoading, searchWord, setSearchWord, fetchEdamanData } = useContext(FoodContext);
+    const { searchWord, setSearchWord, fetchEdamanData } = useContext(FoodContext);
 
 
   function handleChange(evt) {

@@ -23,10 +23,7 @@ export default function FoodHistoryPage() {
     fetchFoodLogHistory();
   }, []);
 
-  /*--- Event Handlers --- */
-  function handleSelectFood(food) {
-    setActiveFood(food);
-  }
+  
 
   /*--- Rendered UI --- */
   return (

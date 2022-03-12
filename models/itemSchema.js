@@ -8,7 +8,7 @@ const itemSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'Category'
   },
-  calories: { type: Number, required: true },
+  calories: { type: Number, required: true, default: 0 },
 }, {
   timestamps: true
 });
