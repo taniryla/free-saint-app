@@ -2558,6 +2558,156 @@ const Item = require('./models/item');
     caloricDensity: 'red',
     foodType: 'condiments'
   },
+  { 
+    name: 'potato chips', 
+    calories: '10', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/S7qVTsV.jpg',
+    qty: '1.0',
+    measurementType: 'Chip',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'tortilla chips', 
+    calories: '148', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/YtFgVYS.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'nut butter', 
+    calories: '95', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/0beepb7.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'walnuts', 
+    calories: '642', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/8661pj4.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'almonds', 
+    calories: '51', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/hL8PeFU.jpg',
+    qty: '16.0',
+    measurementType: 'Almonds',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'pecans', 
+    calories: '726', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/8MiuoEQ.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'cashews', 
+    calories: '160', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/VrveQF3.jpg',
+    qty: '1.0',
+    measurementType: 'Serving (1 oz per Serving)',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'pistachios', 
+    calories: '689', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/p5tvp0v.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'pretzels', 
+    calories: '11', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/LTg7Gzu.jpg',
+    qty: '1.0',
+    measurementType: 'Pretzel',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'protein bars', 
+    calories: '211', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/wREg1zM.jpg',
+    qty: '1.0',
+    measurementType: 'Bar',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'sunflower seeds', 
+    calories: '699', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/SdwHpfV.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'chia seeds', 
+    calories: '58', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/bVds2ey.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'pumpkin seeds', 
+    calories: '285', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/8MiuoEQ.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'flax seeds', 
+    calories: '55', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/8MiuoEQ.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
+  { 
+    name: 'trail mix', 
+    calories: '706', 
+    category: ['keto-friendly', 'vegan', 'vegetarian'],    
+    image: 'https://i.imgur.com/YGZuBjN.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'snacks'
+  },
 
   
  
