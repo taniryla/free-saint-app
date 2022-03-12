@@ -6,7 +6,7 @@ const itemSchema = new Schema({
   name: { type: String, required: true },
   category: {
     type: String,
-    enum: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo', 'other'],   
+    enum: ['keto', 'paleo', 'pescatarian', 'vegetarian', 'other'],   
     ref: 'Category'
   },
   calories: { type: Number, required: true },
