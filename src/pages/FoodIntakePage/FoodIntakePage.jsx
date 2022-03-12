@@ -41,21 +41,7 @@ export default function FoodIntakePage() {
 
 
 
-  /*-- Event Handlers --*/
-  async function handleAddToFoodLog(itemId) {
-    const updatedLog = await foodAPI.addItemToLog(itemId);
-    setLog(updatedLog);
-  }
-
-  async function handleChangeQty(itemId, newQty) {
-    const updatedLog = await foodAPI.setItemQtyInLog(itemId, newQty);
-    setLog(updatedLog);
-  }
-
-  async function handleFoodLog() {
-    await foodAPI.foodLog();
-    navigate('/foods');
-  }
+ 
 
   return (
     <main className="FoodIntakePage">
@@ -70,8 +56,6 @@ export default function FoodIntakePage() {
       </aside>
       <FoodList
         foodItems={foodItems && foodItems.filter(item => item.category.name === activeCat)}
-        handleAddToFoodLog={handleAddToFoodLog}
-        edamanData={edamanData}
       />
       <FoodDetail
         food={log}

@@ -1432,7 +1432,7 @@ const Item = require('./models/item');
     name: 'broccoli cheddar soup', 
     calories: '433', 
     category: ['vegetarian', 'gluten-free', 'keto-friendly', 'paleo'],    
-    image: 'https://i.imgur.com/5iyCwn0.jpg,
+    image: 'https://i.imgur.com/5iyCwn0.jpg',
     qty: '1.0',
     measurementType: 'Cup',
     caloricDensity: 'yellow',
@@ -2938,7 +2938,7 @@ const Item = require('./models/item');
     caloricDensity: 'red',
     foodType: 'desserts'
   },
-  { 
+  {
     name: 'whipped cream', 
     calories: '7', 
     category: ['other'],    

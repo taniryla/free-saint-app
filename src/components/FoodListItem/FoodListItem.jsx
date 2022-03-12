@@ -1,37 +1,27 @@
 import './FoodListItem.css';
 import Spinner from '../Layout/Spinner';
+import { useContext } from 'react';
+import FoodContext from '../../context/FoodContext/FoodContext';
 
-export default function FoodListItem({ foodItem, handleAddToFoodLog, edamanData, loading, setLoading }) {
+export default function FoodListItem() {
+  const { edamanData, handleAddToFoodLog, foodItem } = useContext(FoodContext);
+
   
-  // const {
-  //   foodId,
-  //   label,
-  //   nutrients,
-  //   category,
-  //   categoryLabel,
-  //   image
-  // } = edamanData.parsed.food;
-  
-  if (!loading) {
     return (
+      {edamanData.map(data => {
       <>
         <div className='FoodListItem grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2'>
-            {/* {edamanData.map((data) => (
-             
-           <img src="{data.food.image}" alt="Food Image" />
-            <div className="name">{data.parsed.food.label}</div>
+           <img src={data.image} alt="Food Image" />
+            <div className="name">{data.name}</div>
             <div className="addtofoodlog">
-                  <span>Calories: {data.food.nutrients}</span> 
+                  <span>Calories: {data.calories}</span> 
                   <button className="btn-sm" onClick={() => handleAddToFoodLog(foodItem._id)}>
                    ADD
                    </button>
               </div>
-         
-          ))}  */}
-        </div>
+        </div> 
       </>
-    )
-  } else {
-    return <Spinner />
-  }
+      })} 
+      )
+  
 }

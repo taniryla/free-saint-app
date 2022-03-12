@@ -1,16 +1,17 @@
 import './FoodList.css';
 import FoodListItem from '../FoodListItem/FoodListItem';
+import { useContext } from 'react';
+import FoodContext from '../../context/FoodContext/FoodContext';
 
-export default function FoodList({ foodItems, handleAddToFoodLog, edamanData, loading, setLoading }) {
+
+export default function FoodList() {
+  const { foodItems } = useContext(FoodContext);
+
+
   const items = foodItems && foodItems.map(item =>
     <FoodListItem
       key={item._id}
-      handleAddToFoodLog={handleAddToFoodLog}
-      foodItem={item}
-      edamanData={edamanData}
-      setLoading={setLoading}
-      loading={loading}
-    />
+  />
   );
   return (
     <main className="FoodList">
