@@ -11,6 +11,7 @@ export default function FoodList() {
   const items = foodItems && foodItems.map(item =>
     <FoodListItem
       key={item._id}
+      food={item}
   />
   );
   return (

@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const itemSchema = require('./itemSchema');
-const categorySchema = require('./category');
 
 const lineItemSchema = new Schema({
   qty: { type: Number, default: 1 },
@@ -19,12 +18,6 @@ lineItemSchema.virtual('totalCalorie').get(function() {
 const foodSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'User' },
   lineItems: [lineItemSchema],
-  edmanId: { type: String, required: true },
-  category: {
-    type: String,
-    enum: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo', 'other'],
-    ref: 'Category'     
-  },
   image: { type: String, required: true },
   measurementType: { type: String, required: true },
   caloricDensity: {
@@ -44,7 +37,7 @@ const foodSchema = new Schema({
 });
 
 foodSchema.virtual('orderTotal').get(function() {
-  return this.lineItems.reduce((total, item) => total + item.extPrice, 0);
+  return this.lineItems.reduce((total, item) => total + item.totalCalorie, 0);
 });
 
 foodSchema.virtual('totalQty').get(function() {
