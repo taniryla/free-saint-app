@@ -1,6 +1,11 @@
 import './CategoryList.css';
+import { useContext } from 'react';
+import FoodContext from '../../context/FoodContext/FoodContext';
 
-export default function CategoryList({ categories, activeCat, setActiveCat }) {
+export default function CategoryList({ categories }) {
+  const { activeCat, setActiveCat } = useContext(FoodContext);
+
+
   const cats = categories.map(cat =>
     <li
       key={cat}

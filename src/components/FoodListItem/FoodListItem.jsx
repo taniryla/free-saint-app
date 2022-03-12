@@ -8,17 +8,16 @@ export default function FoodListItem({ item }) {
   
     return (
       <>
-        <div className='FoodListItem grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2'>
-           <img src={item.image} alt="Food Image" />
-            <div className="name1">{item.name}</div>
-            <div className="addtofoodlog">
-                  <span>Calories: {item.calories}</span> 
-                  <button className="btn-sm" onClick={() => handleAddToFoodLog(foodItem._id)}>
-                   ADD
-                   </button>
-              </div>
-        </div> 
-      </>
-      )
-  
+         {/* <div className='FoodListItem grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2'>
+      //      {/* <img src={item.image} alt="Food Image" /> */}
+            {/* <div className="name1">{item.name}</div>
+      //       <div className="addtofoodlog">
+      //             <span>Calories: {item.calories}</span> 
+      //             <button className="btn-sm" onClick={() => handleAddToFoodLog(foodItem._id)}>
+      //              ADD
+      //              </button> */}
+      {/* //         </div> */}
+        </>     
+        )
+    
 }
