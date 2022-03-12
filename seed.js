@@ -1935,7 +1935,7 @@ const Food = require('./models/food');
     qty: 1,
     measurementType: 'Bowl',
     caloricDensity: 'red',
-    foodType: ''
+    foodType: 'fruit'
   },
   { 
     name: 'french fries', 
