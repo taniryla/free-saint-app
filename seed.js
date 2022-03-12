@@ -2848,6 +2848,106 @@ const Item = require('./models/item');
     caloricDensity: 'red',
     foodType: 'beverages'
   },
+  { 
+    name: 'cakes', 
+    calories: '157', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/wdZ3Wa3.jpg',
+    qty: '1.0',
+    measurementType: 'Slice(s)',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'brownies', 
+    calories: '97', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/ISMtWRY.jpg',
+    qty: '1.0',
+    measurementType: 'Brownie',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'candy', 
+    calories: '24', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/sDkJZxW.jpg',
+    qty: '1.0',
+    measurementType: 'Candy',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'chocolate', 
+    calories: '37', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/zSrMPKi.jpg',
+    qty: '1.0',
+    measurementType: 'Piece',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'cookies', 
+    calories: '117', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/kXM9Jtl.jpg',
+    qty: '1.0',
+    measurementType: 'Cookie',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'doughnuts', 
+    calories: '303', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/qOqyeZu.jpg',
+    qty: '1.0',
+    measurementType: 'Doughnut(s)',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'ice cream', 
+    calories: '340', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/TSrPB1F.jpg',
+    qty: '1.0',
+    measurementType: 'Cup',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'pies', 
+    calories: '296', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/oxsUb8N.jpg',
+    qty: '1.0',
+    measurementType: 'Slice(s)',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'sugar', 
+    calories: '16', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/wBjoD5Y.jpg',
+    qty: '1.0',
+    measurementType: 'tsp',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
+  { 
+    name: 'whipped cream', 
+    calories: '7', 
+    category: ['other'],    
+    image: 'https://i.imgur.com/WRLoSF3.jpg',
+    qty: '1.0',
+    measurementType: 'tbsp',
+    caloricDensity: 'red',
+    foodType: 'desserts'
+  },
 
   
  
