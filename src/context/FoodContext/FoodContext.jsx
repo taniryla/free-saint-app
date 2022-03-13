@@ -54,7 +54,7 @@ async function handleChangeQty(itemId, newQty) {
 
 async function handleFoodLog() {
   await foodAPI.foodLog();
-  navigate('/foods');
+navigate('/foods');
 }
 
 function handleSelectFood(food) {

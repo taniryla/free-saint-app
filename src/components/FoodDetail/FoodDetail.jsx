@@ -24,7 +24,7 @@ export default function FoodDetail({ food }) {
         {food.isLogged ?
           <span>FOOD <span className="smaller">{food.foodId}</span></span>
           :
-          <span>NEW FOOD</span>
+          <span>Foods to log?</span>
         }
         <span>{new Date(food.updatedAt).toLocaleDateString()}</span>
       </div>
@@ -32,15 +32,15 @@ export default function FoodDetail({ food }) {
         {lineItems.length ?
           <>
             {lineItems}
-            <section className="total">
+            <section className="dailyLoggedFood">
               {food.isLogged ?
-                <span className="right">TOTAL&nbsp;&nbsp;</span>
+                <span className="right">DAILY LOGGED FOOD&nbsp;&nbsp;</span>
                 :
                 <button
                   className="btn-sm"
                   onClick={handleFoodLog}
                   disabled={!lineItems.length}
-                >FOOD LOG</button>
+                >LOG FOOD NOW</button>
               }
               <span>{food.totalQty}</span>
             </section>
