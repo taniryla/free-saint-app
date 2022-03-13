@@ -40,6 +40,7 @@ export const FoodProvider = ({ children }) => {
     }, []);
 
 
+
  /*-- Event Handlers --*/
  async function handleAddToFoodLog(itemId) {
   const updatedLog = await foodAPI.addItemToLog(itemId);
@@ -59,6 +60,8 @@ async function handleFoodLog() {
 function handleSelectFood(food) {
   setActiveFood(food);
 }
+
+console.log(foodItems);
 
       return (
         <FoodContext.Provider

@@ -15,32 +15,6 @@ export default function FoodIntakePage() {
 
 
   
-  useEffect(function() {
-    async function getItems() {
-      const items = await itemsAPI.getAll();
-      categoriesRef.current = items.reduce((cats, item) => {
-        const cat = item.category.name;
-        return cats.includes(cat) ? cats : [...cats, cat];
-      }, []);
-      setFoodItems(items);
-      setActiveCat(categoriesRef.current[0]);
-    }
-    getItems();
-    async function getFoodLog() {
-      const log = await foodAPI.getFoodLog();
-      setLog(log);
-    }
-    getFoodLog();
-  }, []);
-  // Providing an empty 'dependency array'
-  // results in the effect running after
-  // the FIRST render only
-
-
-
-
- 
-
   return (
     <main className="FoodIntakePage">
       <aside>

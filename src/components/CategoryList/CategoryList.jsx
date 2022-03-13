@@ -18,7 +18,6 @@ export default function CategoryList({ categories }) {
     </li>
   );
   
-  console.log(cats);
   
   return (
     <ul className="CategoryList">
