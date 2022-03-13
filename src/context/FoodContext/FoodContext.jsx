@@ -9,6 +9,7 @@ const FoodContext = createContext();
 
 export const FoodProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
+    const [searchWord, setSearchWord] = useState('');
     // FoodIntake
     const [foodItems, setFoodItems] = useState([]);
     const [activeCat, setActiveCat] = useState('');
@@ -38,7 +39,6 @@ export const FoodProvider = ({ children }) => {
       getFoodLog();
     }, []);
 
-      
 
  /*-- Event Handlers --*/
  async function handleAddToFoodLog(itemId) {
@@ -67,7 +67,6 @@ function handleSelectFood(food) {
             setLoading,
             foods,
             setFoods,
-            // food,
             activeFood,
             setActiveFood,
             handleSelectFood,

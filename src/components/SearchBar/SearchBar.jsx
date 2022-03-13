@@ -1,12 +1,11 @@
-
-   
+import * as itemsAPI from '../../utilities/items-api';   
 import { useContext } from 'react'
 import FoodContext from '../../context/FoodContext/FoodContext';
 
 
 
 export default function SearchBar() {
-    const { searchWord, setSearchWord, fetchEdamanData } = useContext(FoodContext);
+    const { searchWord, setSearchWord, setFoodItems, foodItems } = useContext(FoodContext);
 
 
   function handleChange(evt) {
@@ -15,13 +14,19 @@ export default function SearchBar() {
   
   function search(evt){
     evt.preventDefault()
-    fetchEdamanData(searchWord)
+    setFoodItems(searchWord)
     setSearchWord('')
+  }
+
+  async function getAPI(searchWord) {
+    const getAPI = await itemsAPI.getAll();
+    if (foodItems === getAPI) {
+      setFoodItems(searchWord)
+    }
   }
 
   return (
     <>
-      <h1>Hi</h1>
       <form onSubmit={search}>
         <input value={searchWord} name="search" placeholder="search" onChange={handleChange}/>
         <button>Search</button>

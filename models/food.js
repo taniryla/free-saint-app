@@ -4,7 +4,7 @@ const itemSchema = require('./itemSchema');
 
 const lineItemSchema = new Schema({
   item: itemSchema,
-  qty: { type: Number, default: 1 },
+  counter: { type: Number},
 }, {
   timestamps: true,
   toJSON: { virtuals: true }
@@ -18,18 +18,6 @@ lineItemSchema.virtual('totalCalorie').get(function() {
 const foodSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: 'User' },
   lineItems: [lineItemSchema],
-  image: { type: String, required: true },
-  measurementType: { type: String, required: true },
-  caloricDensity: {
-    type: String,
-    required: true,
-    enum: ['green', 'yellow', 'red']
-  },
-  foodType: {
-    type: String,
-    required: true,
-    enum: ['fruit', 'grains', 'beverages', 'vegetables', 'meat protein', 'dairy', 'soups', 'snacks', 'condiments', 'legume and seeds', 'desserts']
-  },
   isLogged: { type: Boolean, default: false }
 }, {
   timestamps: true,

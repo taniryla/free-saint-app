@@ -2,7 +2,7 @@ require('dotenv').config();
 require('./config/database');
 
 const Category = require('./models/category');
-const Food = require('./models/food');
+const Item = require('./models/item');
 
 (async function() {
 
@@ -15,8 +15,8 @@ const Food = require('./models/food');
     {name: 'other', sortOrder: 50},
   ]);
 
-  await Food.deleteMany({});
-  const foods = await Food.create([   
+  await Item.deleteMany({});
+  const items = await Item.create([   
   { 
     name: 'banana', 
     calories: 105, 
@@ -2933,7 +2933,7 @@ const Food = require('./models/food');
   
   ]);
 
-  console.log(items)
+  
 
   process.exit();
 

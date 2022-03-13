@@ -9,6 +9,19 @@ const itemSchema = new Schema({
     ref: 'Category'
   },
   calories: { type: Number, required: true, default: 0 },
+  image: { type: String, required: true },
+  qty: { type: Number},
+  measurementType: { type: String, required: true },
+  caloricDensity: {
+    type: String,
+    required: true,
+    enum: ['green', 'yellow', 'red']
+  },
+  foodType: {
+    type: String,
+    required: true,
+    enum: ['fruit', 'grains', 'beverages', 'vegetables', 'meat protein', 'dairy', 'soups', 'snacks', 'condiments', 'legume and seeds', 'desserts']
+  },
 }, {
   timestamps: true
 });
