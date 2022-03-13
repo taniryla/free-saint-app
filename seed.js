@@ -979,8 +979,8 @@ const Item = require('./models/item');
   },
   { 
     name: 'avocado', 
+    calories: 322,
     category: categories[3],    
-    category: ['vegan', 'vegetarian', 'gluten-free', 'keto-friendly', 'pescatarian', 'paleo'],    
     image: 'https://www.edamam.com/food-img/984/984a707ea8e9c6bf5f6498970a9e6d9d.jpg',
     qty: 1,
     measurementType: 'Avocado',
