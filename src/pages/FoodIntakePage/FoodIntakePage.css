@@ -12,8 +12,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 3vmin 2vmin;
-  margin-top: 5vmin;
+  margin: 3vmin;
+  padding: 1vmin;
 }
 
 .FoodIntakePage asideright {
@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  margin: 3vmin 2vmin;
-  margin-top: 2vmin;
+  margin-right: 5vmin;
+  margin-top: 5vmin;
   margin-bottom: 10vmin;
 }

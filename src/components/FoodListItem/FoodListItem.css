@@ -1,21 +1,25 @@
-.MenuListItem {
+.FoodListItem {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+  margin-right: 3vmin;
+  padding-right: 6vmin;
   margin-bottom: 3vmin;
   padding: 2vmin;
   color: var(--text-light);
   background-color: var(--white);
   border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;
-  font-size: 4vmin;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  font-size: 2vmin;
 }
 
-.MenuListItem .emoji {
-  height: 8vw;
-  width: 8vw;
-  font-size: 4vw;
+.FoodListItem img {
+  height: 15vw;
+  width: 15vw;
+  font-size: 2vw;
   background-color: var(--tan-1);
   border: .1vmin solid var(--tan-3);
   border-radius: 1vmin;
@@ -34,7 +38,8 @@
 
 .FoodListItem .name {
   font-size: 2vw;
-  text-align: center;
+  text-align: left;
+
   color: var(--text-light);
 }
 
