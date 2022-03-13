@@ -4,16 +4,16 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 
 
 export default function LineItem({ isLogged, lineItem }) {
-  const { handleChangeQty } = useContext(FoodContext);
+  const { handleSelectFood, handleChangeQty } = useContext(FoodContext);
 
-  console.log(lineItem);
+  console.log(lineItem.calorieTotal);
 
   return (
-    <div className="LineItem">
+    <>
+    <div className={ `LineItem${isLogged ? 'selected' : '' }`} onClick={() => handleSelectFood(lineItem)} >
       <div className="flex-ctr-ctr">{lineItem.item.calories} cal</div>
       <div className="flex-ctr-ctr flex-col">
         <span className="align-ctr">{lineItem.item.name}</span>
-        {/* <span>Calories: {Math.round(foodItem.price)}</span> */}
       </div>
       <div className="qty" style={{ justifyContent: isLogged && 'center' }}>
         {!isLogged &&
@@ -22,7 +22,7 @@ export default function LineItem({ isLogged, lineItem }) {
             onClick={() => handleChangeQty(lineItem.item._id, lineItem.counter - 1)}
           >−</button>
         }
-        <span>{lineItem.qty}</span>
+        <span>{lineItem.counter}</span>
         {!isLogged &&
           <button
             className="btn-xs"
@@ -31,5 +31,6 @@ export default function LineItem({ isLogged, lineItem }) {
         }
       </div>
     </div>
+    </>
   );
 }

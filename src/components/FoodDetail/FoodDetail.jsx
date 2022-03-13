@@ -5,7 +5,7 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 
 // Used to display the details of any food, including the logged food 
 export default function FoodDetail({ food }) {
-  const { handleFoodLog } = useContext(FoodContext);
+  const { handleFoodLog, activeFood } = useContext(FoodContext);
 
 
   if (!food) return null;
@@ -13,7 +13,7 @@ export default function FoodDetail({ food }) {
   const lineItems = food.lineItems.map(item =>
     <LineItem
       lineItem={item}
-      isLogged={food.isLogged}
+      isLogged={item === activeFood}
       key={item._id}
     />
   );
@@ -43,6 +43,7 @@ export default function FoodDetail({ food }) {
                 >LOG FOOD NOW</button>
               }
               <span>{food.totalQty}</span>
+              <span className="right">{food.calorieTotal} cal total</span>
             </section>
           </>
           :

@@ -4,7 +4,7 @@ const itemSchema = require('./itemSchema');
 
 const lineItemSchema = new Schema({
   item: itemSchema,
-  counter: { type: Number},
+  counter: { type: Number, default: 1 },
 }, {
   timestamps: true,
   toJSON: { virtuals: true }
@@ -12,7 +12,7 @@ const lineItemSchema = new Schema({
 
 lineItemSchema.virtual('totalCalorie').get(function() {
   // 'this' is bound to the lineItem subdoc
-  return this.qty * this.item.calories;
+  return this.counter * this.item.calories;
 });
 
 const foodSchema = new Schema({
@@ -24,9 +24,10 @@ const foodSchema = new Schema({
   toJSON: { virtuals: true }
 });
 
-foodSchema.virtual('orderTotal').get(function() {
+foodSchema.virtual('calorieTotal').get(function() {
   return this.lineItems.reduce((total, item) => total + item.totalCalorie, 0);
 });
+
 
 foodSchema.virtual('totalQty').get(function() {
   return this.lineItems.reduce((total, item) => total + item.qty, 0);
