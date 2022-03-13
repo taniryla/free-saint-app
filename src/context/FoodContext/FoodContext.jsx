@@ -10,6 +10,7 @@ const FoodContext = createContext();
 export const FoodProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
     const [searchWord, setSearchWord] = useState('');
+    const [foodItem, setFoodItem] = useState([]);
     // FoodIntake
     const [foodItems, setFoodItems] = useState([]);
     const [activeCat, setActiveCat] = useState('');
@@ -25,6 +26,7 @@ export const FoodProvider = ({ children }) => {
       async function getItems() {
         const items = await itemsAPI.getAll();
         categoriesRef.current = items.reduce((cats, item) => {
+          console.log(item);
           const cat = item.category.name;
           return cats.includes(cat) ? cats : [...cats, cat];
         }, []);
@@ -38,7 +40,6 @@ export const FoodProvider = ({ children }) => {
       }
       getFoodLog();
     }, []);
-
 
 
  /*-- Event Handlers --*/
@@ -61,12 +62,33 @@ function handleSelectFood(food) {
   setActiveFood(food);
 }
 
-console.log(foodItems);
+
+ /*-- Search --*/
+
+function handleChange(evt) {
+  setSearchWord(evt.target.value)
+}
+
+// need to prevent default and get the searchWord from the database through itemsAPI.getall
+function search(evt){
+  evt.preventDefault()
+  searchResults(searchWord);
+}
+
+// find in the foodItems array an exact match to the searchWord
+function searchResults(searchWord) {
+  const foodItem = foodItems.filter(food => food.name.includes(searchWord))
+  setFoodItem(foodItem);
+  setSearchWord('');  
+}
+
 
       return (
         <FoodContext.Provider
           value={{
             loading,
+            foodItem,
+            setFoodItem,
             setLoading,
             foods,
             setFoods,
@@ -82,7 +104,10 @@ console.log(foodItems);
             handleAddToFoodLog,
             handleChangeQty,
             handleFoodLog,
-            categoriesRef
+            categoriesRef,
+            handleChange,
+            search,
+            searchResults
           }}
         >
           {children}

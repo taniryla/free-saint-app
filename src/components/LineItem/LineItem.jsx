@@ -6,7 +6,6 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 export default function LineItem({ isLogged, lineItem }) {
   const { handleSelectFood, handleChangeQty } = useContext(FoodContext);
 
-  console.log(lineItem.calorieTotal);
 
   return (
     <>

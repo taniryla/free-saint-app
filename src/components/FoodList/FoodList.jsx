@@ -5,9 +5,14 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 
 
 export default function FoodList() {
-  const { foodItems } = useContext(FoodContext);
+  const { foodItems, foodItem } = useContext(FoodContext);
 
-
+  const searchItems = foodItem && foodItem.map(searchItem =>
+    <FoodListItem
+      key={searchItem._id}
+      food={searchItem}
+  />
+  );
   const items = foodItems && foodItems.map(item =>
     <FoodListItem
       key={item._id}
@@ -16,7 +21,7 @@ export default function FoodList() {
   );
   return (
     <main className="FoodList">
-      {items}
+      { searchItems && searchItems.length ? searchItems : items }
     </main>
   );
 }
