@@ -17,14 +17,14 @@ export default function FoodIntakePage({ user, setUser }) {
   
   return (
     <main className="FoodIntakePage">
-      <asideleft>
+      <aside>
         <SearchBar />
         <br></br>
       <FoodList
         foodItems={foodItems && foodItems.filter(item => item.category.name === activeCat)}
       />
-      </asideleft>
-      <asideright>
+      </aside>
+      <aside>
         {/* <UserLogOut user={user} setUser={setUser} /> */}
         <Logo />
         <br></br>
@@ -37,7 +37,7 @@ export default function FoodIntakePage({ user, setUser }) {
       <FoodDetail
         food={log}
       />
-      </asideright>
+      </aside>
     </main>
   );
 }
