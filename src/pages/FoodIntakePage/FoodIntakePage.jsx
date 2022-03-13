@@ -17,21 +17,28 @@ export default function FoodIntakePage() {
   
   return (
     <main className="FoodIntakePage">
-      <aside>
-        <Logo />
+      <asideleft>
         <SearchBar />
-        <CategoryList
-          categories={categoriesRef.current}
-        />
-        <Link to="/foods" className="button btn-sm">FOOD LOG HISTORY</Link>
-        {/* <UserLogOut user={user} setUser={setUser} /> */}
-      </aside>
+        <br></br>
       <FoodList
         foodItems={foodItems && foodItems.filter(item => item.category.name === activeCat)}
       />
+      </asideleft>
+      <asideright>
+        <Logo />
+        <CategoryList
+          categories={categoriesRef.current}
+          />
+        <Link to="/foods" className="button btn-sm">FOOD LOG HISTORY</Link>
+          <br></br>
+          <br></br>
+        {/* <UserLogOut user={user} setUser={setUser} /> */}
+          <br></br>
+          <br></br>
       <FoodDetail
         food={log}
       />
+      </asideright>
     </main>
   );
 }

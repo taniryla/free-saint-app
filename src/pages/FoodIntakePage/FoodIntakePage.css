@@ -7,10 +7,21 @@
   border-radius: 2vmin;
 }
 
-.FoodIntakePage aside {
+.FoodIntakePage asideleft {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 3vmin 2vmin;
+  margin-top: 5vmin;
+}
+
+.FoodIntakePage asideright {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin: 3vmin 2vmin;
+  margin-top: 2vmin;
+  margin-bottom: 10vmin;
 }

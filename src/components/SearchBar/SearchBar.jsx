@@ -27,14 +27,13 @@ export default function SearchBar() {
     }
     // add item to the food list
 
-    
+
   }
 
   return (
     <>
       <form onSubmit={search}>
-        <input value={searchWord} name="search" placeholder="search" onChange={handleChange}/>
-        <button>Search</button>
+        <input value={searchWord} name="search" placeholder="Search for your food" onChange={handleChange}/>
       </form>
     </>
   )
