@@ -5,18 +5,19 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 
 
 export default function FoodList() {
-  const { foodItems, foodItem } = useContext(FoodContext);
+  const { foodItems, foodItem, activeCat } = useContext(FoodContext);
 
-  const searchItems = foodItem && foodItem.map(searchItem =>
+  
+  const searchItems = foodItem && foodItem.filter(item => item.category.name === activeCat ).map(searchItem =>
     <FoodListItem
       key={searchItem._id}
       food={searchItem}
   />
   );
-  const items = foodItems && foodItems.map(item =>
+  const items = foodItems && foodItems.filter(item => item.category.name === activeCat).map(item =>
     <FoodListItem
       key={item._id}
-      food={item}
+    food={item}
   />
   );
   return (
