@@ -13,7 +13,7 @@ export default function FoodDetail({ food }) {
   const lineItems = food.lineItems.map(item =>
     <LineItem
       lineItem={item}
-      isLogged={item === activeFood}
+      isLogged={food.isLogged}
       key={item._id}
     />
   );
@@ -47,7 +47,7 @@ export default function FoodDetail({ food }) {
             </section>
           </>
           :
-          <div className="logit">Foods to log?</div>
+          <div className="logit">Add first food log</div>
         }
       </div>
     </div>

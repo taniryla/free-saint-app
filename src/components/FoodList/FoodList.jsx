@@ -14,7 +14,7 @@ export default function FoodList() {
       food={searchItem}
   />
   );
-  const items = foodItems && foodItems.filter(item => item.category.name === activeCat).map(item =>
+  const items = foodItems && foodItems.filter(item => (item.category.name === activeCat) && (item.category.name !== '')).map(item =>
     <FoodListItem
       key={item._id}
     food={item}

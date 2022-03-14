@@ -26,7 +26,6 @@ export const FoodProvider = ({ children }) => {
       async function getItems() {
         const items = await itemsAPI.getAll();
         categoriesRef.current = items.reduce((cats, item) => {
-          console.log(item);
           const cat = item.category.name;
           return cats.includes(cat) ? cats : [...cats, cat];
         }, []);
@@ -49,6 +48,7 @@ export const FoodProvider = ({ children }) => {
 }
 
 async function handleChangeQty(itemId, newQty) {
+  console.log(itemId, newQty);
   const updatedLog = await foodAPI.setItemQtyInLog(itemId, newQty);
   setLog(updatedLog);
 }

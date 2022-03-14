@@ -11,7 +11,7 @@ export default function SearchBar() {
   return (
     <>
       <form onSubmit={search}>
-        <input value={searchWord} name="search" placeholder="Search food & category" onChange={handleChange}/>
+        <input value={searchWord} name="search" placeholder="Search food + category" onChange={handleChange}/>
         <button type="submit"><i className="fa fa-search" aria-hidden="true"></i></button>
       </form>
     </>

@@ -32,7 +32,7 @@ export default function FoodIntakePage({ user, setUser }) {
         <SearchBar />
         <br></br>
         <br></br>
-        <Link to="/foods" className="button btn-sm">FOOD LOG HISTORY</Link>
+        <Link to="/foods" className="button btn-sm btn-dark">FOOD LOG HISTORY</Link>
         <br></br>
       <FoodDetail
         food={log}

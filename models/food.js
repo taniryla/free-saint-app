@@ -74,7 +74,7 @@ foodSchema.methods.setItemQty = function(itemId, newQty) {
     lineItem.remove();
   } else if (lineItem) {
     // Set the new qty - positive value is assured thanks to prev if
-    lineItem.qty = newQty;
+    lineItem.counter = newQty;
   }
   // return the save() method's promise
   return log.save();

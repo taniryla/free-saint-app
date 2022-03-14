@@ -26,6 +26,7 @@ async function addToLog(req, res) {
 async function setItemQtyInLog(req, res) {
   const log = await Food.getFoodLog(req.user._id);
   await log.setItemQty(req.body.itemId, req.body.newQty);
+  console.log(log);
   res.json(log);
 }
 
