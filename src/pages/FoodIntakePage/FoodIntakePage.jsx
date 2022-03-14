@@ -9,6 +9,7 @@ import CategoryList from '../../components/CategoryList/CategoryList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import FoodContext from '../../context/FoodContext/FoodContext';
+import Dropdown from '../../components/Dropdown/Dropdown';
 
 export default function FoodIntakePage({ user, setUser }) {
   const { categoriesRef, setFoodItems, setActiveCat, setLog, foodItems, activeCat, log, userLogOut} = useContext(FoodContext);
@@ -25,15 +26,15 @@ export default function FoodIntakePage({ user, setUser }) {
       />
       </aside>
       <aside>
-        {/* <UserLogOut user={user} setUser={setUser} /> */}
-        <Link to="/foods" className="btn btn-outline-secondary btn-xs">Food log history</Link>
+        <Dropdown  />
+        <br></br>
         <br></br>
         <CategoryList
           categories={categoriesRef.current}
           />
+          <br></br>
         <SearchBar />
           <br></br>
-        <br></br>
       <FoodDetail
         food={log}
       />
