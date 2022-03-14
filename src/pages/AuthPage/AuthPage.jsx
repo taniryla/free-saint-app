@@ -4,7 +4,7 @@ import LoginForm from '../../components/LoginForm/LoginForm';
 import SignUpForm from '../../components/SignUpForm/SignUpForm';
 import Logo from '../../components/Logo/Logo';
 
-export default function AuthPage({ setUser }) {
+export default function AuthPage({ user, setUser }) {
   const [showLogin, setShowLogin] = useState(true);
 
   return (
@@ -13,7 +13,7 @@ export default function AuthPage({ setUser }) {
         <Logo />
         <h3 onClick={() => setShowLogin(!showLogin)}>{showLogin ? 'SIGN UP' : 'LOG IN'}</h3>
       </div>
-      {showLogin ? <LoginForm setUser={setUser} /> : <SignUpForm setUser={setUser} />}
+      {showLogin ? <LoginForm user={user} setUser={setUser} /> : <SignUpForm usser={user} setUser={setUser} />}
     </main>
   );
 }
