@@ -22,7 +22,7 @@ console.log(lineItem.counter, 'lineItem.counter');
           >−</button>
         }
         
-        <span>&nbsp;&nbsp;{lineItem.counter}&nbsp;&nbsp;</span>
+        <span>&nbsp;{lineItem.counter}&nbsp;</span>
         {!isLogged &&
           <button
             className="btn-xs"

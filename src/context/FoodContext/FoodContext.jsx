@@ -48,7 +48,6 @@ export const FoodProvider = ({ children }) => {
 }
 
 async function handleChangeQty(itemId, newQty) {
-  console.log(itemId, newQty);
   const updatedLog = await foodAPI.setItemQtyInLog(itemId, newQty);
   setLog(updatedLog);
 }
