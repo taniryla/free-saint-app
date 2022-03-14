@@ -1,3 +1,4 @@
+import './SearchBar.css';
 import * as itemsAPI from '../../utilities/items-api';   
 import { useContext } from 'react'
 import FoodContext from '../../context/FoodContext/FoodContext';
@@ -10,10 +11,12 @@ export default function SearchBar() {
  
   return (
     <>
-      <form onSubmit={search}>
-        <button type="submit"><i className="fa fa-search" aria-hidden="true"></i></button>
-        <input value={searchWord} name="search" placeholder="Search food + category" onChange={handleChange}/>
+      <form className="SearchBar" onSubmit={search}>
+        <p>
+          <i className="fa fa-search input-icon" style={{fontSize: '3vmin'}} aria-hidden="true"></i>
+          <input value={searchWord} name="search" placeholder="Search for your food" style={{width: '24vw'}} onChange={handleChange}/>
+        </p>
       </form>
     </>
-  )
+      )
 }

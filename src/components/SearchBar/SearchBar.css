@@ -1,0 +1,9 @@
+.SearchBar {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.input-icon{
+    margin-right: 2vmin;
+}

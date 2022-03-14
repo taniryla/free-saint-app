@@ -26,13 +26,13 @@ export default function FoodIntakePage({ user, setUser }) {
       </aside>
       <aside>
         {/* <UserLogOut user={user} setUser={setUser} /> */}
+        <Link to="/foods" className="btn btn-outline-secondary btn-xs">Food log history</Link>
+        <br></br>
         <CategoryList
           categories={categoriesRef.current}
           />
         <SearchBar />
-        <br></br>
-        <br></br>
-        <Link to="/foods" className="button btn-sm btn-dark">FOOD LOG HISTORY</Link>
+          <br></br>
         <br></br>
       <FoodDetail
         food={log}
