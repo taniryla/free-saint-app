@@ -8,7 +8,7 @@ export default function FoodList() {
   const { foodItems, foodItem, activeCat } = useContext(FoodContext);
 
   
-  const searchItems = foodItem && foodItem.filter(item => item.category.name === activeCat ).map(searchItem =>
+  const searchItems = foodItem && foodItem.map(searchItem =>
     <FoodListItem
       key={searchItem._id}
       food={searchItem}

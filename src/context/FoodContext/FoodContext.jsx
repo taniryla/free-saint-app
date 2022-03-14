@@ -40,6 +40,16 @@ export const FoodProvider = ({ children }) => {
       getFoodLog();
     }, []);
 
+    useEffect(function () {
+      // Load previous foods
+      async function fetchFoodLogHistory() {
+        const foods = await foodAPI.getFoodLogHistory();
+        setFoods(foods);
+        // If no orders, activeOrder will be set to null below
+        setActiveFood(foods[0] || null);
+      }
+      fetchFoodLogHistory();
+    }, []);
 
  /*-- Event Handlers --*/
  async function handleAddToFoodLog(itemId) {
@@ -78,7 +88,6 @@ function search(evt){
 function searchResults(searchWord) {
   const foodItem = foodItems.filter(food => food.name.includes(searchWord))
   setFoodItem(foodItem);
-  setSearchWord('');  
 }
 
 
@@ -88,6 +97,8 @@ function searchResults(searchWord) {
             loading,
             foodItem,
             setFoodItem,
+            searchWord,
+            setSearchWord,
             setLoading,
             foods,
             setFoods,
