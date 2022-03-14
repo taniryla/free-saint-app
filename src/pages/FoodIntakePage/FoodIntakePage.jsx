@@ -18,7 +18,7 @@ export default function FoodIntakePage({ user, setUser }) {
   return (
     <main className="FoodIntakePage">
       <aside>
-        <SearchBar />
+        <Logo />
         <br></br>
       <FoodList
         foodItems={foodItems && foodItems.filter(item => item.category.name === activeCat)}
@@ -26,14 +26,14 @@ export default function FoodIntakePage({ user, setUser }) {
       </aside>
       <aside>
         {/* <UserLogOut user={user} setUser={setUser} /> */}
-        <Logo />
-        <br></br>
-        <br></br>
         <CategoryList
           categories={categoriesRef.current}
           />
+        <SearchBar />
+        <br></br>
+        <br></br>
         <Link to="/foods" className="button btn-sm">FOOD LOG HISTORY</Link>
-          <br></br>
+        <br></br>
       <FoodDetail
         food={log}
       />
