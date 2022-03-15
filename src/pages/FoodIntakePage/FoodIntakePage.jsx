@@ -18,6 +18,7 @@ export default function FoodIntakePage({ user, setUser }) {
 
   
   return (
+    // <Header>
     <main className="FoodIntakePage">
       <aside>
         <Logo />
@@ -27,7 +28,7 @@ export default function FoodIntakePage({ user, setUser }) {
         />
       </aside>
       <aside>
-        <Navbar />
+        <Navbar user={user} setUser={setUser}/>
         <CategoryList
           categories={categoriesRef.current}
           />
@@ -38,5 +39,6 @@ export default function FoodIntakePage({ user, setUser }) {
         />
       </aside>
     </main>
+    // </Header>
   );
 }

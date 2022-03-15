@@ -8,6 +8,9 @@ import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import { useContext } from 'react';
 import FoodContext from '../../context/FoodContext/FoodContext';
 import { PageLayout } from '../../common/index';
+import { Header } from '../../common/Header';
+
+
 
 export default function FoodHistoryPage() {
   const { setFoods, setActiveFood, activeFood, foods } = useContext(FoodContext);
@@ -15,6 +18,7 @@ export default function FoodHistoryPage() {
 
   /*--- Rendered UI --- */
   return (
+    <Header>
     <PageLayout>
       <main className="FoodHistoryPage">
         <aside>
@@ -26,5 +30,6 @@ export default function FoodHistoryPage() {
           />
       </main>
     </PageLayout>
+    </Header>
   );
 }

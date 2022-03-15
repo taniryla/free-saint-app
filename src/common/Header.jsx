@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link as ReactRouterDomLink } from 'react-router-dom'
+import { Link as ReactRouterDomLink, useLocation } from 'react-router-dom'
 import Navbar from '../components/Layout/Navbar';
 import { FaAlignJustify } from 'react-icons/fa'
 import UserLogOut from '../components/UserLogOut/UserLogOut'
@@ -23,15 +23,22 @@ const Link = ({isActive, children, ...props}) => {
     )
 }
 
+// mobile style
 const Menu = styled.nav`
-    display: flex;
-    position: relative;
-    width: initial;
-    border-bottom: none;
-    margin: auto 0 auto auto;
+    display: none;
     font-family: esteban;
-    left: initial;
-    top: initial;
+    
+    
+    @media(min-width: 768px) {
+        display: flex; 
+        background: none;
+        left: initial;
+        top: initial;
+        margin: auto 0 auto auto;
+        border-bottom: none;
+        position: relative;
+        width: initial;
+    }
 `;
 
  const StyledLink = styled(Link)`
@@ -44,6 +51,8 @@ const Menu = styled.nav`
  `;
 
 export function Header({user, setUser}) {
+    const { pathname } = useLocation();
+
     return (
         <HeaderWrapper>
             <Menu>
@@ -55,7 +64,7 @@ export function Header({user, setUser}) {
                     <div className='flex-1 px-2 mx-2'>
                         <div className='flex justify-end'>
                             <UserLogOut user={user} setUser={setUser} />
-                            <StyledLink to='/foods' style={{fontSize: '1.5vmin', padding: '1vmin'}} className='text-white button' isActive>
+                            <StyledLink to='/foods' style={{fontSize: '1.5vmin', padding: '1vmin'}} className='text-white button' isActive={pathname === '/'}>
                                 FOOD HISTORY
                             </StyledLink>
                         </div>

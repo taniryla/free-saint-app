@@ -1,12 +1,12 @@
 .FoodList {
   background-color: var(--white);
-  border: .1vmin solid var(--white);
+  border: .1vmin solid black;
   border-radius: 5vmin;
   margin-left: 3vmin;
   margin-right: 3vmin;
   padding: 3vmin;
+  height: 73vh;
   overflow-y: scroll;
-  overflow-x: scroll;
   width: 45vw;
 }
 

@@ -22,34 +22,34 @@ export const FoodProvider = ({ children }) => {
     const navigate = useNavigate();
 
 
-    useEffect(function() {
-      async function getItems() {
-        const items = await itemsAPI.getAll();
-        categoriesRef.current = items.reduce((cats, item) => {
-          const cat = item.category.name;
-          return cats.includes(cat) ? cats : [...cats, cat];
-        }, []);
-        setFoodItems(items);
-        setActiveCat(categoriesRef.current[0]);
-      }
-      getItems();
-      async function getFoodLog() {
-        const log = await foodAPI.getFoodLog();
-        setLog(log);
-      }
-      getFoodLog();
-    }, []);
+    // useEffect(function() {
+    //   async function getItems() {
+    //     const items = await itemsAPI.getAll();
+    //     categoriesRef.current = items.reduce((cats, item) => {
+    //       const cat = item.category.name;
+    //       return cats.includes(cat) ? cats : [...cats, cat];
+    //     }, []);
+    //     setFoodItems(items);
+    //     setActiveCat(categoriesRef.current[0]);
+    //   }
+    //   getItems();
+    //   async function getFoodLog() {
+    //     const log = await foodAPI.getFoodLog();
+    //     setLog(log);
+    //   }
+    //   getFoodLog();
+    // }, []);
 
-    useEffect(function () {
-      // Load previous foods
-      async function fetchFoodLogHistory() {
-        const foods = await foodAPI.getFoodLogHistory();
-        setFoods(foods);
-        // If no orders, activeOrder will be set to null below
-        setActiveFood(foods[0] || null);
-      }
-      fetchFoodLogHistory();
-    }, []);
+    // useEffect(function () {
+    //   // Load previous foods
+    //   async function fetchFoodLogHistory() {
+    //     const foods = await foodAPI.getFoodLogHistory();
+    //     setFoods(foods);
+    //     // If no orders, activeOrder will be set to null below
+    //     setActiveFood(foods[0] || null);
+    //   }
+    //   fetchFoodLogHistory();
+    // }, []);
 
  /*-- Event Handlers --*/
  async function handleAddToFoodLog(itemId) {

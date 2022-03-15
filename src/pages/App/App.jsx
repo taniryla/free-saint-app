@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
@@ -6,6 +6,9 @@ import FoodIntakePage from '../FoodIntakePage/FoodIntakePage';
 import FoodHistoryPage from '../FoodHistoryPage/FoodHistoryPage';
 import { FoodProvider } from '../../context/FoodContext/FoodContext';
 import { createGlobalStyle } from 'styled-components';
+import FoodContext from '../../context/FoodContext/FoodContext';
+import * as itemsAPI from '../../utilities/items-api';
+import * as foodAPI from '../../utilities/food-api';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -30,8 +33,39 @@ const GlobalStyle = createGlobalStyle`
 
 export default function App() {
   const [user, setUser] = useState(getUser());
+  const { setFoodItems, setActiveCat, setLog, setFoods, setActiveFood, categoriesRef } = useContext(FoodContext);
+
+
+ 
+
+  useEffect(function() {
+    if (!user) return;
+    async function getItems() {
+      const items = await itemsAPI.getAll();
+      categoriesRef.current = items.reduce((cats, item) => {
+        const cat = item.category.name;
+        return cats.includes(cat) ? cats : [...cats, cat];
+      }, []);
+      setFoodItems(items);
+      setActiveCat(categoriesRef.current[0]);
+    }
+    getItems();
+    async function getFoodLog() {
+      const log = await foodAPI.getFoodLog();
+      setLog(log);
+    }
+    getFoodLog();
+    async function fetchFoodLogHistory() {
+      const foods = await foodAPI.getFoodLogHistory();
+      setFoods(foods);
+      // If no orders, activeOrder will be set to null below
+      setActiveFood(foods[0] || null);
+    }
+    fetchFoodLogHistory();
+  }, [user]);
+
   return (
-    <FoodProvider >
+    <>
     <GlobalStyle />
     <main className="App">
       { user ?
@@ -48,6 +82,6 @@ export default function App() {
         <AuthPage user={user} setUser={setUser} />
       }
     </main>
-    </FoodProvider>
+    </>
   );
 }

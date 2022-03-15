@@ -15,7 +15,7 @@ export default function AuthPage({ user, setUser }) {
         </aside>
           <h3 onClick={() => setShowLogin(!showLogin)}>{showLogin ? 'SIGN UP' : 'LOG IN'}</h3>
       </div>
-      {showLogin ? <LoginForm user={user} setUser={setUser} /> : <SignUpForm usser={user} setUser={setUser} />}
+      {showLogin ? <LoginForm user={user} setUser={setUser} /> : <SignUpForm user={user} setUser={setUser} />}
     </main>
   );
 }
