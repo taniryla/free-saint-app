@@ -16,9 +16,9 @@ const GlobalStyle = createGlobalStyle`
     font-family: quicksand;
   }
 
-  /* #quicksand {
+  /* #esteban{
     font-size: 2vmin;
-    font-family: quicksand;
+    font-family: esteban;
 }
 
   #yellowtail {

@@ -28,11 +28,9 @@ export default function FoodIntakePage({ user, setUser }) {
       <aside>
         <Navbar user={user} setUser={setUser} />
         <br></br>
-        <br></br>
         <CategoryList
           categories={categoriesRef.current}
           />
-          <br></br>
         <SearchBar />
           <br></br>
       <FoodDetail
