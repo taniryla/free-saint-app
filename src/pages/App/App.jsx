@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
     margin: 0;
     color: #6D6E71;
-    font-family: esteban;
+    font-family: quicksand;
   }
 
   /* #quicksand {

@@ -2,6 +2,7 @@ import './FoodListItem.css';
 import { useContext } from 'react';
 import FoodContext from '../../context/FoodContext/FoodContext';
 
+
 export default function FoodListItem({ food }) {
   const { handleAddToFoodLog } = useContext(FoodContext);
 

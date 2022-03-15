@@ -38,7 +38,7 @@ export default function FoodDetail({ food }) {
               {food.isLogged ?
                 <span className="right">DAILY LOGGED FOOD&nbsp;&nbsp;</span>
                 :
-                <Button
+                <Button large
                   className="btn-sm"
                   onClick={handleFoodLog}
                   disabled={!lineItems.length}
