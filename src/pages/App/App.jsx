@@ -5,11 +5,34 @@ import AuthPage from '../AuthPage/AuthPage';
 import FoodIntakePage from '../FoodIntakePage/FoodIntakePage';
 import FoodHistoryPage from '../FoodHistoryPage/FoodHistoryPage';
 import { FoodProvider } from '../../context/FoodContext/FoodContext';
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background: #e2e2e3;
+    min-height: 100vh;
+    margin: 0;
+    color: #6D6E71;
+    font-family: esteban;
+  }
+
+  /* #quicksand {
+    font-size: 2vmin;
+    font-family: quicksand;
+}
+
+  #yellowtail {
+    font-family: yellowtail;
+    font-size: 15vmin;
+} */
+`;
+
 
 export default function App() {
   const [user, setUser] = useState(getUser());
   return (
     <FoodProvider >
+    <GlobalStyle />
     <main className="App">
       { user ?
         <>

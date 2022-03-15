@@ -2,7 +2,7 @@ import './FoodDetail.css';
 import LineItem from '../LineItem/LineItem';
 import { useContext } from 'react';
 import FoodContext from '../../context/FoodContext/FoodContext';
-import Button from '../../common/Button';
+import { Button } from '../../common';
 
 
 // Used to display the details of any food, including the logged food 
