@@ -1,6 +1,10 @@
 import './LogListItem.css';
+import { useContext } from 'react';
+import FoodContext from '../../context/FoodContext/FoodContext';
 
-export default function FoodListItem({ food, isSelected, handleSelectFood }) {
+export default function FoodListItem({ food, isSelected }) {
+  const { handleSelectFood } = useContext(FoodContext);
+
   return (
     <div className={`FoodListItem${isSelected ? ' selected' : ''}`} onClick={() => handleSelectFood(food)}>
       <div>

@@ -5,7 +5,7 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 
 
 export default function LogList() {
-    const { foods, activeFood, handleSelectFood } = useContext(FoodContext);
+    const { foods, activeFood } = useContext(FoodContext);
 
 
     const foodItems = foods.map(f =>
