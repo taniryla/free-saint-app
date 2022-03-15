@@ -2,6 +2,8 @@ import './FoodDetail.css';
 import LineItem from '../LineItem/LineItem';
 import { useContext } from 'react';
 import FoodContext from '../../context/FoodContext/FoodContext';
+import Button from '../../common/Button';
+
 
 // Used to display the details of any food, including the logged food 
 export default function FoodDetail({ food }) {
@@ -36,11 +38,11 @@ export default function FoodDetail({ food }) {
               {food.isLogged ?
                 <span className="right">DAILY LOGGED FOOD&nbsp;&nbsp;</span>
                 :
-                <button
+                <Button
                   className="btn-sm"
                   onClick={handleFoodLog}
                   disabled={!lineItems.length}
-                >LOG FOOD NOW</button>
+                >LOG FOOD NOW</Button>
               }
               <span>{food.totalQty}</span>
               <span className="right">{food.calorieTotal} cal total</span>
