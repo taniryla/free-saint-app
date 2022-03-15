@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
  const Button = styled.button`
     color: #148980;
-    background: white;
+    background: ${props => props.secondary ? "#c5c5c6" : "white" } ;
     font-weight: bold;
     padding: 3vmin;
     border-radius: 1vmin;
