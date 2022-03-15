@@ -9,8 +9,8 @@ import CategoryList from '../../components/CategoryList/CategoryList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import FoodContext from '../../context/FoodContext/FoodContext';
+import { Header } from '../../common/Header';
 import Navbar from '../../components/Layout/Navbar';
-
 
 export default function FoodIntakePage({ user, setUser }) {
   const { categoriesRef, setFoodItems, setActiveCat, setLog, foodItems, activeCat, log, userLogOut} = useContext(FoodContext);
@@ -27,8 +27,7 @@ export default function FoodIntakePage({ user, setUser }) {
         />
       </aside>
       <aside>
-        <Navbar user={user} setUser={setUser} />
-        <br></br>
+        <Navbar />
         <CategoryList
           categories={categoriesRef.current}
           />
