@@ -7,6 +7,7 @@ import LogList from '../../components/LogList/LogList';
 import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import { useContext } from 'react';
 import FoodContext from '../../context/FoodContext/FoodContext';
+import { PageLayout } from '../../common/index';
 
 export default function FoodHistoryPage() {
   const { setFoods, setActiveFood, activeFood, foods } = useContext(FoodContext);
@@ -14,14 +15,16 @@ export default function FoodHistoryPage() {
 
   /*--- Rendered UI --- */
   return (
-    <main className="FoodHistoryPage">
-      <aside>
-        <Link to="/foods/new" className="button btn-sm">NEW FOOD</Link>
-      </aside>
-      <LogList />
-      <FoodDetail
-        food={activeFood}
-      />
-    </main>
+    <PageLayout>
+      <main className="FoodHistoryPage">
+        <aside>
+          <Link to="/foods/new" className="button btn-sm">NEW FOOD</Link>
+        </aside>
+        <LogList />
+        <FoodDetail
+          food={activeFood}
+          />
+      </main>
+    </PageLayout>
   );
 }

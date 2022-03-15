@@ -16,7 +16,7 @@ export default function Navbar({ user, setUser }) {
         <div className='flex-1 px-2 mx-2'>
           <div className='flex justify-end'>
             <UserLogOut user={user} setUser={setUser} />
-            <Link to='/foods' style={{fontSize: '1.5vmin', padding: '2vmin'}} className='text-white button'>
+            <Link to='/foods' style={{fontSize: '1.5vmin', padding: '1vmin'}} className='text-white button'>
               FOOD HISTORY
             </Link>
           </div>

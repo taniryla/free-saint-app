@@ -11,6 +11,7 @@ import SearchBar from '../../components/SearchBar/SearchBar';
 import FoodContext from '../../context/FoodContext/FoodContext';
 import Navbar from '../../components/Layout/Navbar';
 
+
 export default function FoodIntakePage({ user, setUser }) {
   const { categoriesRef, setFoodItems, setActiveCat, setLog, foodItems, activeCat, log, userLogOut} = useContext(FoodContext);
 
@@ -23,7 +24,7 @@ export default function FoodIntakePage({ user, setUser }) {
         <br></br>
       <FoodList
         foodItems={foodItems && foodItems.filter(item => item.category.name === activeCat)}
-      />
+        />
       </aside>
       <aside>
         <Navbar user={user} setUser={setUser} />
@@ -35,7 +36,7 @@ export default function FoodIntakePage({ user, setUser }) {
           <br></br>
       <FoodDetail
         food={log}
-      />
+        />
       </aside>
     </main>
   );
