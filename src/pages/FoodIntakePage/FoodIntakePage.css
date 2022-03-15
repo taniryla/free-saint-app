@@ -5,6 +5,7 @@
   grid-template-rows: 1fr;
   background-color: var(--white);
   border-radius: 2vmin;
+  padding-top: 1vmin;
 }
 
 .FoodIntakePage aside {

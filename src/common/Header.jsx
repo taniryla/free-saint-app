@@ -15,12 +15,7 @@ const HeaderWrapper = styled.header`
 export function Header() {
     return (
         <HeaderWrapper>
-            <Link to="/">
-                Home
-            </Link>
-            <Link to="/login">
-                Login
-            </Link>
+           
         </HeaderWrapper>
     )
 }

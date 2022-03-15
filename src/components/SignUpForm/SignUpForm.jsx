@@ -1,5 +1,7 @@
 import { Component } from "react";
 import { signUp } from '../../utilities/users-service';
+import { PageLayout } from '../../common/index';
+
 
 export default class SignUpForm extends Component {
   state = {
@@ -41,7 +43,7 @@ export default class SignUpForm extends Component {
   render() {
     const disable = this.state.password !== this.state.confirm;
     return (
-      <div>
+      <PageLayout>
         <div className="form-container">
           <form autoComplete="off" onSubmit={this.handleSubmit}>
             <label>Name</label>
@@ -56,7 +58,7 @@ export default class SignUpForm extends Component {
           </form>
         </div>
         <p className="error-message">&nbsp;{this.state.error}</p>
-      </div>
+      </PageLayout>
     );
   }
 }
