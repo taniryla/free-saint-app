@@ -7,9 +7,15 @@
   border-radius: 2vmin;
 }
 
+.AuthPage aside {
+  margin-left: 15vmin;
+}
+
+
 .AuthPage h3 {
   margin-top: 4vmin;
   text-align: center;
   color: var(--text-light);
   cursor: pointer;
+  font-size: 5vmin;
 }

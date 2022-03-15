@@ -12,6 +12,14 @@ const HeaderWrapper = styled.header`
     top: 0;
 `;
 
+const Menu = styled.nav`
+    display: flex;
+    position: relative;
+    width: initial;
+    border-bottom: none;
+    margin: auto 0 auto auto;
+`;
+
 export function Header() {
     return (
         <HeaderWrapper>
