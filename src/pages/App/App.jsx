@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import './App.css';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
 import FoodIntakePage from '../FoodIntakePage/FoodIntakePage';
