@@ -28,7 +28,7 @@ export default function FoodIntakePage({ user, setUser }) {
         />
       </aside>
       <aside>
-        <Navbar user={user} setUser={setUser}/>
+        {/* <Navbar user={user} setUser={setUser}/> */}
         <CategoryList
           categories={categoriesRef.current}
           />

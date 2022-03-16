@@ -9,7 +9,7 @@ export default function LineItem({ isLogged, lineItem }) {
   return (
     <>
     <div className={ `LineItem${isLogged ? 'selected' : '' }`} onClick={() => handleSelectFood(lineItem)} >
-      <div className="flex-ctr-ctr">{lineItem.item.calories} cal</div>
+      <div className="flex-ctr-ctr">{lineItem.totalCalorie} cal</div>
       <div className="flex-ctr-ctr flex-col">
         <span className="align-ctr" style={{width: '2vmin', marginRight: '3vmin'}}>{lineItem.item.name}</span>
       </div>

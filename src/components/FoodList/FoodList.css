@@ -1,6 +1,6 @@
 .FoodList {
   background-color: var(--white);
-  border: .1vmin solid black;
+  border: .1vmin solid #0D0F14;
   border-radius: 5vmin;
   margin-left: 3vmin;
   margin-right: 3vmin;

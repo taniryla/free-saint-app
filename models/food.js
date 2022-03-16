@@ -29,6 +29,7 @@ foodSchema.virtual('calorieTotal').get(function() {
 });
 
 
+
 foodSchema.virtual('totalQty').get(function() {
   return this.lineItems.reduce((total, item) => total + item.qty, 0);
 });
