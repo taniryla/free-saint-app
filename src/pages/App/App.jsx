@@ -18,24 +18,16 @@ const GlobalStyle = createGlobalStyle`
     color: #6D6E71;
     font-family: quicksand;
   }
-
-  /* #esteban{
-    font-size: 2vmin;
-    font-family: esteban;
-}
-
-  #yellowtail {
-    font-family: yellowtail;
-    font-size: 15vmin;
-} */
 `;
 
+const theme = {
+  primary: '#148980',
+  secondary: '#6D6E71'
+};
 
 export default function App() {
   const [user, setUser] = useState(getUser());
   const { setFoodItems, setActiveCat, setLog, setFoods, setActiveFood, categoriesRef } = useContext(FoodContext);
-
-
  
 
   useEffect(function() {
