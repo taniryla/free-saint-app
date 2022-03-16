@@ -5,10 +5,8 @@
   grid-template-rows: 1fr;
   background-color: var(--white);
   border-radius: 2vmin;
-  padding-top: 1vmin;
-  position: fixed;
+  position: sticky;
   overflow-y: scroll;
-  overflow-x: scroll;
 }
 
 .FoodIntakePage aside {
@@ -17,7 +15,7 @@
   justify-content: left;
   align-items: center;
   margin-right: 2vmin;
-  margin-top: 5vmin;
+  margin-top: 2vmin;
   margin-bottom: 10vmin;
   padding: 1vmin;
 }

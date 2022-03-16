@@ -10,6 +10,7 @@ import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import FoodContext from '../../context/FoodContext/FoodContext';
 import { PageLayout } from '../../common/index';
+import { StyledLink } from '../../common/Header';
 
 
 export default function FoodIntakePage({ user, setUser }) {
@@ -28,12 +29,12 @@ export default function FoodIntakePage({ user, setUser }) {
         />
       </aside>
       <aside>
-        {/* <Navbar user={user} setUser={setUser}/> */}
         <CategoryList
           categories={categoriesRef.current}
           />
         <SearchBar />
-          <br></br>
+        <br></br>
+        <Link to='/foods' style={{fontSize: '1.5vmin', padding: '1vmin'}} className='btn-outline-dark'>Click Here For Food Log History</Link>
       <FoodDetail
         food={log}
         />
