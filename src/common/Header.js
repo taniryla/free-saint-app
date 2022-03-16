@@ -92,3 +92,5 @@ export function Header({user, setUser}) {
         </HeaderWrapper>
     )
 }
+
+export default { Header };
