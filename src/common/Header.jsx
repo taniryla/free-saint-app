@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { useState } from 'react';
 import { Link as ReactRouterDomLink, useLocation } from 'react-router-dom'
 import UserLogOut from '../components/UserLogOut/UserLogOut'
 
@@ -25,7 +26,7 @@ const Link = ({isActive, children, ...props}) => {
 
 // mobile style
 const Menu = styled.nav`
-    display: block;
+    display: ${props => props.open ? 'block' : 'none'};
     font-family: esteban;
     position: absolute;
     width: 100%;
@@ -68,19 +69,24 @@ const StyledLink = styled(Link)`
         margin: 0.5rem 0;
         width: 100%;
     }
+
+    @media(min-width: 768px) {
+        display: none;
+    }
  `;
 
 export function Header({user, setUser}) {
     const { pathname } = useLocation();
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <HeaderWrapper>
-            <MobileMenuIcon>
+            <MobileMenuIcon onClick={() => setMenuOpen(s => !s)}>
                 <div />
                 <div />
                 <div />
             </MobileMenuIcon>
-            <menu>
+            <menu open={menuOpen}>
                 <UserLogOut user={user} setUser={setUser} /> 
             </menu>
         </HeaderWrapper>

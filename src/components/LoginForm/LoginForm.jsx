@@ -1,8 +1,26 @@
 import { useState } from 'react';
 import * as usersService from '../../utilities/users-service';
 import { PageLayoutNoHeader } from '../../common/index';
+import styled from 'styled-components';
+import { useContext } from 'react';
+import StyleContext from '../../context/StyleContext/StyleContext';
 
-export default function LoginForm({ user, setUser }) {
+
+const Form = styled.form`
+  width: 100%;
+  max-width: 15rem;
+  background: white;
+  border: 0.1rem solid #148980;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  color: #6D6E71;
+  border-radius: 0.25rem;
+`;
+
+function LoginForm({ user, setUser }) {
+  // const { Form } = useContext(StyleContext);
+
+
   const [credentials, setCredentials] = useState({
     email: '',
     password: ''
@@ -31,15 +49,17 @@ export default function LoginForm({ user, setUser }) {
   return (
     <PageLayoutNoHeader>
       <div className="form-container">
-        <form autoComplete="off" onSubmit={handleSubmit}>
+        <Form autoComplete="off" onSubmit={handleSubmit}>
           <label>Email</label>
           <input type="text" name="email" value={credentials.email} onChange={handleChange} required />
           <label>Password</label>
           <input type="password" name="password" value={credentials.password} onChange={handleChange} required />
           <button type="submit">LOG IN</button>
-        </form>
+        </Form>
       </div>
       <p className="error-message">&nbsp;{error}</p>
     </PageLayoutNoHeader>
   );
 }
+
+export default LoginForm;
