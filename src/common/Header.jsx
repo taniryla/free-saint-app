@@ -4,7 +4,7 @@ import UserLogOut from '../components/UserLogOut/UserLogOut'
 
 
 const HeaderWrapper = styled.header`
-    height: 3rem;
+    height: 4rem;
     width: 110vw;
     box-sizing: border-box;
     display: flex;
@@ -56,11 +56,30 @@ const StyledLink = styled(Link)`
     color: #148980;
  `;
 
+ const MobileMenuIcon = styled.div`
+    margin: auto 0 auto auto;
+    width: 3rem;
+    min-width: 3rem;
+    padding: 0.5rem;
+
+    >div {
+        height: 0.25rem;
+        background: #6D6E71;
+        margin: 0.5rem 0;
+        width: 100%;
+    }
+ `;
+
 export function Header({user, setUser}) {
     const { pathname } = useLocation();
 
     return (
         <HeaderWrapper>
+            <MobileMenuIcon>
+                <div />
+                <div />
+                <div />
+            </MobileMenuIcon>
             <menu>
                 <UserLogOut user={user} setUser={setUser} /> 
             </menu>

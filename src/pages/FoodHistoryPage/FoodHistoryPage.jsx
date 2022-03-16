@@ -10,7 +10,7 @@ import FoodContext from '../../context/FoodContext/FoodContext';
 import { PageLayout } from '../../common/index';
 
 
-export default function FoodHistoryPage() {
+export default function FoodHistoryPage({ user, setUser }) {
   const { setFoods, setActiveFood, activeFood, foods } = useContext(FoodContext);
   
 
