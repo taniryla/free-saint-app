@@ -44,3 +44,8 @@
   top: 50vh;
   font-size: 2vmin;
 }
+
+.right {
+  float: right;
+  margin-right: -7vmin;
+}

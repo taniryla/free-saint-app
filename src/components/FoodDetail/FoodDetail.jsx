@@ -45,7 +45,8 @@ export default function FoodDetail({ food }) {
                 >LOG FOOD NOW</Button>
               }
               <span>{food.totalQty}</span>
-              <span className="right">{food.calorieTotal} cal total</span>
+              <br></br>
+              <span className="right">&nbsp;&nbsp;&nbsp;{food.calorieTotal} cal total</span>
             </section>
           </>
           :
