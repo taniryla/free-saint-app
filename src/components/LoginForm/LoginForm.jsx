@@ -2,7 +2,7 @@ import { useState } from 'react';
 import * as usersService from '../../utilities/users-service';
 import { PageLayoutNoHeader } from '../../common/index';
 
-export default function LoginForm({ setUser }) {
+export default function LoginForm({ user, setUser }) {
   const [credentials, setCredentials] = useState({
     email: '',
     password: ''

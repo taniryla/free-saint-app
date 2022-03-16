@@ -15,10 +15,10 @@ h1, h2, h3, h4, h5, h6 {
 
 `;
 
-export function PageLayout({children}){
+export function PageLayout({children, user, setUser}){
     return (
         <>
-            <Header />
+            <Header user={user} setUser={setUser}/>
             <Content>
                 {children}
             </Content>

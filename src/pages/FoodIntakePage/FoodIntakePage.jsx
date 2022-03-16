@@ -18,7 +18,7 @@ export default function FoodIntakePage({ user, setUser }) {
 
   
   return (
-    <PageLayout>
+    <PageLayout user={user} setUser={setUser}>
     <main className="FoodIntakePage">
       <aside>
         <Logo />
