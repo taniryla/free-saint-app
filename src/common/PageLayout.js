@@ -4,8 +4,8 @@ import { Header } from './Header';
 
 const Content = styled.main`
     max-width: 50rem;
-    margin: 5rem auto 0 auto;
-    padding: 0 1rem;
+    margin-top: 3rem;
+    padding: 0 0.25rem;
     box-sizing: border-box;
     font-family: estaban;
 

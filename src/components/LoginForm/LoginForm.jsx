@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import * as usersService from '../../utilities/users-service';
-import { PageLayout } from '../../common/index';
+import { PageLayoutNoHeader } from '../../common/index';
 
 export default function LoginForm({ setUser }) {
   const [credentials, setCredentials] = useState({
@@ -29,7 +29,7 @@ export default function LoginForm({ setUser }) {
   }
 
   return (
-    <PageLayout>
+    <PageLayoutNoHeader>
       <div className="form-container">
         <form autoComplete="off" onSubmit={handleSubmit}>
           <label>Email</label>
@@ -40,6 +40,6 @@ export default function LoginForm({ setUser }) {
         </form>
       </div>
       <p className="error-message">&nbsp;{error}</p>
-    </PageLayout>
+    </PageLayoutNoHeader>
   );
 }

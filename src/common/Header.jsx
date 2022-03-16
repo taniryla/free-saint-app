@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 import { Link as ReactRouterDomLink, useLocation } from 'react-router-dom'
-import Navbar from '../components/Layout/Navbar';
 import { FaAlignJustify } from 'react-icons/fa'
 import UserLogOut from '../components/UserLogOut/UserLogOut'
 
 
 const HeaderWrapper = styled.header`
     height: 4rem;
-    width: 100vw;
+    width: 110vw;
     box-sizing: border-box;
     display: flex;
     padding: 0 1rem;
     position: fixed;
+    margin-left: -1rem;
     top: 0;
     background: linear-gradient(to right, #148980, #a7a8aa)
 `;
@@ -55,6 +55,7 @@ const Menu = styled.nav`
     box-sizing: border-box;
     margin: auto 0;
     font-weight: ${props => props.isActive ? 'bold' : 'normal' };
+    color: #148980;
  `;
 
 export function Header({user, setUser}) {

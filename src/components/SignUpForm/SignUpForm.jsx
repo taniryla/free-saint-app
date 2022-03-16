@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { signUp } from '../../utilities/users-service';
-import { PageLayout } from '../../common/index';
+import { PageLayoutNoHeader } from '../../common/index';
 
 
 export default class SignUpForm extends Component {
@@ -43,7 +43,7 @@ export default class SignUpForm extends Component {
   render() {
     const disable = this.state.password !== this.state.confirm;
     return (
-      <PageLayout>
+      <PageLayoutNoHeader>
         <div className="form-container">
           <form autoComplete="off" onSubmit={this.handleSubmit}>
             <label>Name</label>
@@ -58,7 +58,7 @@ export default class SignUpForm extends Component {
           </form>
         </div>
         <p className="error-message">&nbsp;{this.state.error}</p>
-      </PageLayout>
+      </PageLayoutNoHeader>
     );
   }
 }
