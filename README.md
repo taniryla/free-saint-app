@@ -5,6 +5,11 @@ Free Saint is a health tech company focused on creating the "uber" scheduling ap
     -The user can input their daily food logs that can be selected by diet types
     -The user can view the history of their daily food logs
     -The user will be able to access a weight loss recommender that allocates foods by caloric density
+    
+# Three Year Plan
+
+![This is a snapshot of what this app will do](https://i.imgur.com/KkFEuH8.png)
+
 
 As this prototype develops, it will iterate with user journey stories and client interviews. The goal of this app in the next 12-months include: 
 
