@@ -16,7 +16,7 @@ export default function FoodHistoryPage() {
 
   /*--- Rendered UI --- */
   return (
-    <PageLayout>
+    <PageLayout user={user} setUser={setUser}>
       <main className="FoodHistoryPage">
         <aside>
           <Link to="/foods/new" className="button btn-sm">NEW FOOD</Link>

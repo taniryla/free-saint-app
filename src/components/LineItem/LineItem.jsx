@@ -16,7 +16,7 @@ export default function LineItem({ isLogged, lineItem }) {
       <div className="qty" style={{ justifyContent: isLogged && 'center' }}>
         {!isLogged &&
           <button
-            className="btn-sm"
+            className="btn-xs"
             onClick={() => handleChangeQty(lineItem.item._id, lineItem.counter - 1)}
           >−</button>
         }
@@ -24,7 +24,7 @@ export default function LineItem({ isLogged, lineItem }) {
         <span>&nbsp;&nbsp;{lineItem.counter}&nbsp;&nbsp;</span>
         {!isLogged &&
           <button
-            className="btn-sm"
+            className="btn-xs"
             onClick={() => handleChangeQty(lineItem.item._id, lineItem.counter + 1)}
           >+</button>
         }
