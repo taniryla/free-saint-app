@@ -10,7 +10,6 @@ import FoodDetail from '../../components/FoodDetail/FoodDetail';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import FoodContext from '../../context/FoodContext/FoodContext';
 import { PageLayout } from '../../common/index';
-import { StyledLink } from '../../common/Header';
 
 
 export default function FoodIntakePage({ user, setUser }) {

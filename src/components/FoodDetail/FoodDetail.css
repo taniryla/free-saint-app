@@ -15,7 +15,6 @@
   margin-top: 3vmin;
   justify-content: flex-start;
   height: calc(100vh - 18vmin);
-  width: 100%;
 }
 
 .FoodDetail .total {

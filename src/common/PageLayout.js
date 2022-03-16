@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Header } from './Header';
 
 const Content = styled.main`
-    max-width: 50rem;
+    max-width: 80rem;
     margin-top: 3rem;
     padding: 0 0rem;
     box-sizing: border-box;

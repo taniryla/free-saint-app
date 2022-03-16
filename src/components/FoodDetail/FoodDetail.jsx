@@ -36,7 +36,7 @@ export default function FoodDetail({ food }) {
             {lineItems}
             <section className="dailyLoggedFood">
               {food.isLogged ?
-                <span className="right">DAILY LOGGED FOOD&nbsp;&nbsp;</span>
+                <span className="right">DAILY LOGGED FOOD:&nbsp;&nbsp;</span>
                 :
                 <Button large
                   className="btn-sm"
