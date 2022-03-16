@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Free Saint App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Free Saint is a health tech company focused on creating the "uber" scheduling app for health-related soulpreneuers. This minimum viable prototype includes a weight loss mobile app. The objective of the survey funnel is as follows:
 
-## Available Scripts
+    -The user can input their daily food logs that can be selected by diet types
+    -The user can view the history of their daily food logs
+    -The user will be able to access a weight loss recommender that allocates foods by caloric density
 
-In the project directory, you can run:
+As this prototype develops, it will iterate with user journey stories and client interviews. The goal of this app in the next 12-months include: 
 
-### `npm start`
+    -Building a machine learning algorithm that "learns" how to best optimize an algorithm that I will build called the Metabolism Maximizer
+    -The science behind the recently discovered stomach hormone called Ghrelin and Leptin and the research momentum to find a way to manipulate Ghrelin-blockers to treat obesity
+    -GHS (growth hormone secretagogues) such as MK-677 Ibutamoren Mesylate have been reported by NIH to mimic the gastric peptide hormone Grhelin as an approach to increase metabolism, act as a samatoastation antagonists to reduce cortisol, and enhace the activity of growth hormones
+    -Partnership with a well-known endocronoligist for new approaches to lipolysis (fat burning)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# What The App Looks Like
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![This is a screenshot of this app](https://i.imgur.com/xlBnJwZ.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The challenges in developing this product:
 
-### `npm run build`
+    -I had to plan three years ahead to know where to start prior to client interviews to guide the iteration of this project
+    -The food log is critically important for weight loss and so I started with this functionality
+    -The backend infrastructure of the MERN stack has been established
+    -Due to the complexity of the development, I spent a lot of time on the Figma Wireframes, the ERD (entity relationship diagram), and the three year vision
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![This is a snapshot of the ERD for this project](https://i.imgur.com/31bSCSl.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Technologies Used
+    -MongoDB
+    -Mongoose ODM
+    -Express
+    -NodeJS
+    -Bootstrap
+    -React
+    -React Styled-Components
 
-### `npm run eject`
+# Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Below is the link to this prototype app:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Link To Prototype App](https://free-saint-app.herokuapp.com/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Next Steps
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Planned future enhancements include:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    -Branded user design
+    -Client iterations
+    -AI algorithms that "learns" optimal strategies for diet plans (and what diets an individual should follow), behavior and emotional guidance, and data-based daily intake strategies
+    -iPhone and Android app for recipes, health provider director
+    -an ecommerce shopping engine
+    -API integrations with health-related data resources
+    -a marketing ecosystem built in Salesforces Apex language for health coaches, personal trainers, nutritionists, endocrinologists, embodiment coaches, accupunturists and sleep experts
+    -Saas for global fungible value chain including "first" and "last" mile logistics, fulfillment and order management for health-related soulpreneuers
