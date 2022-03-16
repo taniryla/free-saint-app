@@ -13,6 +13,7 @@ const HeaderWrapper = styled.header`
     padding: 0 1rem;
     position: fixed;
     top: 0;
+    background: linear-gradient(to right, #148980, #a7a8aa)
 `;
 
 const Link = ({isActive, children, ...props}) => {
@@ -25,9 +26,15 @@ const Link = ({isActive, children, ...props}) => {
 
 // mobile style
 const Menu = styled.nav`
-    display: none;
+    display: block;
     font-family: esteban;
-    
+    position: absolute;
+    width: 100%;
+    top: 4rem;
+    left: 0;
+    padding: 0.50rem;
+    box-sizing: border-box;
+
     
     @media(min-width: 768px) {
         display: flex; 

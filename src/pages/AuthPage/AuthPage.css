@@ -8,14 +8,14 @@
 }
 
 .AuthPage aside {
-  margin-left: 15vmin;
+  margin-left: 13vmin;
 }
 
 
 .AuthPage h3 {
-  margin-top: 4vmin;
   text-align: center;
   color: var(--text-light);
   cursor: pointer;
-  font-size: 5vmin;
+  font-size: 3vmin;
+  margin-left: 13vmin;
 }
